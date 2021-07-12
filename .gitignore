@@ -38,8 +38,9 @@ vignettes/*.pdf
 # R Environment Variables
 .Renviron
 
-
+data/data-raw/
 
 
 # delete
 index.Rmd
+clean/
