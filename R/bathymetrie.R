@@ -1,0 +1,13 @@
+library(pao)
+# Bathymétrie
+# bathy <- read_stars("analysis/data/PTO/Bathy_SHC_2015/Rasters/Bathy_2015_SHC_5m_HS.tif")
+# bathy <- read_stars("analysis/data/PTO/Bathy_SHC_2015/Rasters/Bathy_2015_SHC_5m.tif")
+# bathymetrie <- st_contour(bathy, contour_lines = TRUE, breaks = c(seq(-15,1, by = 1),35))
+# bathymetrie <- st_contour(bathy, contour_lines = TRUE, breaks = c(-15,0,35))
+# tmp <- mapedit::editMap()
+# tmp <- st_transform(tmp, st_crs(bathymetrie))
+# st_write(tmp, 'analysis/data/tmp.geojson', delete_dsn = TRUE)
+# tmp <- st_read('analysis/data/tmp.geojson', quiet = TRUE)
+# bathymetrie <- st_intersection(bathymetrie, tmp)
+# bathymetrie <- st_transform(bathymetrie, st_crs(recharge_crete))
+# st_write(bathymetrie, './data/bathymetrie.geojson', delete_dsn = TRUE)
