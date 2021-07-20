@@ -38,6 +38,9 @@ vignettes/*.pdf
 # R Environment Variables
 .Renviron
 
+# iOS
+.DS_Store
+
 data/data-raw/
 
 

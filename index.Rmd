@@ -27,6 +27,13 @@ uqar <- read_stars("data/data-raw/LIDAR_2019_UQAR/Rasters/LIDAR_2019_IDM_LaGrave
 uqarhs <- read_stars("data/data-raw/LIDAR_2019_UQAR/Rasters/LIDAR_HS_2019_IDM_LaGrave_UQAR_6cm.tif") %>% as("Raster")
 ortho <- read_stars("data/data-raw/Ortho_20190919/20190919_IDLM_La Grave_Orthomosaique_10cm_NAD83_CSRS_MTM4.tif") %>% as("Raster")
 
+# DATUM HORIZONTAL : NAD83 (SCRS)
+# PROJECTION MTM FUSEAU 04
+# DATUM VERTICAL : CGVD28 (NMM)
+
+bathy <- read.table("data/data-raw/Bathymetrie_LaGrave/Bathy_2019_NMM_WSP_modif.txt", header = TRUE) %>%
+         st_as_sf(coords = c("X","Y"), crs = 2946)
+
 bathymetrie <- st_contour(bathy2, contour_lines = TRUE, breaks = -150:150)
 mapview(bathymetrie)
 
