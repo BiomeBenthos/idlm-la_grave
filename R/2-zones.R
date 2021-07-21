@@ -91,8 +91,86 @@ fnc_zones <- function() {
            st_sfc(crs = st_crs(recharge)) %>%
            st_sf(data.frame(Nom = "Site sous-influence ouest"))
 
-  # -----
-  zones <- bind_rows(zone1, zone2, zone3)
+  # --------------------------------------------------------------------
+  # Zone 4 : référence rive
+  # même genre de polygone que site sous-influence ouest
+  # 200 m de la recharge
+  ## Haut recharge équilibre
+  uid <- recharge$descriptio == "Crête Recharge Équilibre"
+  xy1 <- st_cast(recharge[uid, ], "POINT")
+
+  ## Bas recharge construction
+  uid <- recharge$descriptio == "Bas Recharge Construction"
+  xy2 <- st_cast(recharge[uid, ], "POINT") %>% .[c(nrow(.):1), ]
+
+  # Buffer 1
+  buf1 <- st_cast(xy1, "POINT") %>%
+          .[1,] %>%
+          st_buffer(200)
+
+  # Buffer 2
+  buf2 <- st_cast(xy1, "POINT") %>%
+          .[1,] %>%
+          st_buffer(300)
+
+  # Rive
+  rive <- st_difference(buf2, buf1) %>%
+          st_intersection(st_read("data/data-format/rive.geojson")) %>%
+          st_buffer(-d, endCapStyle = "SQUARE", singleSide = TRUE) %>%
+          st_cast("POINT")
+
+  # Ajouter limites ouest de la recharge
+  # rive <- bind_rows(xy1[1, ],
+  #                   rive[-nrow(rive), ],
+  #                   xy2[nrow(xy2), ])
+
+  zone4 <- do.call(c, st_geometry(rive)) %>%
+           st_cast("POLYGON") %>%
+           st_sfc(crs = st_crs(recharge)) %>%
+           st_sf(data.frame(Nom = "Site référence ouest"))
+
+  # --------------------------------------------------------------------
+  # Zone 5 : référence large
+  # profil à l'équilibre
+  # Distance entre crête à l'équipe et bas recharge à l'équilibre x2 = début de la zone référence
+  # Profondeur = zone sous-influence au large
+  ## Haut recharge équilibre
+  uid <- recharge$descriptio == "Bas Recharge Construction"
+  xy1 <- st_cast(recharge[uid, ], "POINT")
+
+  ## Bas recharge à l'équipe
+  uid <- recharge$descriptio == "Bas Recharge Équilibre"
+  xy2 <- st_cast(recharge[uid, ], "POINT")
+
+  ## Distance moyenne
+  d <- st_distance(xy1, xy2, by_element = TRUE) %>%
+       mean() %>%
+       as.numeric()
+
+  ## Ligne du bas de la zone de référence au large à partir d'un buffer autour le bas de la recharge à l'équilibre
+  uid <- recharge$descriptio == "Bas Recharge Équilibre"
+  l1 <- recharge[uid, ] %>%
+        st_buffer((d+20)*2, endCapStyle = "SQUARE", singleSide = TRUE) %>%
+        st_cast("POINT")
+
+  ### ID points on appropriate line
+  uid2 <- st_intersects(recharge[uid, ], l1) %>% unlist()
+  l1 <- l1[-uid2, ]
+
+  ## Ridiculous but true
+  l1 <- l1[-1, ]
+  l1 <- l1[c(6:nrow(l1), 1,3),]
+
+  # Buffer avec la distance moyenne entre bas et crête de la recharge à l'équilibre
+  zone5 <- do.call(c, st_geometry(l1)) %>%
+           st_cast("LINESTRING") %>%
+           st_sfc(crs = st_crs(recharge)) %>%
+           st_buffer(d+20, endCapStyle = "SQUARE", singleSide = TRUE) %>%
+           st_sf(data.frame(Nom = "Site référence large"))
+
+
+  # --------------------------------------------------------------------
+  zones <- bind_rows(zone1, zone2, zone3, zone4, zone5)
 
   # -----
   st_write(zones, "data/data-format/zones.geojson", delete_dsn = TRUE)
