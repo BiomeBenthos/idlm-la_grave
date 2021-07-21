@@ -31,8 +31,7 @@ fnc_zones <- function() {
          st_cast("POINT")
   ### ID points on appropriate line
   uid2 <- st_intersects(recharge[uid, ], xy2) %>% unlist()
-  xy2 <- xy2[-uid2, ] %>%
-         .[c(nrow(.):1), ]
+  xy2 <- xy2[-uid2, ]
 
   ## Bas recharge construction + (Bas recharge à l'équipe + 20m)
   xy <- bind_rows(xy1,xy2)
@@ -74,31 +73,27 @@ fnc_zones <- function() {
   # rive <- mapview(xy1) %>% editMap()
   # rive <- st_transform(rive[[1]], crs = st_crs(recharge))
   # st_write(rive, "data/data-format/rive.geojson", delete_dsn = TRUE)
-  rive <- st_read("data/data-format/rive.geojson")
-
   # La limite ouest de la zone 3 être à 100m de la limite ouest de la recharge
-  lim <- st_cast(xy1, "POINT") %>%
-         .[1,] %>%
-         st_buffer(100)
-
-         # -> Maintenant il faut que je coupe la ligne de rivage avec le buffer de 100m 
-
-
-  %>%
+  rive <- st_cast(xy1, "POINT") %>%
+          .[1,] %>%
+          st_buffer(100) %>%
+          st_intersection(st_read("data/data-format/rive.geojson")) %>%
           st_buffer(-d, endCapStyle = "SQUARE", singleSide = TRUE) %>%
-          st_cast("POINT") %>%
-          # C'est pour s'assurer que les point à l'est sont
-          # bien ceux des limites ouest de la recharge
-          bind_rows(xy1[1, ], xy2[nrow(xy2), ], .) %>%
+          st_cast("POINT")
 
+  # Ajouter limites ouest de la recharge
+  rive <- bind_rows(xy1[1, ],
+                    rive[-nrow(rive), ],
+                    xy2[nrow(xy2), ])
 
-          zone2 <- do.call(c, st_geometry(xy)) %>%
-                   st_cast("POLYGON") %>%
-                   st_sfc(crs = st_crs(recharge)) %>%
-                   st_sf(data.frame(Nom = "Site sous-influence large"))
-
-
+  zone3 <- do.call(c, st_geometry(rive)) %>%
+           st_cast("POLYGON") %>%
+           st_sfc(crs = st_crs(recharge)) %>%
+           st_sf(data.frame(Nom = "Site sous-influence ouest"))
 
   # -----
-  st_write(recharge, "data/data-format/recharge.geojson", delete_dsn = TRUE)
+  zones <- bind_rows(zone1, zone2, zone3)
+
+  # -----
+  st_write(zones, "data/data-format/zones.geojson", delete_dsn = TRUE)
 }
