@@ -18,66 +18,39 @@ output:
 ```{r, echo = FALSE, warnings = FALSE, message = FALSE, fig.width = 14, fig.height = 7}
 library(grave)
 
-# # !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-# # Exploration:
-#
-# recharge <- st_read("data/data-raw/Recharge_shp/LaGrave_recharge.shp")
-# dynamique <- st_read("data/data-raw/Dynamique hydrosédimentaire_shp/dynamique_hydrosed.shp")
-# mernhs <- read_stars("data/data-raw/LIDAR_2019_MERN/Rasters/LIDAR_juin2019_MERN_HS.tif") %>% as("Raster")
-# mern <- read_stars("data/data-raw/LIDAR_2019_MERN/Rasters/LIDAR_juin2019_MERN.tif") %>% as("Raster")
-# uqar <- read_stars("data/data-raw/LIDAR_2019_UQAR/Rasters/LIDAR_2019_IDM_LaGrave_UQAR_6cm.tif") %>% as("Raster")
-# uqarhs <- read_stars("data/data-raw/LIDAR_2019_UQAR/Rasters/LIDAR_HS_2019_IDM_LaGrave_UQAR_6cm.tif") %>% as("Raster")
-# ortho <- read_stars("data/data-raw/Ortho_20190919/20190919_IDLM_La Grave_Orthomosaique_10cm_NAD83_CSRS_MTM4.tif") %>% as("Raster")
-#
-# # DATUM HORIZONTAL : NAD83 (SCRS)
-# # PROJECTION MTM FUSEAU 04
-# # DATUM VERTICAL : CGVD28 (NMM)
-#
-# bathy <- read.table("data/data-raw/Bathymetrie_LaGrave/Bathy_2019_NMM_WSP_modif.txt", header = TRUE) %>%
-#          st_as_sf(coords = c("X","Y"), crs = 2946)
-#
-# bathymetrie <- st_contour(bathy2, contour_lines = TRUE, breaks = -150:150)
-# mapview(bathymetrie)
-#
-# bathy <- readLAS("data/data-raw/LIDAR_2019_MERN/pts_LAS_merge.las")
-# bathy@data$Z  <- bathy@data$Z + min(bathy@data$Z)
-#
-# # Khosravipour et al. pitfree algorithm
-# thr <- seq(0,110, by = 10)
-# edg <- c(0, .5)
-# chm <- grid_canopy(bathy, .5, pitfree(thr, edg))
-#
-# plot(chm)
-# # !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-recharge <- st_read("data/data-format/recharge.geojson")
-zones <- st_read("data/data-format/zones.geojson")
+recharge <- st_read("data/data-format/recharge.geojson", quiet = TRUE)
+zones <- st_read("data/data-format/zones.geojson", quiet = TRUE)
+samples <- st_read("data/data-format/samples.geojson", quiet = TRUE)
+
+# Export kml (extra code shouldnt be here)
+st_write(samples, './data/data-format/stations.kml', delete_dsn = TRUE, quiet = TRUE)
 
 # Mapview
 mv <- mapview(recharge[,"descriptio"]) +
-      mapview(zones)
+      mapview(zones) +
+      mapview(samples)
 
 mv
-# mapshot(mv, file = "map.html")
+```
 
-# # Table of stations
-# samples <- st_transform(samples, 4326)
-# xy <- st_coordinates(samples)
-# prj <- st_crs(samples)
-# samples <- st_drop_geometry(samples)
-# samples <- cbind(samples, xy)
-# cat(paste0('Projection: ', prj$input, ' (EPSG: ', prj$epsg, ')'))
-# knitr::kable(samples[uid, ], col.names = c('Station', 'Longitude','Latitude'), row.names = FALSE) %>%
-#     kableExtra::kable_styling(full_width = F, position = "left")
-#
-# knitr::kable(samples[!uid, ], col.names = c('Station supplémentaires', 'Longitude','Latitude'), row.names = FALSE) %>%
-#     kableExtra::kable_styling(full_width = F, position = "left")
-#
-#
-# # Export kml
-# stations <- st_transform(stations, 4326)
-# stations_supplementaires <- st_transform(stations_supplementaires, 4326)
-# st_write(stations, './data/stations.kml', delete_dsn = TRUE)
-# st_write(stations_supplementaires, './data/stations_supplementaires.kml', delete_dsn = TRUE)
-#
+<br/>
 
+# Projection
+
+```{r, echo = FALSE}
+samples <- st_transform(samples, 4326)
+prj <- st_crs(samples)
+cat(paste0('Projection: ', prj$input, ' (EPSG: ', prj$epsg, ')'))
+```
+
+<br/>
+
+# Stations d'échantillonnage
+
+```{r echo = FALSE, warnings = FALSE, message = FALSE}
+xy <- st_coordinates(samples)
+stations <- st_drop_geometry(samples)
+stations <- cbind(stations, xy)
+knitr::kable(stations, col.names = c('Station', 'Longitude','Latitude'), row.names = FALSE) %>%
+    kableExtra::kable_styling(full_width = F, position = "left")
 ```
