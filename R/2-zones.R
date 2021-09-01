@@ -95,6 +95,7 @@ fnc_zones <- function() {
   # Zone 4 : référence rive
   # même genre de polygone que site sous-influence ouest
   # 200 m de la recharge
+  # 526 m de large
   ## Haut recharge équilibre
   uid <- recharge$descriptio == "Crête Recharge Équilibre"
   xy1 <- st_cast(recharge[uid, ], "POINT")
@@ -111,7 +112,7 @@ fnc_zones <- function() {
   # Buffer 2
   buf2 <- st_cast(xy1, "POINT") %>%
           .[1,] %>%
-          st_buffer(300)
+          st_buffer(526)
 
   # Rive
   rive <- st_difference(buf2, buf1) %>%

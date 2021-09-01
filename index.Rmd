@@ -22,13 +22,34 @@ recharge <- st_read("data/data-format/recharge.geojson", quiet = TRUE)
 zones <- st_read("data/data-format/zones.geojson", quiet = TRUE)
 samples <- st_read("data/data-format/samples.geojson", quiet = TRUE)
 
+# Rename
+samples$name <- gsub("Site recharge", "Re",samples$name)
+samples$name <- gsub("Site sous-influence large", "SiL",samples$name)
+samples$name <- gsub("Site sous-influence ouest", "SiO",samples$name)
+samples$name <- gsub("Site référence large", "RfL",samples$name)
+samples$name <- gsub("Site référence ouest", "RfO",samples$name)
+samples$name <- gsub("-1$", "-01", samples$name)
+samples$name <- gsub("-2$", "-02", samples$name)
+samples$name <- gsub("-3$", "-03", samples$name)
+samples$name <- gsub("-4$", "-04", samples$name)
+samples$name <- gsub("-5$", "-05", samples$name)
+samples$name <- gsub("-6$", "-06", samples$name)
+samples$name <- gsub("-7$", "-07", samples$name)
+samples$name <- gsub("-8$", "-08", samples$name)
+samples$name <- gsub("-9$", "-09", samples$name)
+
+# Update 2021-09-01
+samples$echantillon <- "Stations non-échantillonnées"
+nm <- read.csv("./data/data-raw/stations_faites.csv", header = FALSE)
+samples$echantillon[samples$name %in% nm[,1]] <- "Stations faites"
+
 # Export kml (extra code shouldnt be here)
 st_write(samples, './data/data-format/stations.kml', delete_dsn = TRUE, quiet = TRUE)
 
 # Mapview
 mv <- mapview(recharge[,"descriptio"]) +
       mapview(zones) +
-      mapview(samples)
+      mapview(samples[, "echantillon"])
 
 mv
 ```
@@ -47,9 +68,25 @@ cat(paste0('Projection: ', prj$input, ' (EPSG: ', prj$epsg, ')'))
 
 # Stations d'échantillonnage
 
+## Stations à échantillonner
+
 ```{r echo = FALSE, warnings = FALSE, message = FALSE}
-xy <- st_coordinates(samples)
-stations <- st_drop_geometry(samples)
+uid <- samples$echantillon == "Stations non-échantillonnées"
+xy <- st_coordinates(samples[uid,])
+stations <- st_drop_geometry(samples[uid, ])
+stations <- select(stations, -echantillon)
+stations <- cbind(stations, xy)
+knitr::kable(stations, col.names = c('Station', 'Longitude','Latitude'), row.names = FALSE) %>%
+    kableExtra::kable_styling(full_width = F, position = "left")
+```
+
+## Stations faites
+
+```{r echo = FALSE, warnings = FALSE, message = FALSE}
+uid <- samples$echantillon == "Stations faites"
+xy <- st_coordinates(samples[uid,])
+stations <- st_drop_geometry(samples[uid, ])
+stations <- select(stations, -echantillon)
 stations <- cbind(stations, xy)
 knitr::kable(stations, col.names = c('Station', 'Longitude','Latitude'), row.names = FALSE) %>%
     kableExtra::kable_styling(full_width = F, position = "left")
