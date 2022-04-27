@@ -17,6 +17,7 @@ output:
 
 ```{r, echo = FALSE, warnings = FALSE, message = FALSE, fig.width = 14, fig.height = 7}
 library(grave)
+mapviewOptions(fgb = FALSE)
 
 recharge <- st_read("data/data-format/recharge.geojson", quiet = TRUE)
 zones <- st_read("data/data-format/zones.geojson", quiet = TRUE)
@@ -40,8 +41,10 @@ samples$name <- gsub("-9$", "-09", samples$name)
 
 # Update 2021-09-01
 samples$echantillon <- "Stations non-échantillonnées"
-nm <- read.csv("./data/data-raw/stations_faites.csv", header = FALSE)
+nm <- read.csv("./data/data-raw/stationsLaGrave.csv", header = TRUE)
 samples$echantillon[samples$name %in% nm[,1]] <- "Stations faites"
+stations_echantillonnees <- samples$echantillon == "Stations faites"
+stations_non_echantillonnees <- !stations_echantillonnees
 
 # Export kml (extra code shouldnt be here)
 st_write(samples, './data/data-format/stations.kml', delete_dsn = TRUE, quiet = TRUE)
@@ -49,7 +52,8 @@ st_write(samples, './data/data-format/stations.kml', delete_dsn = TRUE, quiet = 
 # Mapview
 mv <- mapview(recharge[,"descriptio"]) +
       mapview(zones) +
-      mapview(samples[, "echantillon"])
+      mapview(samples[stations_echantillonnees, ], label = samples$name, col.regions = "#815F89") +
+      mapview(samples[stations_non_echantillonnees, ], label = samples$name, col.regions = "#EEE18E") 
 
 mv
 ```
