@@ -10,6 +10,9 @@ for(i in 1:nrow(zones)) {
 samples <- bind_rows(samples)
 st_write(samples, './data/data-format/samples.geojson', delete_dsn = TRUE)
 st_write(samples, './data/data-format/samples.shp', delete_dsn = TRUE)
+st_write(samples, './data/data-format/stations.kml', delete_dsn = TRUE, quiet = TRUE)
+
+mapviewOptions(fgb = FALSE)
 mapview(zones) + mapview(samples)
 
 
@@ -18,3 +21,4 @@ samples_csv <- cbind(samples, st_coordinates(samples)) %>%
            st_drop_geometry()
 
 write.csv(samples_csv, './data/data-format/samples.csv', row.names = FALSE)
+

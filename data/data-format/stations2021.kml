@@ -1,0 +1,1759 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document id="root_doc">
+<Schema name="stations" id="stations">
+	<SimpleField name="echantillon" type="string"></SimpleField>
+</Schema>
+<Folder><name>stations</name>
+  <Placemark>
+	<name>Re-01</name>
+	<ExtendedData><SchemaData schemaUrl="#stations">
+		<SimpleData name="echantillon">Stations faites</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-61.8363081514584,47.2371942876129</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Re-02</name>
+	<ExtendedData><SchemaData schemaUrl="#stations">
+		<SimpleData name="echantillon">Stations faites</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-61.8361841676784,47.2372194055533</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Re-03</name>
+	<ExtendedData><SchemaData schemaUrl="#stations">
+		<SimpleData name="echantillon">Stations faites</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-61.8409138710726,47.2370836062189</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Re-04</name>
+	<ExtendedData><SchemaData schemaUrl="#stations">
+		<SimpleData name="echantillon">Stations faites</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-61.8365043584427,47.2371745963779</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Re-05</name>
+	<ExtendedData><SchemaData schemaUrl="#stations">
+		<SimpleData name="echantillon">Stations non-échantillonnées</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-61.8348101595217,47.2379787187146</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Re-06</name>
+	<ExtendedData><SchemaData schemaUrl="#stations">
+		<SimpleData name="echantillon">Stations faites</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-61.8407728988761,47.2370482504602</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Re-07</name>
+	<ExtendedData><SchemaData schemaUrl="#stations">
+		<SimpleData name="echantillon">Stations faites</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-61.8385942826486,47.2369129758271</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Re-08</name>
+	<ExtendedData><SchemaData schemaUrl="#stations">
+		<SimpleData name="echantillon">Stations faites</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-61.8388377936303,47.2368450602924</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Re-09</name>
+	<ExtendedData><SchemaData schemaUrl="#stations">
+		<SimpleData name="echantillon">Stations non-échantillonnées</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-61.8377795303242,47.2370460890631</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Re-10</name>
+	<ExtendedData><SchemaData schemaUrl="#stations">
+		<SimpleData name="echantillon">Stations faites</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-61.8383351582446,47.2369431306951</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Re-11</name>
+	<ExtendedData><SchemaData schemaUrl="#stations">
+		<SimpleData name="echantillon">Stations faites</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-61.8353086940195,47.2375645491388</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Re-12</name>
+	<ExtendedData><SchemaData schemaUrl="#stations">
+		<SimpleData name="echantillon">Stations faites</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-61.8411003774648,47.2371451156799</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Re-13</name>
+	<ExtendedData><SchemaData schemaUrl="#stations">
+		<SimpleData name="echantillon">Stations non-échantillonnées</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-61.8370983672158,47.2371269633436</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Re-14</name>
+	<ExtendedData><SchemaData schemaUrl="#stations">
+		<SimpleData name="echantillon">Stations faites</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-61.8354347402875,47.2375580826042</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Re-15</name>
+	<ExtendedData><SchemaData schemaUrl="#stations">
+		<SimpleData name="echantillon">Stations faites</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-61.8373380648057,47.2370007483258</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Re-16</name>
+	<ExtendedData><SchemaData schemaUrl="#stations">
+		<SimpleData name="echantillon">Stations non-échantillonnées</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-61.8368388480487,47.2371564265146</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Re-17</name>
+	<ExtendedData><SchemaData schemaUrl="#stations">
+		<SimpleData name="echantillon">Stations non-échantillonnées</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-61.8349920933622,47.2378738239972</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Re-18</name>
+	<ExtendedData><SchemaData schemaUrl="#stations">
+		<SimpleData name="echantillon">Stations non-échantillonnées</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-61.8397182531351,47.2369393058983</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Re-19</name>
+	<ExtendedData><SchemaData schemaUrl="#stations">
+		<SimpleData name="echantillon">Stations non-échantillonnées</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-61.8363425157448,47.2372946835496</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Re-20</name>
+	<ExtendedData><SchemaData schemaUrl="#stations">
+		<SimpleData name="echantillon">Stations non-échantillonnées</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-61.8395886413727,47.2369406483203</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Re-21</name>
+	<ExtendedData><SchemaData schemaUrl="#stations">
+		<SimpleData name="echantillon">Stations non-échantillonnées</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-61.8362640118147,47.2372883207194</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Re-22</name>
+	<ExtendedData><SchemaData schemaUrl="#stations">
+		<SimpleData name="echantillon">Stations faites</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-61.8405380833204,47.2370012423344</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Re-23</name>
+	<ExtendedData><SchemaData schemaUrl="#stations">
+		<SimpleData name="echantillon">Stations faites</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-61.8355905154843,47.2375069889646</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Re-24</name>
+	<ExtendedData><SchemaData schemaUrl="#stations">
+		<SimpleData name="echantillon">Stations faites</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-61.8409956637814,47.2370812785007</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Re-25</name>
+	<ExtendedData><SchemaData schemaUrl="#stations">
+		<SimpleData name="echantillon">Stations faites</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-61.8348545724584,47.2378309098042</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Re-26</name>
+	<ExtendedData><SchemaData schemaUrl="#stations">
+		<SimpleData name="echantillon">Stations faites</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-61.8409507284181,47.2370270696041</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Re-27</name>
+	<ExtendedData><SchemaData schemaUrl="#stations">
+		<SimpleData name="echantillon">Stations non-échantillonnées</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-61.8371201377144,47.237090196691</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Re-28</name>
+	<ExtendedData><SchemaData schemaUrl="#stations">
+		<SimpleData name="echantillon">Stations faites</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-61.8394359297481,47.236869465975</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Re-29</name>
+	<ExtendedData><SchemaData schemaUrl="#stations">
+		<SimpleData name="echantillon">Stations faites</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-61.8382364871078,47.2369574044943</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Re-30</name>
+	<ExtendedData><SchemaData schemaUrl="#stations">
+		<SimpleData name="echantillon">Stations faites</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-61.8390678791041,47.2368710119279</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Re-31</name>
+	<ExtendedData><SchemaData schemaUrl="#stations">
+		<SimpleData name="echantillon">Stations non-échantillonnées</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-61.8350423179368,47.2378198356866</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Re-32</name>
+	<ExtendedData><SchemaData schemaUrl="#stations">
+		<SimpleData name="echantillon">Stations non-échantillonnées</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-61.8354026423071,47.2375504076142</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Re-33</name>
+	<ExtendedData><SchemaData schemaUrl="#stations">
+		<SimpleData name="echantillon">Stations non-échantillonnées</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-61.8386413884339,47.2369667448583</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Re-34</name>
+	<ExtendedData><SchemaData schemaUrl="#stations">
+		<SimpleData name="echantillon">Stations faites</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-61.8366551650333,47.2371438681141</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Re-35</name>
+	<ExtendedData><SchemaData schemaUrl="#stations">
+		<SimpleData name="echantillon">Stations non-échantillonnées</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-61.8353531631282,47.2375721180968</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Re-36</name>
+	<ExtendedData><SchemaData schemaUrl="#stations">
+		<SimpleData name="echantillon">Stations faites</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-61.8396601625298,47.2368922229369</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Re-37</name>
+	<ExtendedData><SchemaData schemaUrl="#stations">
+		<SimpleData name="echantillon">Stations faites</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-61.8345988046754,47.2381934094026</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Re-38</name>
+	<ExtendedData><SchemaData schemaUrl="#stations">
+		<SimpleData name="echantillon">Stations faites</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-61.8383601894342,47.2369493743579</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Re-39</name>
+	<ExtendedData><SchemaData schemaUrl="#stations">
+		<SimpleData name="echantillon">Stations non-échantillonnées</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-61.8376659500907,47.237023228503</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Re-40</name>
+	<ExtendedData><SchemaData schemaUrl="#stations">
+		<SimpleData name="echantillon">Stations non-échantillonnées</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-61.8380902941522,47.2369601412967</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Re-41</name>
+	<ExtendedData><SchemaData schemaUrl="#stations">
+		<SimpleData name="echantillon">Stations faites</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-61.840761454741,47.2370155259137</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Re-42</name>
+	<ExtendedData><SchemaData schemaUrl="#stations">
+		<SimpleData name="echantillon">Stations faites</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-61.8357913241224,47.237406130699</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Re-43</name>
+	<ExtendedData><SchemaData schemaUrl="#stations">
+		<SimpleData name="echantillon">Stations faites</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-61.8350008048621,47.237791164225</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Re-44</name>
+	<ExtendedData><SchemaData schemaUrl="#stations">
+		<SimpleData name="echantillon">Stations non-échantillonnées</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-61.8390736044962,47.236837380594</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Re-45</name>
+	<ExtendedData><SchemaData schemaUrl="#stations">
+		<SimpleData name="echantillon">Stations non-échantillonnées</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-61.8393244757936,47.2368579939424</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Re-46</name>
+	<ExtendedData><SchemaData schemaUrl="#stations">
+		<SimpleData name="echantillon">Stations non-échantillonnées</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-61.8385674573339,47.2368724737666</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Re-47</name>
+	<ExtendedData><SchemaData schemaUrl="#stations">
+		<SimpleData name="echantillon">Stations non-échantillonnées</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-61.8360448978433,47.2373365046754</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Re-48</name>
+	<ExtendedData><SchemaData schemaUrl="#stations">
+		<SimpleData name="echantillon">Stations faites</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-61.836922203574,47.23710360667</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Re-49</name>
+	<ExtendedData><SchemaData schemaUrl="#stations">
+		<SimpleData name="echantillon">Stations faites</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-61.8347034324519,47.2380550657262</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Re-50</name>
+	<ExtendedData><SchemaData schemaUrl="#stations">
+		<SimpleData name="echantillon">Stations faites</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-61.8384234969575,47.2369410350852</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>SiL-01</name>
+	<ExtendedData><SchemaData schemaUrl="#stations">
+		<SimpleData name="echantillon">Stations faites</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-61.8351348609548,47.2381838431583</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>SiL-02</name>
+	<ExtendedData><SchemaData schemaUrl="#stations">
+		<SimpleData name="echantillon">Stations faites</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-61.8356208333047,47.2376649122853</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>SiL-03</name>
+	<ExtendedData><SchemaData schemaUrl="#stations">
+		<SimpleData name="echantillon">Stations faites</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-61.8399479038568,47.2372362945538</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>SiL-04</name>
+	<ExtendedData><SchemaData schemaUrl="#stations">
+		<SimpleData name="echantillon">Stations faites</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-61.8382150725116,47.2370340572995</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>SiL-05</name>
+	<ExtendedData><SchemaData schemaUrl="#stations">
+		<SimpleData name="echantillon">Stations faites</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-61.8361608827176,47.2374598577831</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>SiL-06</name>
+	<ExtendedData><SchemaData schemaUrl="#stations">
+		<SimpleData name="echantillon">Stations faites</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-61.8380991430823,47.2371539778835</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>SiL-07</name>
+	<ExtendedData><SchemaData schemaUrl="#stations">
+		<SimpleData name="echantillon">Stations faites</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-61.8393259909099,47.2370362505464</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>SiL-08</name>
+	<ExtendedData><SchemaData schemaUrl="#stations">
+		<SimpleData name="echantillon">Stations faites</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-61.8387217273543,47.2372353547541</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>SiL-09</name>
+	<ExtendedData><SchemaData schemaUrl="#stations">
+		<SimpleData name="echantillon">Stations faites</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-61.8395561417138,47.2370996725323</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>SiL-10</name>
+	<ExtendedData><SchemaData schemaUrl="#stations">
+		<SimpleData name="echantillon">Stations faites</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-61.8351396154691,47.2379170879131</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>SiL-11</name>
+	<ExtendedData><SchemaData schemaUrl="#stations">
+		<SimpleData name="echantillon">Stations faites</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-61.8357541549706,47.2375548469549</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>SiL-12</name>
+	<ExtendedData><SchemaData schemaUrl="#stations">
+		<SimpleData name="echantillon">Stations faites</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-61.8347313393716,47.2382338708758</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>SiL-13</name>
+	<ExtendedData><SchemaData schemaUrl="#stations">
+		<SimpleData name="echantillon">Stations faites</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-61.8378851370362,47.2371571065567</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>SiL-14</name>
+	<ExtendedData><SchemaData schemaUrl="#stations">
+		<SimpleData name="echantillon">Stations faites</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-61.8362619825263,47.2375466367697</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>SiL-15</name>
+	<ExtendedData><SchemaData schemaUrl="#stations">
+		<SimpleData name="echantillon">Stations faites</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-61.8384290500621,47.2371081810293</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>SiL-16</name>
+	<ExtendedData><SchemaData schemaUrl="#stations">
+		<SimpleData name="echantillon">Stations non-échantillonnées</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-61.8397381294345,47.2371317328466</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>SiL-17</name>
+	<ExtendedData><SchemaData schemaUrl="#stations">
+		<SimpleData name="echantillon">Stations non-échantillonnées</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-61.8407405148422,47.2374430053889</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>SiL-18</name>
+	<ExtendedData><SchemaData schemaUrl="#stations">
+		<SimpleData name="echantillon">Stations faites</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-61.836154189919,47.2375075839416</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>SiL-19</name>
+	<ExtendedData><SchemaData schemaUrl="#stations">
+		<SimpleData name="echantillon">Stations faites</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-61.8391814613936,47.2371689169472</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>SiL-20</name>
+	<ExtendedData><SchemaData schemaUrl="#stations">
+		<SimpleData name="echantillon">Stations faites</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-61.8402653128622,47.2372321019005</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>SiL-21</name>
+	<ExtendedData><SchemaData schemaUrl="#stations">
+		<SimpleData name="echantillon">Stations faites</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-61.8365370652363,47.2375205694184</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>SiL-22</name>
+	<ExtendedData><SchemaData schemaUrl="#stations">
+		<SimpleData name="echantillon">Stations faites</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-61.8371177975894,47.2372830918478</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>SiL-23</name>
+	<ExtendedData><SchemaData schemaUrl="#stations">
+		<SimpleData name="echantillon">Stations faites</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-61.8404177903642,47.2371082431571</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>SiL-24</name>
+	<ExtendedData><SchemaData schemaUrl="#stations">
+		<SimpleData name="echantillon">Stations faites</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-61.8389789945806,47.2371309243916</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>SiL-25</name>
+	<ExtendedData><SchemaData schemaUrl="#stations">
+		<SimpleData name="echantillon">Stations faites</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-61.8398718737401,47.2370531194591</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>SiL-26</name>
+	<ExtendedData><SchemaData schemaUrl="#stations">
+		<SimpleData name="echantillon">Stations faites</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-61.8383997997599,47.2371615239302</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>SiL-27</name>
+	<ExtendedData><SchemaData schemaUrl="#stations">
+		<SimpleData name="echantillon">Stations faites</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-61.8367966054639,47.2373338656674</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>SiL-28</name>
+	<ExtendedData><SchemaData schemaUrl="#stations">
+		<SimpleData name="echantillon">Stations faites</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-61.8391480215027,47.2371240134641</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>SiL-29</name>
+	<ExtendedData><SchemaData schemaUrl="#stations">
+		<SimpleData name="echantillon">Stations faites</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-61.8361284632885,47.2375294383532</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>SiL-30</name>
+	<ExtendedData><SchemaData schemaUrl="#stations">
+		<SimpleData name="echantillon">Stations faites</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-61.8365007504893,47.2374391572855</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>SiL-31</name>
+	<ExtendedData><SchemaData schemaUrl="#stations">
+		<SimpleData name="echantillon">Stations non-échantillonnées</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-61.8409006595738,47.2372039680781</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>SiL-32</name>
+	<ExtendedData><SchemaData schemaUrl="#stations">
+		<SimpleData name="echantillon">Stations faites</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-61.8372045754272,47.2372888963118</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>SiL-33</name>
+	<ExtendedData><SchemaData schemaUrl="#stations">
+		<SimpleData name="echantillon">Stations non-échantillonnées</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-61.8393863938168,47.2370885881969</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>SiL-34</name>
+	<ExtendedData><SchemaData schemaUrl="#stations">
+		<SimpleData name="echantillon">Stations non-échantillonnées</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-61.8389051302692,47.2370190170061</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>SiL-35</name>
+	<ExtendedData><SchemaData schemaUrl="#stations">
+		<SimpleData name="echantillon">Stations non-échantillonnées</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-61.8406099670632,47.2374175296157</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>SiL-36</name>
+	<ExtendedData><SchemaData schemaUrl="#stations">
+		<SimpleData name="echantillon">Stations non-échantillonnées</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-61.8388520728246,47.2369909274121</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>SiL-37</name>
+	<ExtendedData><SchemaData schemaUrl="#stations">
+		<SimpleData name="echantillon">Stations non-échantillonnées</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-61.840157134575,47.2371984393415</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>SiL-38</name>
+	<ExtendedData><SchemaData schemaUrl="#stations">
+		<SimpleData name="echantillon">Stations non-échantillonnées</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-61.8372285163221,47.237240195134</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>SiL-39</name>
+	<ExtendedData><SchemaData schemaUrl="#stations">
+		<SimpleData name="echantillon">Stations non-échantillonnées</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-61.8405064096343,47.2373302090407</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>SiL-40</name>
+	<ExtendedData><SchemaData schemaUrl="#stations">
+		<SimpleData name="echantillon">Stations non-échantillonnées</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-61.8363262756443,47.2375196155877</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>SiL-41</name>
+	<ExtendedData><SchemaData schemaUrl="#stations">
+		<SimpleData name="echantillon">Stations non-échantillonnées</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-61.8354061070777,47.2379316729226</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>SiL-42</name>
+	<ExtendedData><SchemaData schemaUrl="#stations">
+		<SimpleData name="echantillon">Stations non-échantillonnées</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-61.8381788902792,47.2371018541529</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>SiL-43</name>
+	<ExtendedData><SchemaData schemaUrl="#stations">
+		<SimpleData name="echantillon">Stations non-échantillonnées</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-61.8367509427281,47.2372791479803</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>SiL-44</name>
+	<ExtendedData><SchemaData schemaUrl="#stations">
+		<SimpleData name="echantillon">Stations non-échantillonnées</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-61.8390300289791,47.2372467482373</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>SiL-45</name>
+	<ExtendedData><SchemaData schemaUrl="#stations">
+		<SimpleData name="echantillon">Stations non-échantillonnées</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-61.8381763184465,47.2372435565574</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>SiL-46</name>
+	<ExtendedData><SchemaData schemaUrl="#stations">
+		<SimpleData name="echantillon">Stations non-échantillonnées</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-61.8346203149092,47.2382751899839</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>SiL-47</name>
+	<ExtendedData><SchemaData schemaUrl="#stations">
+		<SimpleData name="echantillon">Stations non-échantillonnées</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-61.8386539715384,47.237159770521</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>SiL-48</name>
+	<ExtendedData><SchemaData schemaUrl="#stations">
+		<SimpleData name="echantillon">Stations non-échantillonnées</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-61.8382637797254,47.2371534914595</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>SiL-49</name>
+	<ExtendedData><SchemaData schemaUrl="#stations">
+		<SimpleData name="echantillon">Stations non-échantillonnées</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-61.8368912913557,47.2373634234394</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>SiL-50</name>
+	<ExtendedData><SchemaData schemaUrl="#stations">
+		<SimpleData name="echantillon">Stations non-échantillonnées</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-61.8391634289232,47.2370393046524</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>SiO-01</name>
+	<ExtendedData><SchemaData schemaUrl="#stations">
+		<SimpleData name="echantillon">Stations non-échantillonnées</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-61.841620864822,47.2372490488586</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>SiO-02</name>
+	<ExtendedData><SchemaData schemaUrl="#stations">
+		<SimpleData name="echantillon">Stations non-échantillonnées</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-61.8417542929675,47.2373130115991</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>SiO-03</name>
+	<ExtendedData><SchemaData schemaUrl="#stations">
+		<SimpleData name="echantillon">Stations faites</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-61.8412513853356,47.2371559716991</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>SiO-04</name>
+	<ExtendedData><SchemaData schemaUrl="#stations">
+		<SimpleData name="echantillon">Stations faites</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-61.8419904691315,47.237359464068</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>SiO-05</name>
+	<ExtendedData><SchemaData schemaUrl="#stations">
+		<SimpleData name="echantillon">Stations faites</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-61.8414352863158,47.2371345476368</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>SiO-06</name>
+	<ExtendedData><SchemaData schemaUrl="#stations">
+		<SimpleData name="echantillon">Stations faites</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-61.8421539486924,47.237392829489</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>SiO-07</name>
+	<ExtendedData><SchemaData schemaUrl="#stations">
+		<SimpleData name="echantillon">Stations faites</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-61.8415120782991,47.237168373539</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>SiO-08</name>
+	<ExtendedData><SchemaData schemaUrl="#stations">
+		<SimpleData name="echantillon">Stations non-échantillonnées</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-61.8418926944338,47.2373540494587</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>SiO-09</name>
+	<ExtendedData><SchemaData schemaUrl="#stations">
+		<SimpleData name="echantillon">Stations faites</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-61.8413848045919,47.2371386572771</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>SiO-10</name>
+	<ExtendedData><SchemaData schemaUrl="#stations">
+		<SimpleData name="echantillon">Stations faites</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-61.8419405093765,47.2373271206042</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>SiO-11</name>
+	<ExtendedData><SchemaData schemaUrl="#stations">
+		<SimpleData name="echantillon">Stations non-échantillonnées</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-61.8412239885895,47.2371648452476</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>SiO-12</name>
+	<ExtendedData><SchemaData schemaUrl="#stations">
+		<SimpleData name="echantillon">Stations faites</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-61.8421982110242,47.2374865269563</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>SiO-13</name>
+	<ExtendedData><SchemaData schemaUrl="#stations">
+		<SimpleData name="echantillon">Stations faites</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-61.8421239577327,47.2373859867152</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>SiO-14</name>
+	<ExtendedData><SchemaData schemaUrl="#stations">
+		<SimpleData name="echantillon">Stations faites</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-61.8416493743238,47.2372177548502</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>SiO-15</name>
+	<ExtendedData><SchemaData schemaUrl="#stations">
+		<SimpleData name="echantillon">Stations faites</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-61.841815494401,47.2372368352098</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>SiO-16</name>
+	<ExtendedData><SchemaData schemaUrl="#stations">
+		<SimpleData name="echantillon">Stations faites</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-61.8413428032755,47.237153750869</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>SiO-17</name>
+	<ExtendedData><SchemaData schemaUrl="#stations">
+		<SimpleData name="echantillon">Stations faites</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-61.8418128772277,47.2372737657096</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>SiO-18</name>
+	<ExtendedData><SchemaData schemaUrl="#stations">
+		<SimpleData name="echantillon">Stations non-échantillonnées</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-61.8412960530642,47.2371871161791</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>SiO-19</name>
+	<ExtendedData><SchemaData schemaUrl="#stations">
+		<SimpleData name="echantillon">Stations non-échantillonnées</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-61.8421025564821,47.2374725614103</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>SiO-20</name>
+	<ExtendedData><SchemaData schemaUrl="#stations">
+		<SimpleData name="echantillon">Stations non-échantillonnées</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-61.8414518786038,47.2372131908405</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>SiO-21</name>
+	<ExtendedData><SchemaData schemaUrl="#stations">
+		<SimpleData name="echantillon">Stations non-échantillonnées</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-61.8414909544137,47.2371298666805</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>SiO-22</name>
+	<ExtendedData><SchemaData schemaUrl="#stations">
+		<SimpleData name="echantillon">Stations non-échantillonnées</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-61.8412131291296,47.2370652278988</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>SiO-23</name>
+	<ExtendedData><SchemaData schemaUrl="#stations">
+		<SimpleData name="echantillon">Stations non-échantillonnées</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-61.8417190194793,47.2372749738786</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>SiO-24</name>
+	<ExtendedData><SchemaData schemaUrl="#stations">
+		<SimpleData name="echantillon">Stations non-échantillonnées</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-61.8421756940767,47.2375138482459</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>SiO-25</name>
+	<ExtendedData><SchemaData schemaUrl="#stations">
+		<SimpleData name="echantillon">Stations faites</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-61.8417175117896,47.237202726064</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>SiO-26</name>
+	<ExtendedData><SchemaData schemaUrl="#stations">
+		<SimpleData name="echantillon">Stations non-échantillonnées</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-61.8421529691514,47.2375029181721</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>SiO-27</name>
+	<ExtendedData><SchemaData schemaUrl="#stations">
+		<SimpleData name="echantillon">Stations faites</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-61.8420997522448,47.2373393723282</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>SiO-28</name>
+	<ExtendedData><SchemaData schemaUrl="#stations">
+		<SimpleData name="echantillon">Stations faites</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-61.8417435988825,47.2372471321237</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>SiO-29</name>
+	<ExtendedData><SchemaData schemaUrl="#stations">
+		<SimpleData name="echantillon">Stations non-échantillonnées</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-61.8420315845265,47.2374455731505</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>SiO-30</name>
+	<ExtendedData><SchemaData schemaUrl="#stations">
+		<SimpleData name="echantillon">Stations faites</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-61.8416441560102,47.2372696998158</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>SiO-31</name>
+	<ExtendedData><SchemaData schemaUrl="#stations">
+		<SimpleData name="echantillon">Stations faites</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-61.8423211028945,47.2374633762154</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>SiO-32</name>
+	<ExtendedData><SchemaData schemaUrl="#stations">
+		<SimpleData name="echantillon">Stations faites</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-61.8415419872912,47.2371753570468</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>SiO-33</name>
+	<ExtendedData><SchemaData schemaUrl="#stations">
+		<SimpleData name="echantillon">Stations faites</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-61.8414620314418,47.237145092365</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>SiO-34</name>
+	<ExtendedData><SchemaData schemaUrl="#stations">
+		<SimpleData name="echantillon">Stations non-échantillonnées</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-61.8417761529421,47.2373246250537</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>SiO-35</name>
+	<ExtendedData><SchemaData schemaUrl="#stations">
+		<SimpleData name="echantillon">Stations faites</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-61.8420284312122,47.2373112651668</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>SiO-36</name>
+	<ExtendedData><SchemaData schemaUrl="#stations">
+		<SimpleData name="echantillon">Stations faites</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-61.8422994720141,47.2374448261425</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>SiO-37</name>
+	<ExtendedData><SchemaData schemaUrl="#stations">
+		<SimpleData name="echantillon">Stations non-échantillonnées</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-61.841858834727,47.2373680339346</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>SiO-38</name>
+	<ExtendedData><SchemaData schemaUrl="#stations">
+		<SimpleData name="echantillon">Stations non-échantillonnées</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-61.8419274743258,47.237376994778</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>SiO-39</name>
+	<ExtendedData><SchemaData schemaUrl="#stations">
+		<SimpleData name="echantillon">Stations faites</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-61.8422037422853,47.237427282088</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>SiO-40</name>
+	<ExtendedData><SchemaData schemaUrl="#stations">
+		<SimpleData name="echantillon">Stations faites</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-61.8415854716128,47.23717758262</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>SiO-41</name>
+	<ExtendedData><SchemaData schemaUrl="#stations">
+		<SimpleData name="echantillon">Stations faites</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-61.8420397722237,47.2373358663072</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>SiO-42</name>
+	<ExtendedData><SchemaData schemaUrl="#stations">
+		<SimpleData name="echantillon">Stations non-échantillonnées</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-61.8421890953107,47.2374455899134</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>SiO-43</name>
+	<ExtendedData><SchemaData schemaUrl="#stations">
+		<SimpleData name="echantillon">Stations non-échantillonnées</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-61.8414395552779,47.2371784692435</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>SiO-44</name>
+	<ExtendedData><SchemaData schemaUrl="#stations">
+		<SimpleData name="echantillon">Stations faites</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-61.8411927272212,47.2370517346685</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>SiO-45</name>
+	<ExtendedData><SchemaData schemaUrl="#stations">
+		<SimpleData name="echantillon">Stations faites</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-61.8422378041601,47.2374229820269</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>SiO-46</name>
+	<ExtendedData><SchemaData schemaUrl="#stations">
+		<SimpleData name="echantillon">Stations faites</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-61.8413184056895,47.2371189415808</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>SiO-47</name>
+	<ExtendedData><SchemaData schemaUrl="#stations">
+		<SimpleData name="echantillon">Stations non-échantillonnées</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-61.8412033252261,47.2371522822891</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>SiO-48</name>
+	<ExtendedData><SchemaData schemaUrl="#stations">
+		<SimpleData name="echantillon">Stations faites</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-61.8417393704572,47.2372286737366</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>SiO-49</name>
+	<ExtendedData><SchemaData schemaUrl="#stations">
+		<SimpleData name="echantillon">Stations faites</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-61.8412044569729,47.2371055104406</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>SiO-50</name>
+	<ExtendedData><SchemaData schemaUrl="#stations">
+		<SimpleData name="echantillon">Stations non-échantillonnées</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-61.8422940013024,47.2374842283403</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>RfO-01</name>
+	<ExtendedData><SchemaData schemaUrl="#stations">
+		<SimpleData name="echantillon">Stations non-échantillonnées</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-61.843966128276,47.2378579550156</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>RfO-02</name>
+	<ExtendedData><SchemaData schemaUrl="#stations">
+		<SimpleData name="echantillon">Stations non-échantillonnées</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-61.8455574967283,47.2381391761101</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>RfO-03</name>
+	<ExtendedData><SchemaData schemaUrl="#stations">
+		<SimpleData name="echantillon">Stations faites</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-61.8448229897081,47.2378885425732</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>RfO-04</name>
+	<ExtendedData><SchemaData schemaUrl="#stations">
+		<SimpleData name="echantillon">Stations non-échantillonnées</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-61.8450674625803,47.2380296261384</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>RfO-05</name>
+	<ExtendedData><SchemaData schemaUrl="#stations">
+		<SimpleData name="echantillon">Stations non-échantillonnées</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-61.846838377418,47.2384835462239</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>RfO-06</name>
+	<ExtendedData><SchemaData schemaUrl="#stations">
+		<SimpleData name="echantillon">Stations faites</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-61.8474154635667,47.2387282947224</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>RfO-07</name>
+	<ExtendedData><SchemaData schemaUrl="#stations">
+		<SimpleData name="echantillon">Stations faites</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-61.8457687164265,47.2381209374574</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>RfO-08</name>
+	<ExtendedData><SchemaData schemaUrl="#stations">
+		<SimpleData name="echantillon">Stations faites</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-61.8469585151158,47.2385719605734</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>RfO-09</name>
+	<ExtendedData><SchemaData schemaUrl="#stations">
+		<SimpleData name="echantillon">Stations non-échantillonnées</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-61.8438038835177,47.23784821374</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>RfO-10</name>
+	<ExtendedData><SchemaData schemaUrl="#stations">
+		<SimpleData name="echantillon">Stations faites</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-61.8458189400821,47.2381266895952</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>RfO-11</name>
+	<ExtendedData><SchemaData schemaUrl="#stations">
+		<SimpleData name="echantillon">Stations non-échantillonnées</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-61.8451524617963,47.2380392765722</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>RfO-12</name>
+	<ExtendedData><SchemaData schemaUrl="#stations">
+		<SimpleData name="echantillon">Stations non-échantillonnées</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-61.8445895313225,47.2379227976467</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>RfO-13</name>
+	<ExtendedData><SchemaData schemaUrl="#stations">
+		<SimpleData name="echantillon">Stations faites</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-61.8453043633998,47.2379903566851</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>RfO-14</name>
+	<ExtendedData><SchemaData schemaUrl="#stations">
+		<SimpleData name="echantillon">Stations faites</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-61.8463627719532,47.2383555719628</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>RfO-15</name>
+	<ExtendedData><SchemaData schemaUrl="#stations">
+		<SimpleData name="echantillon">Stations faites</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-61.8440297334461,47.2378182467177</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>RfO-16</name>
+	<ExtendedData><SchemaData schemaUrl="#stations">
+		<SimpleData name="echantillon">Stations non-échantillonnées</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-61.8449200937943,47.2379602544891</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>RfO-17</name>
+	<ExtendedData><SchemaData schemaUrl="#stations">
+		<SimpleData name="echantillon">Stations non-échantillonnées</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-61.8462707356808,47.238295057338</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>RfO-18</name>
+	<ExtendedData><SchemaData schemaUrl="#stations">
+		<SimpleData name="echantillon">Stations non-échantillonnées</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-61.8454424568605,47.2380816547264</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>RfO-19</name>
+	<ExtendedData><SchemaData schemaUrl="#stations">
+		<SimpleData name="echantillon">Stations non-échantillonnées</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-61.8444822677524,47.2379258307477</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>RfO-20</name>
+	<ExtendedData><SchemaData schemaUrl="#stations">
+		<SimpleData name="echantillon">Stations faites</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-61.8445545712347,47.2378246205314</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>RfO-21</name>
+	<ExtendedData><SchemaData schemaUrl="#stations">
+		<SimpleData name="echantillon">Stations faites</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-61.8444810949485,47.2378282907458</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>RfO-22</name>
+	<ExtendedData><SchemaData schemaUrl="#stations">
+		<SimpleData name="echantillon">Stations faites</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-61.8456157820848,47.2380706568974</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>RfO-23</name>
+	<ExtendedData><SchemaData schemaUrl="#stations">
+		<SimpleData name="echantillon">Stations faites</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-61.8448555627307,47.2378708175378</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>RfO-24</name>
+	<ExtendedData><SchemaData schemaUrl="#stations">
+		<SimpleData name="echantillon">Stations faites</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-61.8469249586808,47.2385159152676</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>RfO-25</name>
+	<ExtendedData><SchemaData schemaUrl="#stations">
+		<SimpleData name="echantillon">Stations non-échantillonnées</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-61.8441620674967,47.2378814837402</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>RfO-26</name>
+	<ExtendedData><SchemaData schemaUrl="#stations">
+		<SimpleData name="echantillon">Stations non-échantillonnées</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-61.8451876224106,47.2380585279973</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>RfO-27</name>
+	<ExtendedData><SchemaData schemaUrl="#stations">
+		<SimpleData name="echantillon">Stations faites</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-61.8464296058365,47.238398649527</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>RfO-28</name>
+	<ExtendedData><SchemaData schemaUrl="#stations">
+		<SimpleData name="echantillon">Stations faites</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-61.8451547019786,47.2379759989028</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>RfO-29</name>
+	<ExtendedData><SchemaData schemaUrl="#stations">
+		<SimpleData name="echantillon">Stations faites</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-61.8439761730772,47.2378318268715</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>RfO-30</name>
+	<ExtendedData><SchemaData schemaUrl="#stations">
+		<SimpleData name="echantillon">Stations non-échantillonnées</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-61.8461797225799,47.2382485989965</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>RfO-31</name>
+	<ExtendedData><SchemaData schemaUrl="#stations">
+		<SimpleData name="echantillon">Stations non-échantillonnées</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-61.8467002965658,47.2384822491629</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>RfO-32</name>
+	<ExtendedData><SchemaData schemaUrl="#stations">
+		<SimpleData name="echantillon">Stations faites</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-61.8450550034414,47.2379172378075</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>RfO-33</name>
+	<ExtendedData><SchemaData schemaUrl="#stations">
+		<SimpleData name="echantillon">Stations faites</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-61.8454049536943,47.2380529895579</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>RfO-34</name>
+	<ExtendedData><SchemaData schemaUrl="#stations">
+		<SimpleData name="echantillon">Stations non-échantillonnées</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-61.846754224716,47.2385107121679</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>RfO-35</name>
+	<ExtendedData><SchemaData schemaUrl="#stations">
+		<SimpleData name="echantillon">Stations faites</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-61.8466514415687,47.2384221939546</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>RfO-36</name>
+	<ExtendedData><SchemaData schemaUrl="#stations">
+		<SimpleData name="echantillon">Stations faites</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-61.8472416768364,47.2386217816488</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>RfO-37</name>
+	<ExtendedData><SchemaData schemaUrl="#stations">
+		<SimpleData name="echantillon">Stations faites</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-61.8441786847518,47.2378002973551</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>RfO-38</name>
+	<ExtendedData><SchemaData schemaUrl="#stations">
+		<SimpleData name="echantillon">Stations faites</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-61.8465063022552,47.2384018450801</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>RfO-39</name>
+	<ExtendedData><SchemaData schemaUrl="#stations">
+		<SimpleData name="echantillon">Stations non-échantillonnées</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-61.8436649879072,47.2378205969555</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>RfO-40</name>
+	<ExtendedData><SchemaData schemaUrl="#stations">
+		<SimpleData name="echantillon">Stations non-échantillonnées</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-61.8467282688766,47.2384157672664</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>RfO-41</name>
+	<ExtendedData><SchemaData schemaUrl="#stations">
+		<SimpleData name="echantillon">Stations faites</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-61.8462596229983,47.2382359205796</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>RfO-42</name>
+	<ExtendedData><SchemaData schemaUrl="#stations">
+		<SimpleData name="echantillon">Stations faites</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-61.847522818266,47.2388029156281</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>RfO-43</name>
+	<ExtendedData><SchemaData schemaUrl="#stations">
+		<SimpleData name="echantillon">Stations non-échantillonnées</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-61.8462053021976,47.2382672408052</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>RfO-44</name>
+	<ExtendedData><SchemaData schemaUrl="#stations">
+		<SimpleData name="echantillon">Stations faites</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-61.847092541798,47.2386319927876</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>RfO-45</name>
+	<ExtendedData><SchemaData schemaUrl="#stations">
+		<SimpleData name="echantillon">Stations non-échantillonnées</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-61.8446980732661,47.2378736235491</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>RfO-46</name>
+	<ExtendedData><SchemaData schemaUrl="#stations">
+		<SimpleData name="echantillon">Stations non-échantillonnées</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-61.8440523692738,47.237878183071</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>RfO-47</name>
+	<ExtendedData><SchemaData schemaUrl="#stations">
+		<SimpleData name="echantillon">Stations faites</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-61.8439191257186,47.2377845778434</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>RfO-48</name>
+	<ExtendedData><SchemaData schemaUrl="#stations">
+		<SimpleData name="echantillon">Stations faites</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-61.8463264818572,47.2382451619995</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>RfO-49</name>
+	<ExtendedData><SchemaData schemaUrl="#stations">
+		<SimpleData name="echantillon">Stations faites</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-61.8460798977858,47.2381860526482</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>RfO-50</name>
+	<ExtendedData><SchemaData schemaUrl="#stations">
+		<SimpleData name="echantillon">Stations faites</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-61.8468134642107,47.2384141326295</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>RfL-01</name>
+	<ExtendedData><SchemaData schemaUrl="#stations">
+		<SimpleData name="echantillon">Stations faites</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-61.8372210263507,47.2379630613991</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>RfL-02</name>
+	<ExtendedData><SchemaData schemaUrl="#stations">
+		<SimpleData name="echantillon">Stations faites</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-61.8372552891175,47.2379155582737</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>RfL-03</name>
+	<ExtendedData><SchemaData schemaUrl="#stations">
+		<SimpleData name="echantillon">Stations faites</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-61.8357043763183,47.2387411595386</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>RfL-04</name>
+	<ExtendedData><SchemaData schemaUrl="#stations">
+		<SimpleData name="echantillon">Stations faites</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-61.8393668622563,47.2378662305255</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>RfL-05</name>
+	<ExtendedData><SchemaData schemaUrl="#stations">
+		<SimpleData name="echantillon">Stations faites</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-61.8366475516422,47.238126593346</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>RfL-06</name>
+	<ExtendedData><SchemaData schemaUrl="#stations">
+		<SimpleData name="echantillon">Stations faites</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-61.8392345024718,47.2379146361333</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>RfL-07</name>
+	<ExtendedData><SchemaData schemaUrl="#stations">
+		<SimpleData name="echantillon">Stations faites</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-61.8362579234554,47.238122219404</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>RfL-08</name>
+	<ExtendedData><SchemaData schemaUrl="#stations">
+		<SimpleData name="echantillon">Stations faites</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-61.8358557781273,47.2384172554191</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>RfL-09</name>
+	<ExtendedData><SchemaData schemaUrl="#stations">
+		<SimpleData name="echantillon">Stations faites</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-61.8359236113741,47.2386665824251</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>RfL-10</name>
+	<ExtendedData><SchemaData schemaUrl="#stations">
+		<SimpleData name="echantillon">Stations non-échantillonnées</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-61.8386279595226,47.2378188555361</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>RfL-11</name>
+	<ExtendedData><SchemaData schemaUrl="#stations">
+		<SimpleData name="echantillon">Stations faites</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-61.8354189946547,47.2386802304846</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>RfL-12</name>
+	<ExtendedData><SchemaData schemaUrl="#stations">
+		<SimpleData name="echantillon">Stations faites</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-61.8373305998328,47.2378901685367</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>RfL-13</name>
+	<ExtendedData><SchemaData schemaUrl="#stations">
+		<SimpleData name="echantillon">Stations faites</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-61.8376755032973,47.2378154446073</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>RfL-14</name>
+	<ExtendedData><SchemaData schemaUrl="#stations">
+		<SimpleData name="echantillon">Stations faites</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-61.8380905650651,47.2380236801144</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>RfL-15</name>
+	<ExtendedData><SchemaData schemaUrl="#stations">
+		<SimpleData name="echantillon">Stations faites</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-61.839921088833,47.2378809544842</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>RfL-16</name>
+	<ExtendedData><SchemaData schemaUrl="#stations">
+		<SimpleData name="echantillon">Stations non-échantillonnées</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-61.8386018477062,47.2378298631373</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>RfL-17</name>
+	<ExtendedData><SchemaData schemaUrl="#stations">
+		<SimpleData name="echantillon">Stations faites</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-61.8379942942891,47.2378155287219</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>RfL-18</name>
+	<ExtendedData><SchemaData schemaUrl="#stations">
+		<SimpleData name="echantillon">Stations faites</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-61.8397808658776,47.2379487874505</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>RfL-19</name>
+	<ExtendedData><SchemaData schemaUrl="#stations">
+		<SimpleData name="echantillon">Stations faites</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-61.8364593729464,47.2383162095859</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>RfL-20</name>
+	<ExtendedData><SchemaData schemaUrl="#stations">
+		<SimpleData name="echantillon">Stations faites</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-61.8394308116024,47.2377306096671</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>RfL-21</name>
+	<ExtendedData><SchemaData schemaUrl="#stations">
+		<SimpleData name="echantillon">Stations faites</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-61.8379835641295,47.2378710207311</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>RfL-22</name>
+	<ExtendedData><SchemaData schemaUrl="#stations">
+		<SimpleData name="echantillon">Stations non-échantillonnées</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-61.8389770395367,47.2379415688618</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>RfL-23</name>
+	<ExtendedData><SchemaData schemaUrl="#stations">
+		<SimpleData name="echantillon">Stations faites</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-61.8357309687727,47.2387970640689</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>RfL-24</name>
+	<ExtendedData><SchemaData schemaUrl="#stations">
+		<SimpleData name="echantillon">Stations faites</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-61.8380786483334,47.2378270662322</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>RfL-25</name>
+	<ExtendedData><SchemaData schemaUrl="#stations">
+		<SimpleData name="echantillon">Stations non-échantillonnées</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-61.8373795412508,47.238033229558</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>RfL-26</name>
+	<ExtendedData><SchemaData schemaUrl="#stations">
+		<SimpleData name="echantillon">Stations faites</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-61.8391959051405,47.2377802311154</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>RfL-27</name>
+	<ExtendedData><SchemaData schemaUrl="#stations">
+		<SimpleData name="echantillon">Stations faites</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-61.837572987291,47.2379805774659</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>RfL-28</name>
+	<ExtendedData><SchemaData schemaUrl="#stations">
+		<SimpleData name="echantillon">Stations faites</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-61.8395928691854,47.2379697339853</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>RfL-29</name>
+	<ExtendedData><SchemaData schemaUrl="#stations">
+		<SimpleData name="echantillon">Stations faites</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-61.8368464606459,47.2380851067886</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>RfL-30</name>
+	<ExtendedData><SchemaData schemaUrl="#stations">
+		<SimpleData name="echantillon">Stations faites</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-61.8355987509117,47.2385214536883</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>RfL-31</name>
+	<ExtendedData><SchemaData schemaUrl="#stations">
+		<SimpleData name="echantillon">Stations faites</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-61.8364054476242,47.2381225831106</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>RfL-32</name>
+	<ExtendedData><SchemaData schemaUrl="#stations">
+		<SimpleData name="echantillon">Stations non-échantillonnées</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-61.8389556612981,47.2379156122916</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>RfL-33</name>
+	<ExtendedData><SchemaData schemaUrl="#stations">
+		<SimpleData name="echantillon">Stations faites</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-61.8379814313644,47.2380866041932</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>RfL-34</name>
+	<ExtendedData><SchemaData schemaUrl="#stations">
+		<SimpleData name="echantillon">Stations non-échantillonnées</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-61.8401410875951,47.237883838046</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>RfL-35</name>
+	<ExtendedData><SchemaData schemaUrl="#stations">
+		<SimpleData name="echantillon">Stations non-échantillonnées</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-61.8374668135224,47.2378693770251</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>RfL-36</name>
+	<ExtendedData><SchemaData schemaUrl="#stations">
+		<SimpleData name="echantillon">Stations non-échantillonnées</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-61.8397305490601,47.2377549998781</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>RfL-37</name>
+	<ExtendedData><SchemaData schemaUrl="#stations">
+		<SimpleData name="echantillon">Stations non-échantillonnées</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-61.8401320052437,47.2379244814063</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>RfL-38</name>
+	<ExtendedData><SchemaData schemaUrl="#stations">
+		<SimpleData name="echantillon">Stations non-échantillonnées</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-61.8356563857089,47.2386248946679</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>RfL-39</name>
+	<ExtendedData><SchemaData schemaUrl="#stations">
+		<SimpleData name="echantillon">Stations faites</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-61.838435519292,47.2377680053224</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>RfL-40</name>
+	<ExtendedData><SchemaData schemaUrl="#stations">
+		<SimpleData name="echantillon">Stations non-échantillonnées</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-61.8364003802739,47.2380852124584</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>RfL-41</name>
+	<ExtendedData><SchemaData schemaUrl="#stations">
+		<SimpleData name="echantillon">Stations non-échantillonnées</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-61.8404338690437,47.237935907251</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>RfL-42</name>
+	<ExtendedData><SchemaData schemaUrl="#stations">
+		<SimpleData name="echantillon">Stations non-échantillonnées</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-61.8396837252086,47.2379366095969</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>RfL-43</name>
+	<ExtendedData><SchemaData schemaUrl="#stations">
+		<SimpleData name="echantillon">Stations non-échantillonnées</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-61.8359548097821,47.2385059166467</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>RfL-44</name>
+	<ExtendedData><SchemaData schemaUrl="#stations">
+		<SimpleData name="echantillon">Stations non-échantillonnées</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-61.8393934750496,47.2379632062132</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>RfL-45</name>
+	<ExtendedData><SchemaData schemaUrl="#stations">
+		<SimpleData name="echantillon">Stations non-échantillonnées</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-61.8379849934451,47.2379793250554</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>RfL-46</name>
+	<ExtendedData><SchemaData schemaUrl="#stations">
+		<SimpleData name="echantillon">Stations non-échantillonnées</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-61.8360962495894,47.2385510338373</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>RfL-47</name>
+	<ExtendedData><SchemaData schemaUrl="#stations">
+		<SimpleData name="echantillon">Stations non-échantillonnées</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-61.8365327016738,47.238092492562</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>RfL-48</name>
+	<ExtendedData><SchemaData schemaUrl="#stations">
+		<SimpleData name="echantillon">Stations non-échantillonnées</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-61.8377189270984,47.2378775677609</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>RfL-49</name>
+	<ExtendedData><SchemaData schemaUrl="#stations">
+		<SimpleData name="echantillon">Stations non-échantillonnées</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-61.8390466842671,47.2379577176783</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>RfL-50</name>
+	<ExtendedData><SchemaData schemaUrl="#stations">
+		<SimpleData name="echantillon">Stations non-échantillonnées</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-61.8386865034603,47.2377573063614</coordinates></Point>
+  </Placemark>
+</Folder>
+</Document></kml>
