@@ -1,0 +1,1006 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document id="root_doc">
+<Folder><name>stations2022</name>
+  <Placemark>
+	<name>Site recharge-1</name>
+      <Point><coordinates>-61.8355213686717,47.2374883696205</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Site recharge-2</name>
+      <Point><coordinates>-61.8390724778968,47.2368621102496</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Site recharge-3</name>
+      <Point><coordinates>-61.839242194922,47.2369416536887</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Site recharge-4</name>
+      <Point><coordinates>-61.8408023760405,47.2370673503834</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Site recharge-5</name>
+      <Point><coordinates>-61.8414885966147,47.2371799331158</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Site recharge-6</name>
+      <Point><coordinates>-61.8345855860931,47.2381429563542</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Site recharge-7</name>
+      <Point><coordinates>-61.8352982972871,47.2376642633246</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Site recharge-8</name>
+      <Point><coordinates>-61.8388990423414,47.2369031695124</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Site recharge-9</name>
+      <Point><coordinates>-61.8351667286178,47.2376316984847</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Site recharge-10</name>
+      <Point><coordinates>-61.841756894183,47.2373044581996</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Site recharge-11</name>
+      <Point><coordinates>-61.8375602815595,47.2370635949592</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Site recharge-12</name>
+      <Point><coordinates>-61.8391816728893,47.2368545803301</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Site recharge-13</name>
+      <Point><coordinates>-61.8345136667045,47.2381517541028</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Site recharge-14</name>
+      <Point><coordinates>-61.8398953469302,47.2368729111809</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Site recharge-15</name>
+      <Point><coordinates>-61.8349797359503,47.2378876610567</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Site recharge-16</name>
+      <Point><coordinates>-61.8359719546846,47.2373478253136</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Site recharge-17</name>
+      <Point><coordinates>-61.8387358496931,47.236914509108</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Site recharge-18</name>
+      <Point><coordinates>-61.8360319299001,47.2372834796297</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Site recharge-19</name>
+      <Point><coordinates>-61.8393883253625,47.2368315329365</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Site recharge-20</name>
+      <Point><coordinates>-61.8418632837009,47.237357821031</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Site recharge-21</name>
+      <Point><coordinates>-61.8378606731152,47.2369326292456</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Site recharge-22</name>
+      <Point><coordinates>-61.8407623649627,47.237070658522</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Site recharge-23</name>
+      <Point><coordinates>-61.8393692057355,47.2369146660299</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Site recharge-24</name>
+      <Point><coordinates>-61.8396896030776,47.2369046071799</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Site recharge-25</name>
+      <Point><coordinates>-61.8404678764464,47.2369946464977</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Site recharge-26</name>
+      <Point><coordinates>-61.8361104487876,47.2372437305032</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Site recharge-27</name>
+      <Point><coordinates>-61.8349598412732,47.2377888091616</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Site recharge-28</name>
+      <Point><coordinates>-61.8401117835467,47.2369227898576</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Site recharge-29</name>
+      <Point><coordinates>-61.8349808151263,47.2378675975291</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Site recharge-30</name>
+      <Point><coordinates>-61.8350343458873,47.2377394924981</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Site recharge-31</name>
+      <Point><coordinates>-61.8392414517473,47.2368258629956</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Site recharge-32</name>
+      <Point><coordinates>-61.8374543640377,47.2369964476343</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Site recharge-33</name>
+      <Point><coordinates>-61.8354006474595,47.2375129459844</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Site recharge-34</name>
+      <Point><coordinates>-61.8396953857836,47.236941989239</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Site recharge-35</name>
+      <Point><coordinates>-61.8356324683876,47.2375169211589</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Site recharge-36</name>
+      <Point><coordinates>-61.8410390047443,47.2370837843194</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Site recharge-37</name>
+      <Point><coordinates>-61.836317895634,47.2373009353857</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Site recharge-38</name>
+      <Point><coordinates>-61.8402881143914,47.2369654807815</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Site recharge-39</name>
+      <Point><coordinates>-61.8354493768116,47.2376026295612</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Site recharge-40</name>
+      <Point><coordinates>-61.8355594881278,47.2374799122352</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Site recharge-41</name>
+      <Point><coordinates>-61.8346823467585,47.2381585240085</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Site recharge-42</name>
+      <Point><coordinates>-61.837089205643,47.2370702794935</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Site recharge-43</name>
+      <Point><coordinates>-61.8385735823482,47.2369390276695</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Site recharge-44</name>
+      <Point><coordinates>-61.8354697713425,47.2374610443382</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Site recharge-45</name>
+      <Point><coordinates>-61.8350829669931,47.2377961171172</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Site recharge-46</name>
+      <Point><coordinates>-61.8394234361028,47.2368557782397</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Site recharge-47</name>
+      <Point><coordinates>-61.8376653028451,47.2370600905828</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Site recharge-48</name>
+      <Point><coordinates>-61.8351131961078,47.2377100634807</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Site recharge-49</name>
+      <Point><coordinates>-61.84190184785,47.2373002133287</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Site recharge-50</name>
+      <Point><coordinates>-61.8396388683104,47.2368757620435</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Site sous-influence large-1</name>
+      <Point><coordinates>-61.8377507910482,47.237222682912</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Site sous-influence large-2</name>
+      <Point><coordinates>-61.8360683249096,47.2374941034426</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Site sous-influence large-3</name>
+      <Point><coordinates>-61.8387680935554,47.2372456502219</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Site sous-influence large-4</name>
+      <Point><coordinates>-61.8404014411265,47.2370835599267</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Site sous-influence large-5</name>
+      <Point><coordinates>-61.8418190556504,47.237507183169</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Site sous-influence large-6</name>
+      <Point><coordinates>-61.8366179906563,47.2373329842124</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Site sous-influence large-7</name>
+      <Point><coordinates>-61.8396196554634,47.2370272755993</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Site sous-influence large-8</name>
+      <Point><coordinates>-61.8393432003677,47.2370098480778</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Site sous-influence large-9</name>
+      <Point><coordinates>-61.8407218113591,47.2372747786467</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Site sous-influence large-10</name>
+      <Point><coordinates>-61.8358597435586,47.2377451600972</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Site sous-influence large-11</name>
+      <Point><coordinates>-61.8356435751015,47.2377687998662</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Site sous-influence large-12</name>
+      <Point><coordinates>-61.8387333190749,47.2370071499238</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Site sous-influence large-13</name>
+      <Point><coordinates>-61.8351017404511,47.2378903439848</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Site sous-influence large-14</name>
+      <Point><coordinates>-61.8384788852334,47.2371527879699</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Site sous-influence large-15</name>
+      <Point><coordinates>-61.8377369362825,47.2373755147047</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Site sous-influence large-16</name>
+      <Point><coordinates>-61.8414573359956,47.237545768759</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Site sous-influence large-17</name>
+      <Point><coordinates>-61.8391777832253,47.2372864174761</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Site sous-influence large-18</name>
+      <Point><coordinates>-61.8348926939828,47.2383138799568</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Site sous-influence large-19</name>
+      <Point><coordinates>-61.8403073594364,47.2371408483088</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Site sous-influence large-20</name>
+      <Point><coordinates>-61.8390057029162,47.2372741885175</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Site sous-influence large-21</name>
+      <Point><coordinates>-61.8380446411493,47.2371821885286</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Site sous-influence large-22</name>
+      <Point><coordinates>-61.8401466689688,47.2371329041878</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Site sous-influence large-23</name>
+      <Point><coordinates>-61.836544052118,47.2374775691355</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Site sous-influence large-24</name>
+      <Point><coordinates>-61.8366628819029,47.2374468446767</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Site sous-influence large-25</name>
+      <Point><coordinates>-61.8416109925377,47.237529313834</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Site sous-influence large-26</name>
+      <Point><coordinates>-61.8408071123638,47.2373077815074</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Site sous-influence large-27</name>
+      <Point><coordinates>-61.8409958814033,47.2372410709875</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Site sous-influence large-28</name>
+      <Point><coordinates>-61.8398831349029,47.2369827335526</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Site sous-influence large-29</name>
+      <Point><coordinates>-61.8349171699756,47.2380866264486</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Site sous-influence large-30</name>
+      <Point><coordinates>-61.8355612580542,47.2376680593652</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Site sous-influence large-31</name>
+      <Point><coordinates>-61.8374568471764,47.237238639687</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Site sous-influence large-32</name>
+      <Point><coordinates>-61.8380484486761,47.2372804528049</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Site sous-influence large-33</name>
+      <Point><coordinates>-61.835249170515,47.2378328001985</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Site sous-influence large-34</name>
+      <Point><coordinates>-61.8415947312974,47.2373215027541</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Site sous-influence large-35</name>
+      <Point><coordinates>-61.8359791355691,47.2373998851164</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Site sous-influence large-36</name>
+      <Point><coordinates>-61.8399509638595,47.2371637557733</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Site sous-influence large-37</name>
+      <Point><coordinates>-61.8368657378955,47.2373538712644</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Site sous-influence large-38</name>
+      <Point><coordinates>-61.8407844218961,47.2372553537235</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Site sous-influence large-39</name>
+      <Point><coordinates>-61.8401616560079,47.2371652224455</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Site sous-influence large-40</name>
+      <Point><coordinates>-61.8361002624245,47.2375432156529</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Site sous-influence large-41</name>
+      <Point><coordinates>-61.8414886685801,47.237270809978</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Site sous-influence large-42</name>
+      <Point><coordinates>-61.8383882018715,47.237219686536</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Site sous-influence large-43</name>
+      <Point><coordinates>-61.8381610341761,47.2370207863237</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Site sous-influence large-44</name>
+      <Point><coordinates>-61.8406744191514,47.2373625451187</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Site sous-influence large-45</name>
+      <Point><coordinates>-61.8408272221405,47.2372732633721</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Site sous-influence large-46</name>
+      <Point><coordinates>-61.8385596191255,47.2371351626509</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Site sous-influence large-47</name>
+      <Point><coordinates>-61.8407993147198,47.2374330321327</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Site sous-influence large-48</name>
+      <Point><coordinates>-61.8352978251179,47.2379647663282</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Site sous-influence large-49</name>
+      <Point><coordinates>-61.8380001906197,47.237220943053</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Site sous-influence large-50</name>
+      <Point><coordinates>-61.841076662684,47.237367668336</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Site sous-influence ouest-1</name>
+      <Point><coordinates>-61.8425267567884,47.2377138585211</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Site sous-influence ouest-2</name>
+      <Point><coordinates>-61.8427003364958,47.2376567749514</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Site sous-influence ouest-3</name>
+      <Point><coordinates>-61.8425282907313,47.2375997202647</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Site sous-influence ouest-4</name>
+      <Point><coordinates>-61.8423987074693,47.237579230371</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Site sous-influence ouest-5</name>
+      <Point><coordinates>-61.8430291151752,47.2377330266537</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Site sous-influence ouest-6</name>
+      <Point><coordinates>-61.8424414553399,47.2375594170858</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Site sous-influence ouest-7</name>
+      <Point><coordinates>-61.8424166760029,47.2375094250249</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Site sous-influence ouest-8</name>
+      <Point><coordinates>-61.8423807197541,47.2374786767968</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Site sous-influence ouest-9</name>
+      <Point><coordinates>-61.8429605501513,47.2377190584465</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Site sous-influence ouest-10</name>
+      <Point><coordinates>-61.8424753904154,47.23755962512</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Site sous-influence ouest-11</name>
+      <Point><coordinates>-61.8427469513094,47.2377724332277</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Site sous-influence ouest-12</name>
+      <Point><coordinates>-61.8419650344167,47.2373652259008</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Site sous-influence ouest-13</name>
+      <Point><coordinates>-61.8428434856628,47.2377261122432</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Site sous-influence ouest-14</name>
+      <Point><coordinates>-61.8425475043366,47.2376765490843</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Site sous-influence ouest-15</name>
+      <Point><coordinates>-61.8419883306137,47.2373992091231</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Site sous-influence ouest-16</name>
+      <Point><coordinates>-61.8427935148779,47.237806616837</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Site sous-influence ouest-17</name>
+      <Point><coordinates>-61.842574611638,47.2376392988956</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Site sous-influence ouest-18</name>
+      <Point><coordinates>-61.843055706895,47.2377867880918</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Site sous-influence ouest-19</name>
+      <Point><coordinates>-61.8422333729187,47.2375006169715</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Site sous-influence ouest-20</name>
+      <Point><coordinates>-61.8421298247796,47.2373722179059</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Site sous-influence ouest-21</name>
+      <Point><coordinates>-61.8423396085519,47.2375261152148</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Site sous-influence ouest-22</name>
+      <Point><coordinates>-61.8421694614376,47.2374647574917</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Site sous-influence ouest-23</name>
+      <Point><coordinates>-61.8423343174032,47.2375911665072</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Site sous-influence ouest-24</name>
+      <Point><coordinates>-61.8423869434079,47.2375036245044</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Site sous-influence ouest-25</name>
+      <Point><coordinates>-61.8420847376658,47.2374046225848</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Site sous-influence ouest-26</name>
+      <Point><coordinates>-61.8426211018795,47.2376283249365</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Site sous-influence ouest-27</name>
+      <Point><coordinates>-61.8420039600235,47.2374313490106</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Site sous-influence ouest-28</name>
+      <Point><coordinates>-61.8422662902247,47.237519078571</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Site sous-influence ouest-29</name>
+      <Point><coordinates>-61.8420168018125,47.2373357384808</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Site sous-influence ouest-30</name>
+      <Point><coordinates>-61.8420538830422,47.2373564138489</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Site sous-influence ouest-31</name>
+      <Point><coordinates>-61.8423980548773,47.2375235947957</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Site sous-influence ouest-32</name>
+      <Point><coordinates>-61.8420971076063,47.2374435958407</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Site sous-influence ouest-33</name>
+      <Point><coordinates>-61.8427830380896,47.2377825969955</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Site sous-influence ouest-34</name>
+      <Point><coordinates>-61.8426100492306,47.2377025880955</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Site sous-influence ouest-35</name>
+      <Point><coordinates>-61.8422703328646,47.2374579562727</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Site sous-influence ouest-36</name>
+      <Point><coordinates>-61.8430108678829,47.2378264481258</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Site sous-influence ouest-37</name>
+      <Point><coordinates>-61.8423312208689,47.2374768634212</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Site sous-influence ouest-38</name>
+      <Point><coordinates>-61.8419562443896,47.2373884447577</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Site sous-influence ouest-39</name>
+      <Point><coordinates>-61.8421895681489,47.237422786298</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Site sous-influence ouest-40</name>
+      <Point><coordinates>-61.8429841946299,47.2378339322722</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Site sous-influence ouest-41</name>
+      <Point><coordinates>-61.8421761900648,47.237386073158</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Site sous-influence ouest-42</name>
+      <Point><coordinates>-61.8431444252854,47.2377889756326</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Site sous-influence ouest-43</name>
+      <Point><coordinates>-61.8430537984727,47.2377428035849</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Site sous-influence ouest-44</name>
+      <Point><coordinates>-61.8422834394848,47.2375479312721</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Site sous-influence ouest-45</name>
+      <Point><coordinates>-61.8420902883299,47.2374737235453</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Site sous-influence ouest-46</name>
+      <Point><coordinates>-61.8420120826899,47.2374075657079</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Site sous-influence ouest-47</name>
+      <Point><coordinates>-61.8422231272048,47.2374040523213</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Site sous-influence ouest-48</name>
+      <Point><coordinates>-61.8428581070432,47.2377612219274</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Site sous-influence ouest-49</name>
+      <Point><coordinates>-61.8429506075958,47.2377529037189</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Site sous-influence ouest-50</name>
+      <Point><coordinates>-61.8430983018662,47.2378419368144</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Site référence ouest-1</name>
+      <Point><coordinates>-61.8448409026626,47.237903633548</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Site référence ouest-2</name>
+      <Point><coordinates>-61.8475245151568,47.238671119993</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Site référence ouest-3</name>
+      <Point><coordinates>-61.8464131941583,47.2383543927779</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Site référence ouest-4</name>
+      <Point><coordinates>-61.8476719254552,47.2387954104149</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Site référence ouest-5</name>
+      <Point><coordinates>-61.847846595164,47.2388521903656</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Site référence ouest-6</name>
+      <Point><coordinates>-61.8452962685178,47.238054739005</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Site référence ouest-7</name>
+      <Point><coordinates>-61.8456425774249,47.238142898338</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Site référence ouest-8</name>
+      <Point><coordinates>-61.8459218926965,47.2382055189254</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Site référence ouest-9</name>
+      <Point><coordinates>-61.8481353725352,47.2389295431949</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Site référence ouest-10</name>
+      <Point><coordinates>-61.847485633572,47.2387032000183</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Site référence ouest-11</name>
+      <Point><coordinates>-61.8445369286644,47.2378763155912</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Site référence ouest-12</name>
+      <Point><coordinates>-61.8471889601138,47.2386272660357</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Site référence ouest-13</name>
+      <Point><coordinates>-61.8473341003497,47.238669829436</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Site référence ouest-14</name>
+      <Point><coordinates>-61.8456585640954,47.2380983090689</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Site référence ouest-15</name>
+      <Point><coordinates>-61.8459854098957,47.2382445007309</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Site référence ouest-16</name>
+      <Point><coordinates>-61.8484535553974,47.2390531009123</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Site référence ouest-17</name>
+      <Point><coordinates>-61.8466245501131,47.238342686094</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Site référence ouest-18</name>
+      <Point><coordinates>-61.8479700387206,47.2388831473444</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Site référence ouest-19</name>
+      <Point><coordinates>-61.8466957466399,47.2384843392068</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Site référence ouest-20</name>
+      <Point><coordinates>-61.8488135424628,47.2391364425472</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Site référence ouest-21</name>
+      <Point><coordinates>-61.8463450394495,47.2383409647491</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Site référence ouest-22</name>
+      <Point><coordinates>-61.8454613663273,47.2380686433734</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Site référence ouest-23</name>
+      <Point><coordinates>-61.8459466521104,47.2381726592582</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Site référence ouest-24</name>
+      <Point><coordinates>-61.8452666530074,47.2379989022107</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Site référence ouest-25</name>
+      <Point><coordinates>-61.8457130058331,47.2381092400752</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Site référence ouest-26</name>
+      <Point><coordinates>-61.8473352275852,47.2386301386184</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Site référence ouest-27</name>
+      <Point><coordinates>-61.8460239799618,47.2382785467707</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Site référence ouest-28</name>
+      <Point><coordinates>-61.8446847602317,47.2378792967914</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Site référence ouest-29</name>
+      <Point><coordinates>-61.8476388101952,47.2387829181469</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Site référence ouest-30</name>
+      <Point><coordinates>-61.847639753425,47.2388008979028</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Site référence ouest-31</name>
+      <Point><coordinates>-61.8466615290598,47.2384264034739</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Site référence ouest-32</name>
+      <Point><coordinates>-61.8470192095438,47.2385464316243</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Site référence ouest-33</name>
+      <Point><coordinates>-61.8480189101391,47.2388983346365</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Site référence ouest-34</name>
+      <Point><coordinates>-61.8459540107202,47.2382109783842</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Site référence ouest-35</name>
+      <Point><coordinates>-61.8461056511115,47.2381905016521</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Site référence ouest-36</name>
+      <Point><coordinates>-61.8454179525631,47.23810812271</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Site référence ouest-37</name>
+      <Point><coordinates>-61.8448559833289,47.2378737354303</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Site référence ouest-38</name>
+      <Point><coordinates>-61.8447134878918,47.2379447653563</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Site référence ouest-39</name>
+      <Point><coordinates>-61.8462652440231,47.2382280297949</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Site référence ouest-40</name>
+      <Point><coordinates>-61.8478294602639,47.2388690167802</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Site référence ouest-41</name>
+      <Point><coordinates>-61.8488446981299,47.2391243994056</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Site référence ouest-42</name>
+      <Point><coordinates>-61.8461292272923,47.2382879393591</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Site référence ouest-43</name>
+      <Point><coordinates>-61.8458911763986,47.2381417393707</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Site référence ouest-44</name>
+      <Point><coordinates>-61.8477418654884,47.238797193178</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Site référence ouest-45</name>
+      <Point><coordinates>-61.8488873634874,47.239193081478</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Site référence ouest-46</name>
+      <Point><coordinates>-61.8450813015479,47.2379288238807</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Site référence ouest-47</name>
+      <Point><coordinates>-61.8451303085154,47.2380002180653</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Site référence ouest-48</name>
+      <Point><coordinates>-61.8454707631358,47.2381175874463</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Site référence ouest-49</name>
+      <Point><coordinates>-61.8462568185157,47.2383419578293</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Site référence ouest-50</name>
+      <Point><coordinates>-61.8466430460086,47.2384626585244</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Site référence large-1</name>
+      <Point><coordinates>-61.8364645857886,47.2382351666901</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Site référence large-2</name>
+      <Point><coordinates>-61.8359490499212,47.2384827813009</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Site référence large-3</name>
+      <Point><coordinates>-61.837160509291,47.2379324864123</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Site référence large-4</name>
+      <Point><coordinates>-61.8379385846309,47.2378855821913</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Site référence large-5</name>
+      <Point><coordinates>-61.8402743016527,47.237821349442</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Site référence large-6</name>
+      <Point><coordinates>-61.8407304711594,47.2381929843703</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Site référence large-7</name>
+      <Point><coordinates>-61.8387329463258,47.2378795202078</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Site référence large-8</name>
+      <Point><coordinates>-61.840423325028,47.2380466961258</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Site référence large-9</name>
+      <Point><coordinates>-61.8397787132097,47.2379458943805</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Site référence large-10</name>
+      <Point><coordinates>-61.8408644662544,47.238195969884</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Site référence large-11</name>
+      <Point><coordinates>-61.8387949969168,47.237907966198</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Site référence large-12</name>
+      <Point><coordinates>-61.8400338770257,47.2380431899358</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Site référence large-13</name>
+      <Point><coordinates>-61.8365748987437,47.2380832253125</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Site référence large-14</name>
+      <Point><coordinates>-61.8394816466055,47.2379847240773</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Site référence large-15</name>
+      <Point><coordinates>-61.8366094695155,47.2381748033651</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Site référence large-16</name>
+      <Point><coordinates>-61.8364431596952,47.2380992798267</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Site référence large-17</name>
+      <Point><coordinates>-61.83580198774,47.2387969911537</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Site référence large-18</name>
+      <Point><coordinates>-61.8364390007466,47.2380494381914</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Site référence large-19</name>
+      <Point><coordinates>-61.8411563637703,47.2382859233323</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Site référence large-20</name>
+      <Point><coordinates>-61.8398080960532,47.2378107859688</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Site référence large-21</name>
+      <Point><coordinates>-61.8360690912969,47.2382138611217</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Site référence large-22</name>
+      <Point><coordinates>-61.8357657732254,47.2384740129106</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Site référence large-23</name>
+      <Point><coordinates>-61.8398972697232,47.2378134125404</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Site référence large-24</name>
+      <Point><coordinates>-61.8356798550397,47.2386100672072</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Site référence large-25</name>
+      <Point><coordinates>-61.8391203870548,47.2378945658107</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Site référence large-26</name>
+      <Point><coordinates>-61.8368683168733,47.238222359922</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Site référence large-27</name>
+      <Point><coordinates>-61.8368290337549,47.2380741088425</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Site référence large-28</name>
+      <Point><coordinates>-61.8391678611669,47.2378900310063</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Site référence large-29</name>
+      <Point><coordinates>-61.8390343946611,47.2378061660075</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Site référence large-30</name>
+      <Point><coordinates>-61.8384744751116,47.2380373774309</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Site référence large-31</name>
+      <Point><coordinates>-61.8385105981509,47.2379501815602</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Site référence large-32</name>
+      <Point><coordinates>-61.8402468547987,47.2378549102433</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Site référence large-33</name>
+      <Point><coordinates>-61.8400003185839,47.2378244147608</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Site référence large-34</name>
+      <Point><coordinates>-61.8368244123464,47.2381629174933</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Site référence large-35</name>
+      <Point><coordinates>-61.8374942720175,47.2380819179362</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Site référence large-36</name>
+      <Point><coordinates>-61.8397204256117,47.2378148252543</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Site référence large-37</name>
+      <Point><coordinates>-61.839444172665,47.2379147075123</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Site référence large-38</name>
+      <Point><coordinates>-61.8406716279566,47.2381689691666</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Site référence large-39</name>
+      <Point><coordinates>-61.8397224860783,47.2378413742611</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Site référence large-40</name>
+      <Point><coordinates>-61.8372123467295,47.2381582201626</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Site référence large-41</name>
+      <Point><coordinates>-61.8409308390471,47.2381366576114</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Site référence large-42</name>
+      <Point><coordinates>-61.8378484805091,47.2378635627168</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Site référence large-43</name>
+      <Point><coordinates>-61.8372330053925,47.2380266969734</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Site référence large-44</name>
+      <Point><coordinates>-61.8395982157284,47.2377145578447</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Site référence large-45</name>
+      <Point><coordinates>-61.8357390767043,47.2388022662386</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Site référence large-46</name>
+      <Point><coordinates>-61.8361036117025,47.2382113491301</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Site référence large-47</name>
+      <Point><coordinates>-61.8362199302675,47.238484161637</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Site référence large-48</name>
+      <Point><coordinates>-61.8398472512121,47.237737681572</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Site référence large-49</name>
+      <Point><coordinates>-61.8357421821435,47.2386367792469</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Site référence large-50</name>
+      <Point><coordinates>-61.8357722488688,47.2384138575901</coordinates></Point>
+  </Placemark>
+</Folder>
+</Document></kml>

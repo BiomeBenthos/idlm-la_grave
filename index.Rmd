@@ -19,9 +19,9 @@ output:
 library(grave)
 mapviewOptions(fgb = FALSE)
 
-recharge <- st_read("data/data-format/recharge.geojson", quiet = TRUE)
-zones <- st_read("data/data-format/zones.geojson", quiet = TRUE)
-samples <- st_read("data/data-format/samples.geojson", quiet = TRUE)
+recharge <- st_read("data/data-format/recharge_etendue_2022.geojson", quiet = TRUE)
+zones <- st_read("data/data-format/zones2022.geojson", quiet = TRUE)
+samples <- st_read("data/data-format/samples2022.geojson", quiet = TRUE)
 
 # Rename
 samples$name <- gsub("Site recharge", "Re",samples$name)

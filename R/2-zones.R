@@ -1,5 +1,10 @@
-fnc_zones <- function() {
-  recharge <- st_read("data/data-format/recharge.geojson")
+# source("R/2-zones.R")
+# fnc_zones <- function() {
+  # 2021
+  # recharge <- st_read("data/data-format/recharge.geojson")
+
+  # 2022
+  recharge <- st_read("data/data-format/recharge_etendue_2022.geojson")
 
   # --------------------------------------------------------------------
   # Zone 1 : site recharge
@@ -63,10 +68,12 @@ fnc_zones <- function() {
   uid <- recharge$descriptio == "Bas Recharge Construction"
   xy2 <- st_cast(recharge[uid, ], "POINT") %>% .[c(nrow(.):1), ]
 
-  ## Distance moyenne
-  d <- st_distance(xy1, xy2[nrow(xy2):1, ], by_element = TRUE) %>%
-       mean() %>%
-       as.numeric()
+  # ## Distance moyenne calculée
+  # d <- st_distance(xy1, xy2[nrow(xy2):1, ], by_element = TRUE) %>%
+  #      mean() %>%
+  #      as.numeric()
+  # On prend celle de 2021 pour cette étape-ci, qui était de 13.43597m
+  d <- 13.43597
 
   ## Manuellement tracer le rivage en suivant les images satellitaires de Google
   # library(mapedit)
@@ -74,10 +81,15 @@ fnc_zones <- function() {
   # rive <- st_transform(rive[[1]], crs = st_crs(recharge))
   # st_write(rive, "data/data-format/rive.geojson", delete_dsn = TRUE)
   # La limite ouest de la zone 3 être à 100m de la limite ouest de la recharge
+  
+  # Rive object needs to be cropped with new recharge 
+  rive <- st_read("data/data-format/rive.geojson") |>
+          st_difference(st_buffer(st_union(recharge), 10))
+  
   rive <- st_cast(xy1, "POINT") %>%
           .[1,] %>%
           st_buffer(100) %>%
-          st_intersection(st_read("data/data-format/rive.geojson")) %>%
+          st_intersection(rive) %>%
           st_buffer(-d, endCapStyle = "SQUARE", singleSide = TRUE) %>%
           st_cast("POINT")
 
@@ -95,7 +107,8 @@ fnc_zones <- function() {
   # Zone 4 : référence rive
   # même genre de polygone que site sous-influence ouest
   # 200 m de la recharge
-  # 526 m de large
+  # 526 m de large 2021 
+  # 593 m de large 2022
   ## Haut recharge équilibre
   uid <- recharge$descriptio == "Crête Recharge Équilibre"
   xy1 <- st_cast(recharge[uid, ], "POINT")
@@ -112,7 +125,7 @@ fnc_zones <- function() {
   # Buffer 2
   buf2 <- st_cast(xy1, "POINT") %>%
           .[1,] %>%
-          st_buffer(526)
+          st_buffer(593)
 
   # Rive
   rive <- st_difference(buf2, buf1) %>%
@@ -143,10 +156,12 @@ fnc_zones <- function() {
   uid <- recharge$descriptio == "Bas Recharge Équilibre"
   xy2 <- st_cast(recharge[uid, ], "POINT")
 
-  ## Distance moyenne
-  d <- st_distance(xy1, xy2, by_element = TRUE) %>%
-       mean() %>%
-       as.numeric()
+  # ## Distance moyenne
+  # d <- st_distance(xy1, xy2, by_element = TRUE) %>%
+  #      mean() %>%
+  #      as.numeric()
+  # On prend celle de 2021 pour cette étape-ci, qui était de 13.6591m
+  d <- 13.6591
 
   ## Ligne du bas de la zone de référence au large à partir d'un buffer autour le bas de la recharge à l'équilibre
   uid <- recharge$descriptio == "Bas Recharge Équilibre"
@@ -159,8 +174,10 @@ fnc_zones <- function() {
   l1 <- l1[-uid2, ]
 
   ## Ridiculous but true
-  l1 <- l1[-1, ]
-  l1 <- l1[c(6:nrow(l1), 1,3),]
+  xy <- st_coordinates(l1)
+  l1 <- cbind(l1,xy) |>
+        dplyr::arrange(X)  
+  l1 <- l1[-c(80:82), ]
 
   # Buffer avec la distance moyenne entre bas et crête de la recharge à l'équilibre
   zone5 <- do.call(c, st_geometry(l1)) %>%
@@ -169,10 +186,12 @@ fnc_zones <- function() {
            st_buffer(d+20, endCapStyle = "SQUARE", singleSide = TRUE) %>%
            st_sf(data.frame(Nom = "Site référence large"))
 
-
   # --------------------------------------------------------------------
   zones <- bind_rows(zone1, zone2, zone3, zone4, zone5)
 
   # -----
-  st_write(zones, "data/data-format/zones.geojson", delete_dsn = TRUE)
-}
+  st_write(zones, "data/data-format/zones2022.geojson", delete_dsn = TRUE)
+# }
+
+
+
