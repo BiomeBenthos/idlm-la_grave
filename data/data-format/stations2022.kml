@@ -1,1006 +1,2010 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <kml xmlns="http://www.opengis.net/kml/2.2">
 <Document id="root_doc">
+<Schema name="stations2022" id="stations2022">
+	<SimpleField name="name_full" type="string"></SimpleField>
+	<SimpleField name="echantillon" type="string"></SimpleField>
+</Schema>
 <Folder><name>stations2022</name>
   <Placemark>
-	<name>Site recharge-1</name>
-      <Point><coordinates>-61.8355213686717,47.2374883696205</coordinates></Point>
+	<name>Re-01</name>
+	<ExtendedData><SchemaData schemaUrl="#stations2022">
+		<SimpleData name="name_full">Site recharge-1</SimpleData>
+		<SimpleData name="echantillon">Stations non-échantillonnées</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-61.8355213686739,47.2374883696319</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Re-02</name>
+	<ExtendedData><SchemaData schemaUrl="#stations2022">
+		<SimpleData name="name_full">Site recharge-2</SimpleData>
+		<SimpleData name="echantillon">Stations faites</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-61.839072477899,47.236862110261</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Re-03</name>
+	<ExtendedData><SchemaData schemaUrl="#stations2022">
+		<SimpleData name="name_full">Site recharge-3</SimpleData>
+		<SimpleData name="echantillon">Stations faites</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-61.8392421949241,47.2369416537002</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Re-04</name>
+	<ExtendedData><SchemaData schemaUrl="#stations2022">
+		<SimpleData name="name_full">Site recharge-4</SimpleData>
+		<SimpleData name="echantillon">Stations faites</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-61.8408023760426,47.2370673503948</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Re-05</name>
+	<ExtendedData><SchemaData schemaUrl="#stations2022">
+		<SimpleData name="name_full">Site recharge-5</SimpleData>
+		<SimpleData name="echantillon">Stations faites</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-61.8414885966169,47.2371799331273</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Re-06</name>
+	<ExtendedData><SchemaData schemaUrl="#stations2022">
+		<SimpleData name="name_full">Site recharge-6</SimpleData>
+		<SimpleData name="echantillon">Stations non-échantillonnées</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-61.8345855860952,47.2381429563657</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Re-07</name>
+	<ExtendedData><SchemaData schemaUrl="#stations2022">
+		<SimpleData name="name_full">Site recharge-7</SimpleData>
+		<SimpleData name="echantillon">Stations non-échantillonnées</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-61.8352982972893,47.237664263336</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Re-08</name>
+	<ExtendedData><SchemaData schemaUrl="#stations2022">
+		<SimpleData name="name_full">Site recharge-8</SimpleData>
+		<SimpleData name="echantillon">Stations faites</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-61.8388990423435,47.2369031695239</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Re-09</name>
+	<ExtendedData><SchemaData schemaUrl="#stations2022">
+		<SimpleData name="name_full">Site recharge-9</SimpleData>
+		<SimpleData name="echantillon">Stations non-échantillonnées</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-61.8351667286199,47.2376316984962</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Re-10</name>
+	<ExtendedData><SchemaData schemaUrl="#stations2022">
+		<SimpleData name="name_full">Site recharge-10</SimpleData>
+		<SimpleData name="echantillon">Stations faites</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-61.8417568941851,47.237304458211</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Re-11</name>
+	<ExtendedData><SchemaData schemaUrl="#stations2022">
+		<SimpleData name="name_full">Site recharge-11</SimpleData>
+		<SimpleData name="echantillon">Stations non-échantillonnées</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-61.8375602815617,47.2370635949706</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Re-12</name>
+	<ExtendedData><SchemaData schemaUrl="#stations2022">
+		<SimpleData name="name_full">Site recharge-12</SimpleData>
+		<SimpleData name="echantillon">Stations faites</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-61.8391816728915,47.2368545803415</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Re-13</name>
+	<ExtendedData><SchemaData schemaUrl="#stations2022">
+		<SimpleData name="name_full">Site recharge-13</SimpleData>
+		<SimpleData name="echantillon">Stations non-échantillonnées</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-61.8345136667067,47.2381517541142</coordinates></Point>
   </Placemark>
   <Placemark>
-	<name>Site recharge-2</name>
-      <Point><coordinates>-61.8390724778968,47.2368621102496</coordinates></Point>
+	<name>Re-14</name>
+	<ExtendedData><SchemaData schemaUrl="#stations2022">
+		<SimpleData name="name_full">Site recharge-14</SimpleData>
+		<SimpleData name="echantillon">Stations faites</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-61.8398953469323,47.2368729111923</coordinates></Point>
   </Placemark>
   <Placemark>
-	<name>Site recharge-3</name>
-      <Point><coordinates>-61.839242194922,47.2369416536887</coordinates></Point>
+	<name>Re-15</name>
+	<ExtendedData><SchemaData schemaUrl="#stations2022">
+		<SimpleData name="name_full">Site recharge-15</SimpleData>
+		<SimpleData name="echantillon">Stations non-échantillonnées</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-61.8349797359524,47.2378876610681</coordinates></Point>
   </Placemark>
   <Placemark>
-	<name>Site recharge-4</name>
-      <Point><coordinates>-61.8408023760405,47.2370673503834</coordinates></Point>
+	<name>Re-16</name>
+	<ExtendedData><SchemaData schemaUrl="#stations2022">
+		<SimpleData name="name_full">Site recharge-16</SimpleData>
+		<SimpleData name="echantillon">Stations non-échantillonnées</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-61.8359719546867,47.237347825325</coordinates></Point>
   </Placemark>
   <Placemark>
-	<name>Site recharge-5</name>
-      <Point><coordinates>-61.8414885966147,47.2371799331158</coordinates></Point>
+	<name>Re-17</name>
+	<ExtendedData><SchemaData schemaUrl="#stations2022">
+		<SimpleData name="name_full">Site recharge-17</SimpleData>
+		<SimpleData name="echantillon">Stations faites</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-61.8387358496953,47.2369145091194</coordinates></Point>
   </Placemark>
   <Placemark>
-	<name>Site recharge-6</name>
-      <Point><coordinates>-61.8345855860931,47.2381429563542</coordinates></Point>
+	<name>Re-18</name>
+	<ExtendedData><SchemaData schemaUrl="#stations2022">
+		<SimpleData name="name_full">Site recharge-18</SimpleData>
+		<SimpleData name="echantillon">Stations non-échantillonnées</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-61.8360319299022,47.2372834796411</coordinates></Point>
   </Placemark>
   <Placemark>
-	<name>Site recharge-7</name>
-      <Point><coordinates>-61.8352982972871,47.2376642633246</coordinates></Point>
+	<name>Re-19</name>
+	<ExtendedData><SchemaData schemaUrl="#stations2022">
+		<SimpleData name="name_full">Site recharge-19</SimpleData>
+		<SimpleData name="echantillon">Stations faites</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-61.8393883253646,47.2368315329479</coordinates></Point>
   </Placemark>
   <Placemark>
-	<name>Site recharge-8</name>
-      <Point><coordinates>-61.8388990423414,47.2369031695124</coordinates></Point>
+	<name>Re-20</name>
+	<ExtendedData><SchemaData schemaUrl="#stations2022">
+		<SimpleData name="name_full">Site recharge-20</SimpleData>
+		<SimpleData name="echantillon">Stations faites</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-61.8418632837031,47.2373578210425</coordinates></Point>
   </Placemark>
   <Placemark>
-	<name>Site recharge-9</name>
-      <Point><coordinates>-61.8351667286178,47.2376316984847</coordinates></Point>
+	<name>Re-21</name>
+	<ExtendedData><SchemaData schemaUrl="#stations2022">
+		<SimpleData name="name_full">Site recharge-21</SimpleData>
+		<SimpleData name="echantillon">Stations faites</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-61.8378606731173,47.236932629257</coordinates></Point>
   </Placemark>
   <Placemark>
-	<name>Site recharge-10</name>
-      <Point><coordinates>-61.841756894183,47.2373044581996</coordinates></Point>
+	<name>Re-22</name>
+	<ExtendedData><SchemaData schemaUrl="#stations2022">
+		<SimpleData name="name_full">Site recharge-22</SimpleData>
+		<SimpleData name="echantillon">Stations faites</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-61.8407623649648,47.2370706585334</coordinates></Point>
   </Placemark>
   <Placemark>
-	<name>Site recharge-11</name>
-      <Point><coordinates>-61.8375602815595,47.2370635949592</coordinates></Point>
+	<name>Re-23</name>
+	<ExtendedData><SchemaData schemaUrl="#stations2022">
+		<SimpleData name="name_full">Site recharge-23</SimpleData>
+		<SimpleData name="echantillon">Stations faites</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-61.8393692057377,47.2369146660414</coordinates></Point>
   </Placemark>
   <Placemark>
-	<name>Site recharge-12</name>
-      <Point><coordinates>-61.8391816728893,47.2368545803301</coordinates></Point>
+	<name>Re-24</name>
+	<ExtendedData><SchemaData schemaUrl="#stations2022">
+		<SimpleData name="name_full">Site recharge-24</SimpleData>
+		<SimpleData name="echantillon">Stations faites</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-61.8396896030797,47.2369046071913</coordinates></Point>
   </Placemark>
   <Placemark>
-	<name>Site recharge-13</name>
-      <Point><coordinates>-61.8345136667045,47.2381517541028</coordinates></Point>
+	<name>Re-25</name>
+	<ExtendedData><SchemaData schemaUrl="#stations2022">
+		<SimpleData name="name_full">Site recharge-25</SimpleData>
+		<SimpleData name="echantillon">Stations faites</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-61.8404678764486,47.2369946465091</coordinates></Point>
   </Placemark>
   <Placemark>
-	<name>Site recharge-14</name>
-      <Point><coordinates>-61.8398953469302,47.2368729111809</coordinates></Point>
+	<name>Re-26</name>
+	<ExtendedData><SchemaData schemaUrl="#stations2022">
+		<SimpleData name="name_full">Site recharge-26</SimpleData>
+		<SimpleData name="echantillon">Stations non-échantillonnées</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-61.8361104487897,47.2372437305147</coordinates></Point>
   </Placemark>
   <Placemark>
-	<name>Site recharge-15</name>
-      <Point><coordinates>-61.8349797359503,47.2378876610567</coordinates></Point>
+	<name>Re-27</name>
+	<ExtendedData><SchemaData schemaUrl="#stations2022">
+		<SimpleData name="name_full">Site recharge-27</SimpleData>
+		<SimpleData name="echantillon">Stations non-échantillonnées</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-61.8349598412754,47.237788809173</coordinates></Point>
   </Placemark>
   <Placemark>
-	<name>Site recharge-16</name>
-      <Point><coordinates>-61.8359719546846,47.2373478253136</coordinates></Point>
+	<name>Re-28</name>
+	<ExtendedData><SchemaData schemaUrl="#stations2022">
+		<SimpleData name="name_full">Site recharge-28</SimpleData>
+		<SimpleData name="echantillon">Stations faites</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-61.8401117835488,47.236922789869</coordinates></Point>
   </Placemark>
   <Placemark>
-	<name>Site recharge-17</name>
-      <Point><coordinates>-61.8387358496931,47.236914509108</coordinates></Point>
+	<name>Re-29</name>
+	<ExtendedData><SchemaData schemaUrl="#stations2022">
+		<SimpleData name="name_full">Site recharge-29</SimpleData>
+		<SimpleData name="echantillon">Stations non-échantillonnées</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-61.8349808151284,47.2378675975404</coordinates></Point>
   </Placemark>
   <Placemark>
-	<name>Site recharge-18</name>
-      <Point><coordinates>-61.8360319299001,47.2372834796297</coordinates></Point>
+	<name>Re-30</name>
+	<ExtendedData><SchemaData schemaUrl="#stations2022">
+		<SimpleData name="name_full">Site recharge-30</SimpleData>
+		<SimpleData name="echantillon">Stations non-échantillonnées</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-61.8350343458894,47.2377394925094</coordinates></Point>
   </Placemark>
   <Placemark>
-	<name>Site recharge-19</name>
-      <Point><coordinates>-61.8393883253625,47.2368315329365</coordinates></Point>
+	<name>Re-31</name>
+	<ExtendedData><SchemaData schemaUrl="#stations2022">
+		<SimpleData name="name_full">Site recharge-31</SimpleData>
+		<SimpleData name="echantillon">Stations non-échantillonnées</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-61.8392414517495,47.236825863007</coordinates></Point>
   </Placemark>
   <Placemark>
-	<name>Site recharge-20</name>
-      <Point><coordinates>-61.8418632837009,47.237357821031</coordinates></Point>
+	<name>Re-32</name>
+	<ExtendedData><SchemaData schemaUrl="#stations2022">
+		<SimpleData name="name_full">Site recharge-32</SimpleData>
+		<SimpleData name="echantillon">Stations non-échantillonnées</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-61.8374543640399,47.2369964476457</coordinates></Point>
   </Placemark>
   <Placemark>
-	<name>Site recharge-21</name>
-      <Point><coordinates>-61.8378606731152,47.2369326292456</coordinates></Point>
+	<name>Re-33</name>
+	<ExtendedData><SchemaData schemaUrl="#stations2022">
+		<SimpleData name="name_full">Site recharge-33</SimpleData>
+		<SimpleData name="echantillon">Stations non-échantillonnées</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-61.8354006474616,47.2375129459958</coordinates></Point>
   </Placemark>
   <Placemark>
-	<name>Site recharge-22</name>
-      <Point><coordinates>-61.8407623649627,47.237070658522</coordinates></Point>
+	<name>Re-34</name>
+	<ExtendedData><SchemaData schemaUrl="#stations2022">
+		<SimpleData name="name_full">Site recharge-34</SimpleData>
+		<SimpleData name="echantillon">Stations non-échantillonnées</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-61.8396953857857,47.2369419892505</coordinates></Point>
   </Placemark>
   <Placemark>
-	<name>Site recharge-23</name>
-      <Point><coordinates>-61.8393692057355,47.2369146660299</coordinates></Point>
+	<name>Re-35</name>
+	<ExtendedData><SchemaData schemaUrl="#stations2022">
+		<SimpleData name="name_full">Site recharge-35</SimpleData>
+		<SimpleData name="echantillon">Stations non-échantillonnées</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-61.8356324683898,47.2375169211703</coordinates></Point>
   </Placemark>
   <Placemark>
-	<name>Site recharge-24</name>
-      <Point><coordinates>-61.8396896030776,47.2369046071799</coordinates></Point>
+	<name>Re-36</name>
+	<ExtendedData><SchemaData schemaUrl="#stations2022">
+		<SimpleData name="name_full">Site recharge-36</SimpleData>
+		<SimpleData name="echantillon">Stations non-échantillonnées</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-61.8410390047464,47.2370837843308</coordinates></Point>
   </Placemark>
   <Placemark>
-	<name>Site recharge-25</name>
-      <Point><coordinates>-61.8404678764464,47.2369946464977</coordinates></Point>
+	<name>Re-37</name>
+	<ExtendedData><SchemaData schemaUrl="#stations2022">
+		<SimpleData name="name_full">Site recharge-37</SimpleData>
+		<SimpleData name="echantillon">Stations non-échantillonnées</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-61.8363178956362,47.2373009353971</coordinates></Point>
   </Placemark>
   <Placemark>
-	<name>Site recharge-26</name>
-      <Point><coordinates>-61.8361104487876,47.2372437305032</coordinates></Point>
+	<name>Re-38</name>
+	<ExtendedData><SchemaData schemaUrl="#stations2022">
+		<SimpleData name="name_full">Site recharge-38</SimpleData>
+		<SimpleData name="echantillon">Stations non-échantillonnées</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-61.8402881143936,47.2369654807929</coordinates></Point>
   </Placemark>
   <Placemark>
-	<name>Site recharge-27</name>
-      <Point><coordinates>-61.8349598412732,47.2377888091616</coordinates></Point>
+	<name>Re-39</name>
+	<ExtendedData><SchemaData schemaUrl="#stations2022">
+		<SimpleData name="name_full">Site recharge-39</SimpleData>
+		<SimpleData name="echantillon">Stations non-échantillonnées</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-61.8354493768137,47.2376026295726</coordinates></Point>
   </Placemark>
   <Placemark>
-	<name>Site recharge-28</name>
-      <Point><coordinates>-61.8401117835467,47.2369227898576</coordinates></Point>
+	<name>Re-40</name>
+	<ExtendedData><SchemaData schemaUrl="#stations2022">
+		<SimpleData name="name_full">Site recharge-40</SimpleData>
+		<SimpleData name="echantillon">Stations non-échantillonnées</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-61.8355594881299,47.2374799122466</coordinates></Point>
   </Placemark>
   <Placemark>
-	<name>Site recharge-29</name>
-      <Point><coordinates>-61.8349808151263,47.2378675975291</coordinates></Point>
+	<name>Re-41</name>
+	<ExtendedData><SchemaData schemaUrl="#stations2022">
+		<SimpleData name="name_full">Site recharge-41</SimpleData>
+		<SimpleData name="echantillon">Stations non-échantillonnées</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-61.8346823467606,47.2381585240199</coordinates></Point>
   </Placemark>
   <Placemark>
-	<name>Site recharge-30</name>
-      <Point><coordinates>-61.8350343458873,47.2377394924981</coordinates></Point>
+	<name>Re-42</name>
+	<ExtendedData><SchemaData schemaUrl="#stations2022">
+		<SimpleData name="name_full">Site recharge-42</SimpleData>
+		<SimpleData name="echantillon">Stations non-échantillonnées</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-61.8370892056451,47.2370702795049</coordinates></Point>
   </Placemark>
   <Placemark>
-	<name>Site recharge-31</name>
-      <Point><coordinates>-61.8392414517473,47.2368258629956</coordinates></Point>
+	<name>Re-43</name>
+	<ExtendedData><SchemaData schemaUrl="#stations2022">
+		<SimpleData name="name_full">Site recharge-43</SimpleData>
+		<SimpleData name="echantillon">Stations non-échantillonnées</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-61.8385735823503,47.2369390276809</coordinates></Point>
   </Placemark>
   <Placemark>
-	<name>Site recharge-32</name>
-      <Point><coordinates>-61.8374543640377,47.2369964476343</coordinates></Point>
+	<name>Re-44</name>
+	<ExtendedData><SchemaData schemaUrl="#stations2022">
+		<SimpleData name="name_full">Site recharge-44</SimpleData>
+		<SimpleData name="echantillon">Stations non-échantillonnées</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-61.8354697713447,47.2374610443496</coordinates></Point>
   </Placemark>
   <Placemark>
-	<name>Site recharge-33</name>
-      <Point><coordinates>-61.8354006474595,47.2375129459844</coordinates></Point>
+	<name>Re-45</name>
+	<ExtendedData><SchemaData schemaUrl="#stations2022">
+		<SimpleData name="name_full">Site recharge-45</SimpleData>
+		<SimpleData name="echantillon">Stations non-échantillonnées</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-61.8350829669952,47.2377961171287</coordinates></Point>
   </Placemark>
   <Placemark>
-	<name>Site recharge-34</name>
-      <Point><coordinates>-61.8396953857836,47.236941989239</coordinates></Point>
+	<name>Re-46</name>
+	<ExtendedData><SchemaData schemaUrl="#stations2022">
+		<SimpleData name="name_full">Site recharge-46</SimpleData>
+		<SimpleData name="echantillon">Stations non-échantillonnées</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-61.839423436105,47.2368557782511</coordinates></Point>
   </Placemark>
   <Placemark>
-	<name>Site recharge-35</name>
-      <Point><coordinates>-61.8356324683876,47.2375169211589</coordinates></Point>
+	<name>Re-47</name>
+	<ExtendedData><SchemaData schemaUrl="#stations2022">
+		<SimpleData name="name_full">Site recharge-47</SimpleData>
+		<SimpleData name="echantillon">Stations non-échantillonnées</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-61.8376653028473,47.2370600905943</coordinates></Point>
   </Placemark>
   <Placemark>
-	<name>Site recharge-36</name>
-      <Point><coordinates>-61.8410390047443,47.2370837843194</coordinates></Point>
+	<name>Re-48</name>
+	<ExtendedData><SchemaData schemaUrl="#stations2022">
+		<SimpleData name="name_full">Site recharge-48</SimpleData>
+		<SimpleData name="echantillon">Stations non-échantillonnées</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-61.83511319611,47.2377100634921</coordinates></Point>
   </Placemark>
   <Placemark>
-	<name>Site recharge-37</name>
-      <Point><coordinates>-61.836317895634,47.2373009353857</coordinates></Point>
+	<name>Re-49</name>
+	<ExtendedData><SchemaData schemaUrl="#stations2022">
+		<SimpleData name="name_full">Site recharge-49</SimpleData>
+		<SimpleData name="echantillon">Stations non-échantillonnées</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-61.8419018478521,47.2373002133401</coordinates></Point>
   </Placemark>
   <Placemark>
-	<name>Site recharge-38</name>
-      <Point><coordinates>-61.8402881143914,47.2369654807815</coordinates></Point>
+	<name>Re-50</name>
+	<ExtendedData><SchemaData schemaUrl="#stations2022">
+		<SimpleData name="name_full">Site recharge-50</SimpleData>
+		<SimpleData name="echantillon">Stations non-échantillonnées</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-61.8396388683126,47.2368757620549</coordinates></Point>
   </Placemark>
   <Placemark>
-	<name>Site recharge-39</name>
-      <Point><coordinates>-61.8354493768116,47.2376026295612</coordinates></Point>
+	<name>SiL-01</name>
+	<ExtendedData><SchemaData schemaUrl="#stations2022">
+		<SimpleData name="name_full">Site sous-influence large-1</SimpleData>
+		<SimpleData name="echantillon">Stations faites</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-61.8377507910503,47.2372226829235</coordinates></Point>
   </Placemark>
   <Placemark>
-	<name>Site recharge-40</name>
-      <Point><coordinates>-61.8355594881278,47.2374799122352</coordinates></Point>
+	<name>SiL-02</name>
+	<ExtendedData><SchemaData schemaUrl="#stations2022">
+		<SimpleData name="name_full">Site sous-influence large-2</SimpleData>
+		<SimpleData name="echantillon">Stations faites</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-61.8360683249118,47.237494103454</coordinates></Point>
   </Placemark>
   <Placemark>
-	<name>Site recharge-41</name>
-      <Point><coordinates>-61.8346823467585,47.2381585240085</coordinates></Point>
+	<name>SiL-03</name>
+	<ExtendedData><SchemaData schemaUrl="#stations2022">
+		<SimpleData name="name_full">Site sous-influence large-3</SimpleData>
+		<SimpleData name="echantillon">Stations faites</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-61.8387680935575,47.2372456502333</coordinates></Point>
   </Placemark>
   <Placemark>
-	<name>Site recharge-42</name>
-      <Point><coordinates>-61.837089205643,47.2370702794935</coordinates></Point>
+	<name>SiL-04</name>
+	<ExtendedData><SchemaData schemaUrl="#stations2022">
+		<SimpleData name="name_full">Site sous-influence large-4</SimpleData>
+		<SimpleData name="echantillon">Stations impossibles</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-61.8404014411286,47.2370835599382</coordinates></Point>
   </Placemark>
   <Placemark>
-	<name>Site recharge-43</name>
-      <Point><coordinates>-61.8385735823482,47.2369390276695</coordinates></Point>
+	<name>SiL-05</name>
+	<ExtendedData><SchemaData schemaUrl="#stations2022">
+		<SimpleData name="name_full">Site sous-influence large-5</SimpleData>
+		<SimpleData name="echantillon">Stations non-échantillonnées</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-61.8418190556526,47.2375071831804</coordinates></Point>
   </Placemark>
   <Placemark>
-	<name>Site recharge-44</name>
-      <Point><coordinates>-61.8354697713425,47.2374610443382</coordinates></Point>
+	<name>SiL-06</name>
+	<ExtendedData><SchemaData schemaUrl="#stations2022">
+		<SimpleData name="name_full">Site sous-influence large-6</SimpleData>
+		<SimpleData name="echantillon">Stations faites</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-61.8366179906585,47.2373329842238</coordinates></Point>
   </Placemark>
   <Placemark>
-	<name>Site recharge-45</name>
-      <Point><coordinates>-61.8350829669931,47.2377961171172</coordinates></Point>
+	<name>SiL-07</name>
+	<ExtendedData><SchemaData schemaUrl="#stations2022">
+		<SimpleData name="name_full">Site sous-influence large-7</SimpleData>
+		<SimpleData name="echantillon">Stations non-échantillonnées</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-61.8396196554656,47.2370272756108</coordinates></Point>
   </Placemark>
   <Placemark>
-	<name>Site recharge-46</name>
-      <Point><coordinates>-61.8394234361028,47.2368557782397</coordinates></Point>
+	<name>SiL-08</name>
+	<ExtendedData><SchemaData schemaUrl="#stations2022">
+		<SimpleData name="name_full">Site sous-influence large-8</SimpleData>
+		<SimpleData name="echantillon">Stations faites</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-61.8393432003699,47.2370098480892</coordinates></Point>
   </Placemark>
   <Placemark>
-	<name>Site recharge-47</name>
-      <Point><coordinates>-61.8376653028451,47.2370600905828</coordinates></Point>
+	<name>SiL-09</name>
+	<ExtendedData><SchemaData schemaUrl="#stations2022">
+		<SimpleData name="name_full">Site sous-influence large-9</SimpleData>
+		<SimpleData name="echantillon">Stations faites</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-61.8407218113612,47.2372747786581</coordinates></Point>
   </Placemark>
   <Placemark>
-	<name>Site recharge-48</name>
-      <Point><coordinates>-61.8351131961078,47.2377100634807</coordinates></Point>
+	<name>SiL-10</name>
+	<ExtendedData><SchemaData schemaUrl="#stations2022">
+		<SimpleData name="name_full">Site sous-influence large-10</SimpleData>
+		<SimpleData name="echantillon">Stations impossibles</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-61.8358597435607,47.2377451601086</coordinates></Point>
   </Placemark>
   <Placemark>
-	<name>Site recharge-49</name>
-      <Point><coordinates>-61.84190184785,47.2373002133287</coordinates></Point>
+	<name>SiL-11</name>
+	<ExtendedData><SchemaData schemaUrl="#stations2022">
+		<SimpleData name="name_full">Site sous-influence large-11</SimpleData>
+		<SimpleData name="echantillon">Stations faites</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-61.8356435751037,47.2377687998776</coordinates></Point>
   </Placemark>
   <Placemark>
-	<name>Site recharge-50</name>
-      <Point><coordinates>-61.8396388683104,47.2368757620435</coordinates></Point>
+	<name>SiL-12</name>
+	<ExtendedData><SchemaData schemaUrl="#stations2022">
+		<SimpleData name="name_full">Site sous-influence large-12</SimpleData>
+		<SimpleData name="echantillon">Stations faites</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-61.838733319077,47.2370071499353</coordinates></Point>
   </Placemark>
   <Placemark>
-	<name>Site sous-influence large-1</name>
-      <Point><coordinates>-61.8377507910482,47.237222682912</coordinates></Point>
+	<name>SiL-13</name>
+	<ExtendedData><SchemaData schemaUrl="#stations2022">
+		<SimpleData name="name_full">Site sous-influence large-13</SimpleData>
+		<SimpleData name="echantillon">Stations faites</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-61.8351017404533,47.2378903439961</coordinates></Point>
   </Placemark>
   <Placemark>
-	<name>Site sous-influence large-2</name>
-      <Point><coordinates>-61.8360683249096,47.2374941034426</coordinates></Point>
+	<name>SiL-14</name>
+	<ExtendedData><SchemaData schemaUrl="#stations2022">
+		<SimpleData name="name_full">Site sous-influence large-14</SimpleData>
+		<SimpleData name="echantillon">Stations faites</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-61.8384788852355,47.2371527879813</coordinates></Point>
   </Placemark>
   <Placemark>
-	<name>Site sous-influence large-3</name>
-      <Point><coordinates>-61.8387680935554,47.2372456502219</coordinates></Point>
+	<name>SiL-15</name>
+	<ExtendedData><SchemaData schemaUrl="#stations2022">
+		<SimpleData name="name_full">Site sous-influence large-15</SimpleData>
+		<SimpleData name="echantillon">Stations faites</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-61.8377369362846,47.237375514716</coordinates></Point>
   </Placemark>
   <Placemark>
-	<name>Site sous-influence large-4</name>
-      <Point><coordinates>-61.8404014411265,47.2370835599267</coordinates></Point>
+	<name>SiL-16</name>
+	<ExtendedData><SchemaData schemaUrl="#stations2022">
+		<SimpleData name="name_full">Site sous-influence large-16</SimpleData>
+		<SimpleData name="echantillon">Stations non-échantillonnées</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-61.8414573359978,47.2375457687704</coordinates></Point>
   </Placemark>
   <Placemark>
-	<name>Site sous-influence large-5</name>
-      <Point><coordinates>-61.8418190556504,47.237507183169</coordinates></Point>
+	<name>SiL-17</name>
+	<ExtendedData><SchemaData schemaUrl="#stations2022">
+		<SimpleData name="name_full">Site sous-influence large-17</SimpleData>
+		<SimpleData name="echantillon">Stations faites</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-61.8391777832275,47.2372864174875</coordinates></Point>
   </Placemark>
   <Placemark>
-	<name>Site sous-influence large-6</name>
-      <Point><coordinates>-61.8366179906563,47.2373329842124</coordinates></Point>
+	<name>SiL-18</name>
+	<ExtendedData><SchemaData schemaUrl="#stations2022">
+		<SimpleData name="name_full">Site sous-influence large-18</SimpleData>
+		<SimpleData name="echantillon">Stations faites</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-61.8348926939849,47.2383138799682</coordinates></Point>
   </Placemark>
   <Placemark>
-	<name>Site sous-influence large-7</name>
-      <Point><coordinates>-61.8396196554634,47.2370272755993</coordinates></Point>
+	<name>SiL-19</name>
+	<ExtendedData><SchemaData schemaUrl="#stations2022">
+		<SimpleData name="name_full">Site sous-influence large-19</SimpleData>
+		<SimpleData name="echantillon">Stations faites</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-61.8403073594385,47.2371408483202</coordinates></Point>
   </Placemark>
   <Placemark>
-	<name>Site sous-influence large-8</name>
-      <Point><coordinates>-61.8393432003677,47.2370098480778</coordinates></Point>
+	<name>SiL-20</name>
+	<ExtendedData><SchemaData schemaUrl="#stations2022">
+		<SimpleData name="name_full">Site sous-influence large-20</SimpleData>
+		<SimpleData name="echantillon">Stations faites</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-61.8390057029183,47.2372741885289</coordinates></Point>
   </Placemark>
   <Placemark>
-	<name>Site sous-influence large-9</name>
-      <Point><coordinates>-61.8407218113591,47.2372747786467</coordinates></Point>
+	<name>SiL-21</name>
+	<ExtendedData><SchemaData schemaUrl="#stations2022">
+		<SimpleData name="name_full">Site sous-influence large-21</SimpleData>
+		<SimpleData name="echantillon">Stations faites</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-61.8380446411514,47.2371821885401</coordinates></Point>
   </Placemark>
   <Placemark>
-	<name>Site sous-influence large-10</name>
-      <Point><coordinates>-61.8358597435586,47.2377451600972</coordinates></Point>
+	<name>SiL-22</name>
+	<ExtendedData><SchemaData schemaUrl="#stations2022">
+		<SimpleData name="name_full">Site sous-influence large-22</SimpleData>
+		<SimpleData name="echantillon">Stations faites</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-61.840146668971,47.2371329041992</coordinates></Point>
   </Placemark>
   <Placemark>
-	<name>Site sous-influence large-11</name>
-      <Point><coordinates>-61.8356435751015,47.2377687998662</coordinates></Point>
+	<name>SiL-23</name>
+	<ExtendedData><SchemaData schemaUrl="#stations2022">
+		<SimpleData name="name_full">Site sous-influence large-23</SimpleData>
+		<SimpleData name="echantillon">Stations faites</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-61.8365440521202,47.2374775691469</coordinates></Point>
   </Placemark>
   <Placemark>
-	<name>Site sous-influence large-12</name>
-      <Point><coordinates>-61.8387333190749,47.2370071499238</coordinates></Point>
+	<name>SiL-24</name>
+	<ExtendedData><SchemaData schemaUrl="#stations2022">
+		<SimpleData name="name_full">Site sous-influence large-24</SimpleData>
+		<SimpleData name="echantillon">Stations faites</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-61.8366628819051,47.2374468446881</coordinates></Point>
   </Placemark>
   <Placemark>
-	<name>Site sous-influence large-13</name>
-      <Point><coordinates>-61.8351017404511,47.2378903439848</coordinates></Point>
+	<name>SiL-25</name>
+	<ExtendedData><SchemaData schemaUrl="#stations2022">
+		<SimpleData name="name_full">Site sous-influence large-25</SimpleData>
+		<SimpleData name="echantillon">Stations impossibles</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-61.8416109925398,47.2375293138454</coordinates></Point>
   </Placemark>
   <Placemark>
-	<name>Site sous-influence large-14</name>
-      <Point><coordinates>-61.8384788852334,47.2371527879699</coordinates></Point>
+	<name>SiL-26</name>
+	<ExtendedData><SchemaData schemaUrl="#stations2022">
+		<SimpleData name="name_full">Site sous-influence large-26</SimpleData>
+		<SimpleData name="echantillon">Stations faites</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-61.840807112366,47.2373077815189</coordinates></Point>
   </Placemark>
   <Placemark>
-	<name>Site sous-influence large-15</name>
-      <Point><coordinates>-61.8377369362825,47.2373755147047</coordinates></Point>
+	<name>SiL-27</name>
+	<ExtendedData><SchemaData schemaUrl="#stations2022">
+		<SimpleData name="name_full">Site sous-influence large-27</SimpleData>
+		<SimpleData name="echantillon">Stations faites</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-61.8409958814054,47.237241070999</coordinates></Point>
   </Placemark>
   <Placemark>
-	<name>Site sous-influence large-16</name>
-      <Point><coordinates>-61.8414573359956,47.237545768759</coordinates></Point>
+	<name>SiL-28</name>
+	<ExtendedData><SchemaData schemaUrl="#stations2022">
+		<SimpleData name="name_full">Site sous-influence large-28</SimpleData>
+		<SimpleData name="echantillon">Stations impossibles</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-61.839883134905,47.236982733564</coordinates></Point>
   </Placemark>
   <Placemark>
-	<name>Site sous-influence large-17</name>
-      <Point><coordinates>-61.8391777832253,47.2372864174761</coordinates></Point>
+	<name>SiL-29</name>
+	<ExtendedData><SchemaData schemaUrl="#stations2022">
+		<SimpleData name="name_full">Site sous-influence large-29</SimpleData>
+		<SimpleData name="echantillon">Stations faites</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-61.8349171699777,47.2380866264599</coordinates></Point>
   </Placemark>
   <Placemark>
-	<name>Site sous-influence large-18</name>
-      <Point><coordinates>-61.8348926939828,47.2383138799568</coordinates></Point>
+	<name>SiL-30</name>
+	<ExtendedData><SchemaData schemaUrl="#stations2022">
+		<SimpleData name="name_full">Site sous-influence large-30</SimpleData>
+		<SimpleData name="echantillon">Stations faites</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-61.8355612580564,47.2376680593767</coordinates></Point>
   </Placemark>
   <Placemark>
-	<name>Site sous-influence large-19</name>
-      <Point><coordinates>-61.8403073594364,47.2371408483088</coordinates></Point>
+	<name>SiL-31</name>
+	<ExtendedData><SchemaData schemaUrl="#stations2022">
+		<SimpleData name="name_full">Site sous-influence large-31</SimpleData>
+		<SimpleData name="echantillon">Stations faites</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-61.8374568471786,47.2372386396984</coordinates></Point>
   </Placemark>
   <Placemark>
-	<name>Site sous-influence large-20</name>
-      <Point><coordinates>-61.8390057029162,47.2372741885175</coordinates></Point>
+	<name>SiL-32</name>
+	<ExtendedData><SchemaData schemaUrl="#stations2022">
+		<SimpleData name="name_full">Site sous-influence large-32</SimpleData>
+		<SimpleData name="echantillon">Stations faites</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-61.8380484486782,47.2372804528163</coordinates></Point>
   </Placemark>
   <Placemark>
-	<name>Site sous-influence large-21</name>
-      <Point><coordinates>-61.8380446411493,47.2371821885286</coordinates></Point>
+	<name>SiL-33</name>
+	<ExtendedData><SchemaData schemaUrl="#stations2022">
+		<SimpleData name="name_full">Site sous-influence large-33</SimpleData>
+		<SimpleData name="echantillon">Stations faites</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-61.8352491705171,47.2378328002099</coordinates></Point>
   </Placemark>
   <Placemark>
-	<name>Site sous-influence large-22</name>
-      <Point><coordinates>-61.8401466689688,47.2371329041878</coordinates></Point>
+	<name>SiL-34</name>
+	<ExtendedData><SchemaData schemaUrl="#stations2022">
+		<SimpleData name="name_full">Site sous-influence large-34</SimpleData>
+		<SimpleData name="echantillon">Stations non-échantillonnées</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-61.8415947312996,47.2373215027655</coordinates></Point>
   </Placemark>
   <Placemark>
-	<name>Site sous-influence large-23</name>
-      <Point><coordinates>-61.836544052118,47.2374775691355</coordinates></Point>
+	<name>SiL-35</name>
+	<ExtendedData><SchemaData schemaUrl="#stations2022">
+		<SimpleData name="name_full">Site sous-influence large-35</SimpleData>
+		<SimpleData name="echantillon">Stations non-échantillonnées</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-61.8359791355713,47.2373998851278</coordinates></Point>
   </Placemark>
   <Placemark>
-	<name>Site sous-influence large-24</name>
-      <Point><coordinates>-61.8366628819029,47.2374468446767</coordinates></Point>
+	<name>SiL-36</name>
+	<ExtendedData><SchemaData schemaUrl="#stations2022">
+		<SimpleData name="name_full">Site sous-influence large-36</SimpleData>
+		<SimpleData name="echantillon">Stations faites</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-61.8399509638617,47.2371637557847</coordinates></Point>
   </Placemark>
   <Placemark>
-	<name>Site sous-influence large-25</name>
-      <Point><coordinates>-61.8416109925377,47.237529313834</coordinates></Point>
+	<name>SiL-37</name>
+	<ExtendedData><SchemaData schemaUrl="#stations2022">
+		<SimpleData name="name_full">Site sous-influence large-37</SimpleData>
+		<SimpleData name="echantillon">Stations faites</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-61.8368657378976,47.2373538712759</coordinates></Point>
   </Placemark>
   <Placemark>
-	<name>Site sous-influence large-26</name>
-      <Point><coordinates>-61.8408071123638,47.2373077815074</coordinates></Point>
+	<name>SiL-38</name>
+	<ExtendedData><SchemaData schemaUrl="#stations2022">
+		<SimpleData name="name_full">Site sous-influence large-38</SimpleData>
+		<SimpleData name="echantillon">Stations non-échantillonnées</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-61.8407844218983,47.237255353735</coordinates></Point>
   </Placemark>
   <Placemark>
-	<name>Site sous-influence large-27</name>
-      <Point><coordinates>-61.8409958814033,47.2372410709875</coordinates></Point>
+	<name>SiL-39</name>
+	<ExtendedData><SchemaData schemaUrl="#stations2022">
+		<SimpleData name="name_full">Site sous-influence large-39</SimpleData>
+		<SimpleData name="echantillon">Stations faites</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-61.84016165601,47.2371652224569</coordinates></Point>
   </Placemark>
   <Placemark>
-	<name>Site sous-influence large-28</name>
-      <Point><coordinates>-61.8398831349029,47.2369827335526</coordinates></Point>
+	<name>SiL-40</name>
+	<ExtendedData><SchemaData schemaUrl="#stations2022">
+		<SimpleData name="name_full">Site sous-influence large-40</SimpleData>
+		<SimpleData name="echantillon">Stations non-échantillonnées</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-61.8361002624267,47.2375432156643</coordinates></Point>
   </Placemark>
   <Placemark>
-	<name>Site sous-influence large-29</name>
-      <Point><coordinates>-61.8349171699756,47.2380866264486</coordinates></Point>
+	<name>SiL-41</name>
+	<ExtendedData><SchemaData schemaUrl="#stations2022">
+		<SimpleData name="name_full">Site sous-influence large-41</SimpleData>
+		<SimpleData name="echantillon">Stations non-échantillonnées</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-61.8414886685823,47.2372708099895</coordinates></Point>
   </Placemark>
   <Placemark>
-	<name>Site sous-influence large-30</name>
-      <Point><coordinates>-61.8355612580542,47.2376680593652</coordinates></Point>
+	<name>SiL-42</name>
+	<ExtendedData><SchemaData schemaUrl="#stations2022">
+		<SimpleData name="name_full">Site sous-influence large-42</SimpleData>
+		<SimpleData name="echantillon">Stations faites</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-61.8383882018737,47.2372196865474</coordinates></Point>
   </Placemark>
   <Placemark>
-	<name>Site sous-influence large-31</name>
-      <Point><coordinates>-61.8374568471764,47.237238639687</coordinates></Point>
+	<name>SiL-43</name>
+	<ExtendedData><SchemaData schemaUrl="#stations2022">
+		<SimpleData name="name_full">Site sous-influence large-43</SimpleData>
+		<SimpleData name="echantillon">Stations non-échantillonnées</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-61.8381610341783,47.2370207863351</coordinates></Point>
   </Placemark>
   <Placemark>
-	<name>Site sous-influence large-32</name>
-      <Point><coordinates>-61.8380484486761,47.2372804528049</coordinates></Point>
+	<name>SiL-44</name>
+	<ExtendedData><SchemaData schemaUrl="#stations2022">
+		<SimpleData name="name_full">Site sous-influence large-44</SimpleData>
+		<SimpleData name="echantillon">Stations non-échantillonnées</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-61.8406744191535,47.2373625451301</coordinates></Point>
   </Placemark>
   <Placemark>
-	<name>Site sous-influence large-33</name>
-      <Point><coordinates>-61.835249170515,47.2378328001985</coordinates></Point>
+	<name>SiL-45</name>
+	<ExtendedData><SchemaData schemaUrl="#stations2022">
+		<SimpleData name="name_full">Site sous-influence large-45</SimpleData>
+		<SimpleData name="echantillon">Stations non-échantillonnées</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-61.8408272221426,47.2372732633836</coordinates></Point>
   </Placemark>
   <Placemark>
-	<name>Site sous-influence large-34</name>
-      <Point><coordinates>-61.8415947312974,47.2373215027541</coordinates></Point>
+	<name>SiL-46</name>
+	<ExtendedData><SchemaData schemaUrl="#stations2022">
+		<SimpleData name="name_full">Site sous-influence large-46</SimpleData>
+		<SimpleData name="echantillon">Stations non-échantillonnées</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-61.8385596191277,47.2371351626624</coordinates></Point>
   </Placemark>
   <Placemark>
-	<name>Site sous-influence large-35</name>
-      <Point><coordinates>-61.8359791355691,47.2373998851164</coordinates></Point>
+	<name>SiL-47</name>
+	<ExtendedData><SchemaData schemaUrl="#stations2022">
+		<SimpleData name="name_full">Site sous-influence large-47</SimpleData>
+		<SimpleData name="echantillon">Stations non-échantillonnées</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-61.8407993147219,47.2374330321441</coordinates></Point>
   </Placemark>
   <Placemark>
-	<name>Site sous-influence large-36</name>
-      <Point><coordinates>-61.8399509638595,47.2371637557733</coordinates></Point>
+	<name>SiL-48</name>
+	<ExtendedData><SchemaData schemaUrl="#stations2022">
+		<SimpleData name="name_full">Site sous-influence large-48</SimpleData>
+		<SimpleData name="echantillon">Stations non-échantillonnées</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-61.8352978251201,47.2379647663396</coordinates></Point>
   </Placemark>
   <Placemark>
-	<name>Site sous-influence large-37</name>
-      <Point><coordinates>-61.8368657378955,47.2373538712644</coordinates></Point>
+	<name>SiL-49</name>
+	<ExtendedData><SchemaData schemaUrl="#stations2022">
+		<SimpleData name="name_full">Site sous-influence large-49</SimpleData>
+		<SimpleData name="echantillon">Stations non-échantillonnées</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-61.8380001906218,47.2372209430645</coordinates></Point>
   </Placemark>
   <Placemark>
-	<name>Site sous-influence large-38</name>
-      <Point><coordinates>-61.8407844218961,47.2372553537235</coordinates></Point>
+	<name>SiL-50</name>
+	<ExtendedData><SchemaData schemaUrl="#stations2022">
+		<SimpleData name="name_full">Site sous-influence large-50</SimpleData>
+		<SimpleData name="echantillon">Stations non-échantillonnées</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-61.8410766626862,47.2373676683474</coordinates></Point>
   </Placemark>
   <Placemark>
-	<name>Site sous-influence large-39</name>
-      <Point><coordinates>-61.8401616560079,47.2371652224455</coordinates></Point>
+	<name>SiO-01</name>
+	<ExtendedData><SchemaData schemaUrl="#stations2022">
+		<SimpleData name="name_full">Site sous-influence ouest-1</SimpleData>
+		<SimpleData name="echantillon">Stations non-échantillonnées</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-61.8425267567906,47.2377138585325</coordinates></Point>
   </Placemark>
   <Placemark>
-	<name>Site sous-influence large-40</name>
-      <Point><coordinates>-61.8361002624245,47.2375432156529</coordinates></Point>
+	<name>SiO-02</name>
+	<ExtendedData><SchemaData schemaUrl="#stations2022">
+		<SimpleData name="name_full">Site sous-influence ouest-2</SimpleData>
+		<SimpleData name="echantillon">Stations faites</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-61.8427003364979,47.2376567749629</coordinates></Point>
   </Placemark>
   <Placemark>
-	<name>Site sous-influence large-41</name>
-      <Point><coordinates>-61.8414886685801,47.237270809978</coordinates></Point>
+	<name>SiO-03</name>
+	<ExtendedData><SchemaData schemaUrl="#stations2022">
+		<SimpleData name="name_full">Site sous-influence ouest-3</SimpleData>
+		<SimpleData name="echantillon">Stations faites</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-61.8425282907335,47.2375997202761</coordinates></Point>
   </Placemark>
   <Placemark>
-	<name>Site sous-influence large-42</name>
-      <Point><coordinates>-61.8383882018715,47.237219686536</coordinates></Point>
+	<name>SiO-04</name>
+	<ExtendedData><SchemaData schemaUrl="#stations2022">
+		<SimpleData name="name_full">Site sous-influence ouest-4</SimpleData>
+		<SimpleData name="echantillon">Stations faites</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-61.8423987074714,47.2375792303824</coordinates></Point>
   </Placemark>
   <Placemark>
-	<name>Site sous-influence large-43</name>
-      <Point><coordinates>-61.8381610341761,47.2370207863237</coordinates></Point>
+	<name>SiO-05</name>
+	<ExtendedData><SchemaData schemaUrl="#stations2022">
+		<SimpleData name="name_full">Site sous-influence ouest-5</SimpleData>
+		<SimpleData name="echantillon">Stations faites</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-61.8430291151773,47.2377330266651</coordinates></Point>
   </Placemark>
   <Placemark>
-	<name>Site sous-influence large-44</name>
-      <Point><coordinates>-61.8406744191514,47.2373625451187</coordinates></Point>
+	<name>SiO-06</name>
+	<ExtendedData><SchemaData schemaUrl="#stations2022">
+		<SimpleData name="name_full">Site sous-influence ouest-6</SimpleData>
+		<SimpleData name="echantillon">Stations faites</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-61.842441455342,47.2375594170972</coordinates></Point>
   </Placemark>
   <Placemark>
-	<name>Site sous-influence large-45</name>
-      <Point><coordinates>-61.8408272221405,47.2372732633721</coordinates></Point>
+	<name>SiO-07</name>
+	<ExtendedData><SchemaData schemaUrl="#stations2022">
+		<SimpleData name="name_full">Site sous-influence ouest-7</SimpleData>
+		<SimpleData name="echantillon">Stations faites</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-61.842416676005,47.2375094250364</coordinates></Point>
   </Placemark>
   <Placemark>
-	<name>Site sous-influence large-46</name>
-      <Point><coordinates>-61.8385596191255,47.2371351626509</coordinates></Point>
+	<name>SiO-08</name>
+	<ExtendedData><SchemaData schemaUrl="#stations2022">
+		<SimpleData name="name_full">Site sous-influence ouest-8</SimpleData>
+		<SimpleData name="echantillon">Stations faites</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-61.8423807197563,47.2374786768082</coordinates></Point>
   </Placemark>
   <Placemark>
-	<name>Site sous-influence large-47</name>
-      <Point><coordinates>-61.8407993147198,47.2374330321327</coordinates></Point>
+	<name>SiO-09</name>
+	<ExtendedData><SchemaData schemaUrl="#stations2022">
+		<SimpleData name="name_full">Site sous-influence ouest-9</SimpleData>
+		<SimpleData name="echantillon">Stations faites</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-61.8429605501534,47.2377190584579</coordinates></Point>
   </Placemark>
   <Placemark>
-	<name>Site sous-influence large-48</name>
-      <Point><coordinates>-61.8352978251179,47.2379647663282</coordinates></Point>
+	<name>SiO-10</name>
+	<ExtendedData><SchemaData schemaUrl="#stations2022">
+		<SimpleData name="name_full">Site sous-influence ouest-10</SimpleData>
+		<SimpleData name="echantillon">Stations faites</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-61.8424753904175,47.2375596251314</coordinates></Point>
   </Placemark>
   <Placemark>
-	<name>Site sous-influence large-49</name>
-      <Point><coordinates>-61.8380001906197,47.237220943053</coordinates></Point>
+	<name>SiO-11</name>
+	<ExtendedData><SchemaData schemaUrl="#stations2022">
+		<SimpleData name="name_full">Site sous-influence ouest-11</SimpleData>
+		<SimpleData name="echantillon">Stations non-échantillonnées</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-61.8427469513115,47.2377724332391</coordinates></Point>
   </Placemark>
   <Placemark>
-	<name>Site sous-influence large-50</name>
-      <Point><coordinates>-61.841076662684,47.237367668336</coordinates></Point>
+	<name>SiO-12</name>
+	<ExtendedData><SchemaData schemaUrl="#stations2022">
+		<SimpleData name="name_full">Site sous-influence ouest-12</SimpleData>
+		<SimpleData name="echantillon">Stations non-échantillonnées</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-61.8419650344189,47.2373652259122</coordinates></Point>
   </Placemark>
   <Placemark>
-	<name>Site sous-influence ouest-1</name>
-      <Point><coordinates>-61.8425267567884,47.2377138585211</coordinates></Point>
+	<name>SiO-13</name>
+	<ExtendedData><SchemaData schemaUrl="#stations2022">
+		<SimpleData name="name_full">Site sous-influence ouest-13</SimpleData>
+		<SimpleData name="echantillon">Stations faites</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-61.8428434856649,47.2377261122547</coordinates></Point>
   </Placemark>
   <Placemark>
-	<name>Site sous-influence ouest-2</name>
-      <Point><coordinates>-61.8427003364958,47.2376567749514</coordinates></Point>
+	<name>SiO-14</name>
+	<ExtendedData><SchemaData schemaUrl="#stations2022">
+		<SimpleData name="name_full">Site sous-influence ouest-14</SimpleData>
+		<SimpleData name="echantillon">Stations faites</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-61.8425475043388,47.2376765490957</coordinates></Point>
   </Placemark>
   <Placemark>
-	<name>Site sous-influence ouest-3</name>
-      <Point><coordinates>-61.8425282907313,47.2375997202647</coordinates></Point>
+	<name>SiO-15</name>
+	<ExtendedData><SchemaData schemaUrl="#stations2022">
+		<SimpleData name="name_full">Site sous-influence ouest-15</SimpleData>
+		<SimpleData name="echantillon">Stations non-échantillonnées</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-61.8419883306158,47.2373992091345</coordinates></Point>
   </Placemark>
   <Placemark>
-	<name>Site sous-influence ouest-4</name>
-      <Point><coordinates>-61.8423987074693,47.237579230371</coordinates></Point>
+	<name>SiO-16</name>
+	<ExtendedData><SchemaData schemaUrl="#stations2022">
+		<SimpleData name="name_full">Site sous-influence ouest-16</SimpleData>
+		<SimpleData name="echantillon">Stations non-échantillonnées</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-61.84279351488,47.2378066168484</coordinates></Point>
   </Placemark>
   <Placemark>
-	<name>Site sous-influence ouest-5</name>
-      <Point><coordinates>-61.8430291151752,47.2377330266537</coordinates></Point>
+	<name>SiO-17</name>
+	<ExtendedData><SchemaData schemaUrl="#stations2022">
+		<SimpleData name="name_full">Site sous-influence ouest-17</SimpleData>
+		<SimpleData name="echantillon">Stations faites</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-61.8425746116402,47.237639298907</coordinates></Point>
   </Placemark>
   <Placemark>
-	<name>Site sous-influence ouest-6</name>
-      <Point><coordinates>-61.8424414553399,47.2375594170858</coordinates></Point>
+	<name>SiO-18</name>
+	<ExtendedData><SchemaData schemaUrl="#stations2022">
+		<SimpleData name="name_full">Site sous-influence ouest-18</SimpleData>
+		<SimpleData name="echantillon">Stations faites</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-61.8430557068971,47.2377867881032</coordinates></Point>
   </Placemark>
   <Placemark>
-	<name>Site sous-influence ouest-7</name>
-      <Point><coordinates>-61.8424166760029,47.2375094250249</coordinates></Point>
+	<name>SiO-19</name>
+	<ExtendedData><SchemaData schemaUrl="#stations2022">
+		<SimpleData name="name_full">Site sous-influence ouest-19</SimpleData>
+		<SimpleData name="echantillon">Stations non-échantillonnées</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-61.8422333729208,47.2375006169829</coordinates></Point>
   </Placemark>
   <Placemark>
-	<name>Site sous-influence ouest-8</name>
-      <Point><coordinates>-61.8423807197541,47.2374786767968</coordinates></Point>
+	<name>SiO-20</name>
+	<ExtendedData><SchemaData schemaUrl="#stations2022">
+		<SimpleData name="name_full">Site sous-influence ouest-20</SimpleData>
+		<SimpleData name="echantillon">Stations faites</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-61.8421298247817,47.2373722179174</coordinates></Point>
   </Placemark>
   <Placemark>
-	<name>Site sous-influence ouest-9</name>
-      <Point><coordinates>-61.8429605501513,47.2377190584465</coordinates></Point>
+	<name>SiO-21</name>
+	<ExtendedData><SchemaData schemaUrl="#stations2022">
+		<SimpleData name="name_full">Site sous-influence ouest-21</SimpleData>
+		<SimpleData name="echantillon">Stations faites</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-61.842339608554,47.2375261152262</coordinates></Point>
   </Placemark>
   <Placemark>
-	<name>Site sous-influence ouest-10</name>
-      <Point><coordinates>-61.8424753904154,47.23755962512</coordinates></Point>
+	<name>SiO-22</name>
+	<ExtendedData><SchemaData schemaUrl="#stations2022">
+		<SimpleData name="name_full">Site sous-influence ouest-22</SimpleData>
+		<SimpleData name="echantillon">Stations non-échantillonnées</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-61.8421694614397,47.2374647575031</coordinates></Point>
   </Placemark>
   <Placemark>
-	<name>Site sous-influence ouest-11</name>
-      <Point><coordinates>-61.8427469513094,47.2377724332277</coordinates></Point>
+	<name>SiO-23</name>
+	<ExtendedData><SchemaData schemaUrl="#stations2022">
+		<SimpleData name="name_full">Site sous-influence ouest-23</SimpleData>
+		<SimpleData name="echantillon">Stations faites</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-61.8423343174053,47.2375911665187</coordinates></Point>
   </Placemark>
   <Placemark>
-	<name>Site sous-influence ouest-12</name>
-      <Point><coordinates>-61.8419650344167,47.2373652259008</coordinates></Point>
+	<name>SiO-24</name>
+	<ExtendedData><SchemaData schemaUrl="#stations2022">
+		<SimpleData name="name_full">Site sous-influence ouest-24</SimpleData>
+		<SimpleData name="echantillon">Stations faites</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-61.84238694341,47.2375036245159</coordinates></Point>
   </Placemark>
   <Placemark>
-	<name>Site sous-influence ouest-13</name>
-      <Point><coordinates>-61.8428434856628,47.2377261122432</coordinates></Point>
+	<name>SiO-25</name>
+	<ExtendedData><SchemaData schemaUrl="#stations2022">
+		<SimpleData name="name_full">Site sous-influence ouest-25</SimpleData>
+		<SimpleData name="echantillon">Stations non-échantillonnées</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-61.8420847376679,47.2374046225962</coordinates></Point>
   </Placemark>
   <Placemark>
-	<name>Site sous-influence ouest-14</name>
-      <Point><coordinates>-61.8425475043366,47.2376765490843</coordinates></Point>
+	<name>SiO-26</name>
+	<ExtendedData><SchemaData schemaUrl="#stations2022">
+		<SimpleData name="name_full">Site sous-influence ouest-26</SimpleData>
+		<SimpleData name="echantillon">Stations faites</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-61.8426211018816,47.237628324948</coordinates></Point>
   </Placemark>
   <Placemark>
-	<name>Site sous-influence ouest-15</name>
-      <Point><coordinates>-61.8419883306137,47.2373992091231</coordinates></Point>
+	<name>SiO-27</name>
+	<ExtendedData><SchemaData schemaUrl="#stations2022">
+		<SimpleData name="name_full">Site sous-influence ouest-27</SimpleData>
+		<SimpleData name="echantillon">Stations non-échantillonnées</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-61.8420039600256,47.237431349022</coordinates></Point>
   </Placemark>
   <Placemark>
-	<name>Site sous-influence ouest-16</name>
-      <Point><coordinates>-61.8427935148779,47.237806616837</coordinates></Point>
+	<name>SiO-28</name>
+	<ExtendedData><SchemaData schemaUrl="#stations2022">
+		<SimpleData name="name_full">Site sous-influence ouest-28</SimpleData>
+		<SimpleData name="echantillon">Stations faites</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-61.8422662902268,47.2375190785824</coordinates></Point>
   </Placemark>
   <Placemark>
-	<name>Site sous-influence ouest-17</name>
-      <Point><coordinates>-61.842574611638,47.2376392988956</coordinates></Point>
+	<name>SiO-29</name>
+	<ExtendedData><SchemaData schemaUrl="#stations2022">
+		<SimpleData name="name_full">Site sous-influence ouest-29</SimpleData>
+		<SimpleData name="echantillon">Stations non-échantillonnées</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-61.8420168018146,47.2373357384922</coordinates></Point>
   </Placemark>
   <Placemark>
-	<name>Site sous-influence ouest-18</name>
-      <Point><coordinates>-61.843055706895,47.2377867880918</coordinates></Point>
+	<name>SiO-30</name>
+	<ExtendedData><SchemaData schemaUrl="#stations2022">
+		<SimpleData name="name_full">Site sous-influence ouest-30</SimpleData>
+		<SimpleData name="echantillon">Stations non-échantillonnées</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-61.8420538830443,47.2373564138604</coordinates></Point>
   </Placemark>
   <Placemark>
-	<name>Site sous-influence ouest-19</name>
-      <Point><coordinates>-61.8422333729187,47.2375006169715</coordinates></Point>
+	<name>SiO-31</name>
+	<ExtendedData><SchemaData schemaUrl="#stations2022">
+		<SimpleData name="name_full">Site sous-influence ouest-31</SimpleData>
+		<SimpleData name="echantillon">Stations faites</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-61.8423980548795,47.2375235948071</coordinates></Point>
   </Placemark>
   <Placemark>
-	<name>Site sous-influence ouest-20</name>
-      <Point><coordinates>-61.8421298247796,47.2373722179059</coordinates></Point>
+	<name>SiO-32</name>
+	<ExtendedData><SchemaData schemaUrl="#stations2022">
+		<SimpleData name="name_full">Site sous-influence ouest-32</SimpleData>
+		<SimpleData name="echantillon">Stations non-échantillonnées</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-61.8420971076085,47.2374435958521</coordinates></Point>
   </Placemark>
   <Placemark>
-	<name>Site sous-influence ouest-21</name>
-      <Point><coordinates>-61.8423396085519,47.2375261152148</coordinates></Point>
+	<name>SiO-33</name>
+	<ExtendedData><SchemaData schemaUrl="#stations2022">
+		<SimpleData name="name_full">Site sous-influence ouest-33</SimpleData>
+		<SimpleData name="echantillon">Stations faites</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-61.8428000000021,47.2377500000114</coordinates></Point>
   </Placemark>
   <Placemark>
-	<name>Site sous-influence ouest-22</name>
-      <Point><coordinates>-61.8421694614376,47.2374647574917</coordinates></Point>
+	<name>SiO-34</name>
+	<ExtendedData><SchemaData schemaUrl="#stations2022">
+		<SimpleData name="name_full">Site sous-influence ouest-34</SimpleData>
+		<SimpleData name="echantillon">Stations faites</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-61.8426100492328,47.2377025881069</coordinates></Point>
   </Placemark>
   <Placemark>
-	<name>Site sous-influence ouest-23</name>
-      <Point><coordinates>-61.8423343174032,47.2375911665072</coordinates></Point>
+	<name>SiO-35</name>
+	<ExtendedData><SchemaData schemaUrl="#stations2022">
+		<SimpleData name="name_full">Site sous-influence ouest-35</SimpleData>
+		<SimpleData name="echantillon">Stations faites</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-61.8422703328667,47.2374579562841</coordinates></Point>
   </Placemark>
   <Placemark>
-	<name>Site sous-influence ouest-24</name>
-      <Point><coordinates>-61.8423869434079,47.2375036245044</coordinates></Point>
+	<name>SiO-36</name>
+	<ExtendedData><SchemaData schemaUrl="#stations2022">
+		<SimpleData name="name_full">Site sous-influence ouest-36</SimpleData>
+		<SimpleData name="echantillon">Stations non-échantillonnées</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-61.8430108678851,47.2378264481372</coordinates></Point>
   </Placemark>
   <Placemark>
-	<name>Site sous-influence ouest-25</name>
-      <Point><coordinates>-61.8420847376658,47.2374046225848</coordinates></Point>
+	<name>SiO-37</name>
+	<ExtendedData><SchemaData schemaUrl="#stations2022">
+		<SimpleData name="name_full">Site sous-influence ouest-37</SimpleData>
+		<SimpleData name="echantillon">Stations faites</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-61.8423312208711,47.2374768634326</coordinates></Point>
   </Placemark>
   <Placemark>
-	<name>Site sous-influence ouest-26</name>
-      <Point><coordinates>-61.8426211018795,47.2376283249365</coordinates></Point>
+	<name>SiO-38</name>
+	<ExtendedData><SchemaData schemaUrl="#stations2022">
+		<SimpleData name="name_full">Site sous-influence ouest-38</SimpleData>
+		<SimpleData name="echantillon">Stations non-échantillonnées</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-61.8419562443918,47.2373884447691</coordinates></Point>
   </Placemark>
   <Placemark>
-	<name>Site sous-influence ouest-27</name>
-      <Point><coordinates>-61.8420039600235,47.2374313490106</coordinates></Point>
+	<name>SiO-39</name>
+	<ExtendedData><SchemaData schemaUrl="#stations2022">
+		<SimpleData name="name_full">Site sous-influence ouest-39</SimpleData>
+		<SimpleData name="echantillon">Stations faites</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-61.842189568151,47.2374227863095</coordinates></Point>
   </Placemark>
   <Placemark>
-	<name>Site sous-influence ouest-28</name>
-      <Point><coordinates>-61.8422662902247,47.237519078571</coordinates></Point>
+	<name>SiO-40</name>
+	<ExtendedData><SchemaData schemaUrl="#stations2022">
+		<SimpleData name="name_full">Site sous-influence ouest-40</SimpleData>
+		<SimpleData name="echantillon">Stations non-échantillonnées</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-61.842984194632,47.2378339322836</coordinates></Point>
   </Placemark>
   <Placemark>
-	<name>Site sous-influence ouest-29</name>
-      <Point><coordinates>-61.8420168018125,47.2373357384808</coordinates></Point>
+	<name>SiO-41</name>
+	<ExtendedData><SchemaData schemaUrl="#stations2022">
+		<SimpleData name="name_full">Site sous-influence ouest-41</SimpleData>
+		<SimpleData name="echantillon">Stations non-échantillonnées</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-61.8421761900669,47.2373860731695</coordinates></Point>
   </Placemark>
   <Placemark>
-	<name>Site sous-influence ouest-30</name>
-      <Point><coordinates>-61.8420538830422,47.2373564138489</coordinates></Point>
+	<name>SiO-42</name>
+	<ExtendedData><SchemaData schemaUrl="#stations2022">
+		<SimpleData name="name_full">Site sous-influence ouest-42</SimpleData>
+		<SimpleData name="echantillon">Stations non-échantillonnées</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-61.8431444252875,47.237788975644</coordinates></Point>
   </Placemark>
   <Placemark>
-	<name>Site sous-influence ouest-31</name>
-      <Point><coordinates>-61.8423980548773,47.2375235947957</coordinates></Point>
+	<name>SiO-43</name>
+	<ExtendedData><SchemaData schemaUrl="#stations2022">
+		<SimpleData name="name_full">Site sous-influence ouest-43</SimpleData>
+		<SimpleData name="echantillon">Stations non-échantillonnées</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-61.8430537984748,47.2377428035964</coordinates></Point>
   </Placemark>
   <Placemark>
-	<name>Site sous-influence ouest-32</name>
-      <Point><coordinates>-61.8420971076063,47.2374435958407</coordinates></Point>
+	<name>SiO-44</name>
+	<ExtendedData><SchemaData schemaUrl="#stations2022">
+		<SimpleData name="name_full">Site sous-influence ouest-44</SimpleData>
+		<SimpleData name="echantillon">Stations non-échantillonnées</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-61.8422834394869,47.2375479312835</coordinates></Point>
   </Placemark>
   <Placemark>
-	<name>Site sous-influence ouest-33</name>
-      <Point><coordinates>-61.8427830380896,47.2377825969955</coordinates></Point>
+	<name>SiO-45</name>
+	<ExtendedData><SchemaData schemaUrl="#stations2022">
+		<SimpleData name="name_full">Site sous-influence ouest-45</SimpleData>
+		<SimpleData name="echantillon">Stations non-échantillonnées</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-61.8420902883321,47.2374737235567</coordinates></Point>
   </Placemark>
   <Placemark>
-	<name>Site sous-influence ouest-34</name>
-      <Point><coordinates>-61.8426100492306,47.2377025880955</coordinates></Point>
+	<name>SiO-46</name>
+	<ExtendedData><SchemaData schemaUrl="#stations2022">
+		<SimpleData name="name_full">Site sous-influence ouest-46</SimpleData>
+		<SimpleData name="echantillon">Stations non-échantillonnées</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-61.842012082692,47.2374075657193</coordinates></Point>
   </Placemark>
   <Placemark>
-	<name>Site sous-influence ouest-35</name>
-      <Point><coordinates>-61.8422703328646,47.2374579562727</coordinates></Point>
+	<name>SiO-47</name>
+	<ExtendedData><SchemaData schemaUrl="#stations2022">
+		<SimpleData name="name_full">Site sous-influence ouest-47</SimpleData>
+		<SimpleData name="echantillon">Stations non-échantillonnées</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-61.8422231272069,47.2374040523327</coordinates></Point>
   </Placemark>
   <Placemark>
-	<name>Site sous-influence ouest-36</name>
-      <Point><coordinates>-61.8430108678829,47.2378264481258</coordinates></Point>
+	<name>SiO-48</name>
+	<ExtendedData><SchemaData schemaUrl="#stations2022">
+		<SimpleData name="name_full">Site sous-influence ouest-48</SimpleData>
+		<SimpleData name="echantillon">Stations non-échantillonnées</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-61.8428581070453,47.2377612219389</coordinates></Point>
   </Placemark>
   <Placemark>
-	<name>Site sous-influence ouest-37</name>
-      <Point><coordinates>-61.8423312208689,47.2374768634212</coordinates></Point>
+	<name>SiO-49</name>
+	<ExtendedData><SchemaData schemaUrl="#stations2022">
+		<SimpleData name="name_full">Site sous-influence ouest-49</SimpleData>
+		<SimpleData name="echantillon">Stations non-échantillonnées</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-61.842950607598,47.2377529037304</coordinates></Point>
   </Placemark>
   <Placemark>
-	<name>Site sous-influence ouest-38</name>
-      <Point><coordinates>-61.8419562443896,47.2373884447577</coordinates></Point>
+	<name>SiO-50</name>
+	<ExtendedData><SchemaData schemaUrl="#stations2022">
+		<SimpleData name="name_full">Site sous-influence ouest-50</SimpleData>
+		<SimpleData name="echantillon">Stations non-échantillonnées</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-61.8430983018684,47.2378419368259</coordinates></Point>
   </Placemark>
   <Placemark>
-	<name>Site sous-influence ouest-39</name>
-      <Point><coordinates>-61.8421895681489,47.237422786298</coordinates></Point>
+	<name>RfO-01</name>
+	<ExtendedData><SchemaData schemaUrl="#stations2022">
+		<SimpleData name="name_full">Site référence ouest-1</SimpleData>
+		<SimpleData name="echantillon">Stations faites</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-61.8448409026647,47.2379036335595</coordinates></Point>
   </Placemark>
   <Placemark>
-	<name>Site sous-influence ouest-40</name>
-      <Point><coordinates>-61.8429841946299,47.2378339322722</coordinates></Point>
+	<name>RfO-02</name>
+	<ExtendedData><SchemaData schemaUrl="#stations2022">
+		<SimpleData name="name_full">Site référence ouest-2</SimpleData>
+		<SimpleData name="echantillon">Stations non-échantillonnées</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-61.847524515159,47.2386711200044</coordinates></Point>
   </Placemark>
   <Placemark>
-	<name>Site sous-influence ouest-41</name>
-      <Point><coordinates>-61.8421761900648,47.237386073158</coordinates></Point>
+	<name>RfO-03</name>
+	<ExtendedData><SchemaData schemaUrl="#stations2022">
+		<SimpleData name="name_full">Site référence ouest-3</SimpleData>
+		<SimpleData name="echantillon">Stations non-échantillonnées</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-61.8464131941604,47.2383543927893</coordinates></Point>
   </Placemark>
   <Placemark>
-	<name>Site sous-influence ouest-42</name>
-      <Point><coordinates>-61.8431444252854,47.2377889756326</coordinates></Point>
+	<name>RfO-04</name>
+	<ExtendedData><SchemaData schemaUrl="#stations2022">
+		<SimpleData name="name_full">Site référence ouest-4</SimpleData>
+		<SimpleData name="echantillon">Stations non-échantillonnées</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-61.8476719254573,47.2387954104263</coordinates></Point>
   </Placemark>
   <Placemark>
-	<name>Site sous-influence ouest-43</name>
-      <Point><coordinates>-61.8430537984727,47.2377428035849</coordinates></Point>
+	<name>RfO-05</name>
+	<ExtendedData><SchemaData schemaUrl="#stations2022">
+		<SimpleData name="name_full">Site référence ouest-5</SimpleData>
+		<SimpleData name="echantillon">Stations non-échantillonnées</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-61.8478465951661,47.238852190377</coordinates></Point>
   </Placemark>
   <Placemark>
-	<name>Site sous-influence ouest-44</name>
-      <Point><coordinates>-61.8422834394848,47.2375479312721</coordinates></Point>
+	<name>RfO-06</name>
+	<ExtendedData><SchemaData schemaUrl="#stations2022">
+		<SimpleData name="name_full">Site référence ouest-6</SimpleData>
+		<SimpleData name="echantillon">Stations faites</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-61.8453400000016,47.2380000000086</coordinates></Point>
   </Placemark>
   <Placemark>
-	<name>Site sous-influence ouest-45</name>
-      <Point><coordinates>-61.8420902883299,47.2374737235453</coordinates></Point>
+	<name>RfO-07</name>
+	<ExtendedData><SchemaData schemaUrl="#stations2022">
+		<SimpleData name="name_full">Site référence ouest-7</SimpleData>
+		<SimpleData name="echantillon">Stations non-échantillonnées</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-61.8456425774271,47.2381428983495</coordinates></Point>
   </Placemark>
   <Placemark>
-	<name>Site sous-influence ouest-46</name>
-      <Point><coordinates>-61.8420120826899,47.2374075657079</coordinates></Point>
+	<name>RfO-08</name>
+	<ExtendedData><SchemaData schemaUrl="#stations2022">
+		<SimpleData name="name_full">Site référence ouest-8</SimpleData>
+		<SimpleData name="echantillon">Stations non-échantillonnées</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-61.8459218926987,47.2382055189368</coordinates></Point>
   </Placemark>
   <Placemark>
-	<name>Site sous-influence ouest-47</name>
-      <Point><coordinates>-61.8422231272048,47.2374040523213</coordinates></Point>
+	<name>RfO-09</name>
+	<ExtendedData><SchemaData schemaUrl="#stations2022">
+		<SimpleData name="name_full">Site référence ouest-9</SimpleData>
+		<SimpleData name="echantillon">Stations non-échantillonnées</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-61.8481353725373,47.2389295432063</coordinates></Point>
   </Placemark>
   <Placemark>
-	<name>Site sous-influence ouest-48</name>
-      <Point><coordinates>-61.8428581070432,47.2377612219274</coordinates></Point>
+	<name>RfO-10</name>
+	<ExtendedData><SchemaData schemaUrl="#stations2022">
+		<SimpleData name="name_full">Site référence ouest-10</SimpleData>
+		<SimpleData name="echantillon">Stations non-échantillonnées</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-61.8474856335742,47.2387032000298</coordinates></Point>
   </Placemark>
   <Placemark>
-	<name>Site sous-influence ouest-49</name>
-      <Point><coordinates>-61.8429506075958,47.2377529037189</coordinates></Point>
+	<name>RfO-11</name>
+	<ExtendedData><SchemaData schemaUrl="#stations2022">
+		<SimpleData name="name_full">Site référence ouest-11</SimpleData>
+		<SimpleData name="echantillon">Stations faites</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-61.8445200000011,47.2378800000058</coordinates></Point>
   </Placemark>
   <Placemark>
-	<name>Site sous-influence ouest-50</name>
-      <Point><coordinates>-61.8430983018662,47.2378419368144</coordinates></Point>
+	<name>RfO-12</name>
+	<ExtendedData><SchemaData schemaUrl="#stations2022">
+		<SimpleData name="name_full">Site référence ouest-12</SimpleData>
+		<SimpleData name="echantillon">Stations non-échantillonnées</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-61.8471889601159,47.2386272660471</coordinates></Point>
   </Placemark>
   <Placemark>
-	<name>Site référence ouest-1</name>
-      <Point><coordinates>-61.8448409026626,47.237903633548</coordinates></Point>
+	<name>RfO-13</name>
+	<ExtendedData><SchemaData schemaUrl="#stations2022">
+		<SimpleData name="name_full">Site référence ouest-13</SimpleData>
+		<SimpleData name="echantillon">Stations non-échantillonnées</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-61.8473341003519,47.2386698294474</coordinates></Point>
   </Placemark>
   <Placemark>
-	<name>Site référence ouest-2</name>
-      <Point><coordinates>-61.8475245151568,47.238671119993</coordinates></Point>
+	<name>RfO-14</name>
+	<ExtendedData><SchemaData schemaUrl="#stations2022">
+		<SimpleData name="name_full">Site référence ouest-14</SimpleData>
+		<SimpleData name="echantillon">Stations faites</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-61.8456585640976,47.2380983090803</coordinates></Point>
   </Placemark>
   <Placemark>
-	<name>Site référence ouest-3</name>
-      <Point><coordinates>-61.8464131941583,47.2383543927779</coordinates></Point>
+	<name>RfO-15</name>
+	<ExtendedData><SchemaData schemaUrl="#stations2022">
+		<SimpleData name="name_full">Site référence ouest-15</SimpleData>
+		<SimpleData name="echantillon">Stations non-échantillonnées</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-61.8459854098979,47.2382445007423</coordinates></Point>
   </Placemark>
   <Placemark>
-	<name>Site référence ouest-4</name>
-      <Point><coordinates>-61.8476719254552,47.2387954104149</coordinates></Point>
+	<name>RfO-16</name>
+	<ExtendedData><SchemaData schemaUrl="#stations2022">
+		<SimpleData name="name_full">Site référence ouest-16</SimpleData>
+		<SimpleData name="echantillon">Stations non-échantillonnées</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-61.8484535553995,47.2390531009237</coordinates></Point>
   </Placemark>
   <Placemark>
-	<name>Site référence ouest-5</name>
-      <Point><coordinates>-61.847846595164,47.2388521903656</coordinates></Point>
+	<name>RfO-17</name>
+	<ExtendedData><SchemaData schemaUrl="#stations2022">
+		<SimpleData name="name_full">Site référence ouest-17</SimpleData>
+		<SimpleData name="echantillon">Stations non-échantillonnées</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-61.8466245501153,47.2383426861054</coordinates></Point>
   </Placemark>
   <Placemark>
-	<name>Site référence ouest-6</name>
-      <Point><coordinates>-61.8452962685178,47.238054739005</coordinates></Point>
+	<name>RfO-18</name>
+	<ExtendedData><SchemaData schemaUrl="#stations2022">
+		<SimpleData name="name_full">Site référence ouest-18</SimpleData>
+		<SimpleData name="echantillon">Stations non-échantillonnées</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-61.8479700387227,47.2388831473558</coordinates></Point>
   </Placemark>
   <Placemark>
-	<name>Site référence ouest-7</name>
-      <Point><coordinates>-61.8456425774249,47.238142898338</coordinates></Point>
+	<name>RfO-19</name>
+	<ExtendedData><SchemaData schemaUrl="#stations2022">
+		<SimpleData name="name_full">Site référence ouest-19</SimpleData>
+		<SimpleData name="echantillon">Stations non-échantillonnées</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-61.846695746642,47.2384843392182</coordinates></Point>
   </Placemark>
   <Placemark>
-	<name>Site référence ouest-8</name>
-      <Point><coordinates>-61.8459218926965,47.2382055189254</coordinates></Point>
+	<name>RfO-20</name>
+	<ExtendedData><SchemaData schemaUrl="#stations2022">
+		<SimpleData name="name_full">Site référence ouest-20</SimpleData>
+		<SimpleData name="echantillon">Stations non-échantillonnées</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-61.848813542465,47.2391364425586</coordinates></Point>
   </Placemark>
   <Placemark>
-	<name>Site référence ouest-9</name>
-      <Point><coordinates>-61.8481353725352,47.2389295431949</coordinates></Point>
+	<name>RfO-21</name>
+	<ExtendedData><SchemaData schemaUrl="#stations2022">
+		<SimpleData name="name_full">Site référence ouest-21</SimpleData>
+		<SimpleData name="echantillon">Stations non-échantillonnées</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-61.8463450394516,47.2383409647605</coordinates></Point>
   </Placemark>
   <Placemark>
-	<name>Site référence ouest-10</name>
-      <Point><coordinates>-61.847485633572,47.2387032000183</coordinates></Point>
+	<name>RfO-22</name>
+	<ExtendedData><SchemaData schemaUrl="#stations2022">
+		<SimpleData name="name_full">Site référence ouest-22</SimpleData>
+		<SimpleData name="echantillon">Stations faites</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-61.8454613663294,47.2380686433849</coordinates></Point>
   </Placemark>
   <Placemark>
-	<name>Site référence ouest-11</name>
-      <Point><coordinates>-61.8445369286644,47.2378763155912</coordinates></Point>
+	<name>RfO-23</name>
+	<ExtendedData><SchemaData schemaUrl="#stations2022">
+		<SimpleData name="name_full">Site référence ouest-23</SimpleData>
+		<SimpleData name="echantillon">Stations non-échantillonnées</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-61.8459466521126,47.2381726592697</coordinates></Point>
   </Placemark>
   <Placemark>
-	<name>Site référence ouest-12</name>
-      <Point><coordinates>-61.8471889601138,47.2386272660357</coordinates></Point>
+	<name>RfO-24</name>
+	<ExtendedData><SchemaData schemaUrl="#stations2022">
+		<SimpleData name="name_full">Site référence ouest-24</SimpleData>
+		<SimpleData name="echantillon">Stations faites</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-61.8452666530096,47.2379989022221</coordinates></Point>
   </Placemark>
   <Placemark>
-	<name>Site référence ouest-13</name>
-      <Point><coordinates>-61.8473341003497,47.238669829436</coordinates></Point>
+	<name>RfO-25</name>
+	<ExtendedData><SchemaData schemaUrl="#stations2022">
+		<SimpleData name="name_full">Site référence ouest-25</SimpleData>
+		<SimpleData name="echantillon">Stations faites</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-61.8457130058353,47.2381092400867</coordinates></Point>
   </Placemark>
   <Placemark>
-	<name>Site référence ouest-14</name>
-      <Point><coordinates>-61.8456585640954,47.2380983090689</coordinates></Point>
+	<name>RfO-26</name>
+	<ExtendedData><SchemaData schemaUrl="#stations2022">
+		<SimpleData name="name_full">Site référence ouest-26</SimpleData>
+		<SimpleData name="echantillon">Stations non-échantillonnées</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-61.8473352275874,47.2386301386298</coordinates></Point>
   </Placemark>
   <Placemark>
-	<name>Site référence ouest-15</name>
-      <Point><coordinates>-61.8459854098957,47.2382445007309</coordinates></Point>
+	<name>RfO-27</name>
+	<ExtendedData><SchemaData schemaUrl="#stations2022">
+		<SimpleData name="name_full">Site référence ouest-27</SimpleData>
+		<SimpleData name="echantillon">Stations non-échantillonnées</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-61.846023979964,47.2382785467822</coordinates></Point>
   </Placemark>
   <Placemark>
-	<name>Site référence ouest-16</name>
-      <Point><coordinates>-61.8484535553974,47.2390531009123</coordinates></Point>
+	<name>RfO-28</name>
+	<ExtendedData><SchemaData schemaUrl="#stations2022">
+		<SimpleData name="name_full">Site référence ouest-28</SimpleData>
+		<SimpleData name="echantillon">Stations faites</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-61.8446600000005,47.2378500000029</coordinates></Point>
   </Placemark>
   <Placemark>
-	<name>Site référence ouest-17</name>
-      <Point><coordinates>-61.8466245501131,47.238342686094</coordinates></Point>
+	<name>RfO-29</name>
+	<ExtendedData><SchemaData schemaUrl="#stations2022">
+		<SimpleData name="name_full">Site référence ouest-29</SimpleData>
+		<SimpleData name="echantillon">Stations non-échantillonnées</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-61.8476388101974,47.2387829181584</coordinates></Point>
   </Placemark>
   <Placemark>
-	<name>Site référence ouest-18</name>
-      <Point><coordinates>-61.8479700387206,47.2388831473444</coordinates></Point>
+	<name>RfO-30</name>
+	<ExtendedData><SchemaData schemaUrl="#stations2022">
+		<SimpleData name="name_full">Site référence ouest-30</SimpleData>
+		<SimpleData name="echantillon">Stations non-échantillonnées</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-61.8476397534272,47.2388008979143</coordinates></Point>
   </Placemark>
   <Placemark>
-	<name>Site référence ouest-19</name>
-      <Point><coordinates>-61.8466957466399,47.2384843392068</coordinates></Point>
+	<name>RfO-31</name>
+	<ExtendedData><SchemaData schemaUrl="#stations2022">
+		<SimpleData name="name_full">Site référence ouest-31</SimpleData>
+		<SimpleData name="echantillon">Stations non-échantillonnées</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-61.8466615290619,47.2384264034853</coordinates></Point>
   </Placemark>
   <Placemark>
-	<name>Site référence ouest-20</name>
-      <Point><coordinates>-61.8488135424628,47.2391364425472</coordinates></Point>
+	<name>RfO-32</name>
+	<ExtendedData><SchemaData schemaUrl="#stations2022">
+		<SimpleData name="name_full">Site référence ouest-32</SimpleData>
+		<SimpleData name="echantillon">Stations non-échantillonnées</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-61.8470192095459,47.2385464316357</coordinates></Point>
   </Placemark>
   <Placemark>
-	<name>Site référence ouest-21</name>
-      <Point><coordinates>-61.8463450394495,47.2383409647491</coordinates></Point>
+	<name>RfO-33</name>
+	<ExtendedData><SchemaData schemaUrl="#stations2022">
+		<SimpleData name="name_full">Site référence ouest-33</SimpleData>
+		<SimpleData name="echantillon">Stations non-échantillonnées</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-61.8480189101413,47.2388983346479</coordinates></Point>
   </Placemark>
   <Placemark>
-	<name>Site référence ouest-22</name>
-      <Point><coordinates>-61.8454613663273,47.2380686433734</coordinates></Point>
+	<name>RfO-34</name>
+	<ExtendedData><SchemaData schemaUrl="#stations2022">
+		<SimpleData name="name_full">Site référence ouest-34</SimpleData>
+		<SimpleData name="echantillon">Stations non-échantillonnées</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-61.8459540107224,47.2382109783956</coordinates></Point>
   </Placemark>
   <Placemark>
-	<name>Site référence ouest-23</name>
-      <Point><coordinates>-61.8459466521104,47.2381726592582</coordinates></Point>
+	<name>RfO-35</name>
+	<ExtendedData><SchemaData schemaUrl="#stations2022">
+		<SimpleData name="name_full">Site référence ouest-35</SimpleData>
+		<SimpleData name="echantillon">Stations non-échantillonnées</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-61.8461056511137,47.2381905016636</coordinates></Point>
   </Placemark>
   <Placemark>
-	<name>Site référence ouest-24</name>
-      <Point><coordinates>-61.8452666530074,47.2379989022107</coordinates></Point>
+	<name>RfO-36</name>
+	<ExtendedData><SchemaData schemaUrl="#stations2022">
+		<SimpleData name="name_full">Site référence ouest-36</SimpleData>
+		<SimpleData name="echantillon">Stations non-échantillonnées</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-61.8454179525652,47.2381081227214</coordinates></Point>
   </Placemark>
   <Placemark>
-	<name>Site référence ouest-25</name>
-      <Point><coordinates>-61.8457130058331,47.2381092400752</coordinates></Point>
+	<name>RfO-37</name>
+	<ExtendedData><SchemaData schemaUrl="#stations2022">
+		<SimpleData name="name_full">Site référence ouest-37</SimpleData>
+		<SimpleData name="echantillon">Stations non-échantillonnées</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-61.844855983331,47.2378737354417</coordinates></Point>
   </Placemark>
   <Placemark>
-	<name>Site référence ouest-26</name>
-      <Point><coordinates>-61.8473352275852,47.2386301386184</coordinates></Point>
+	<name>RfO-38</name>
+	<ExtendedData><SchemaData schemaUrl="#stations2022">
+		<SimpleData name="name_full">Site référence ouest-38</SimpleData>
+		<SimpleData name="echantillon">Stations non-échantillonnées</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-61.844713487894,47.2379447653677</coordinates></Point>
   </Placemark>
   <Placemark>
-	<name>Site référence ouest-27</name>
-      <Point><coordinates>-61.8460239799618,47.2382785467707</coordinates></Point>
+	<name>RfO-39</name>
+	<ExtendedData><SchemaData schemaUrl="#stations2022">
+		<SimpleData name="name_full">Site référence ouest-39</SimpleData>
+		<SimpleData name="echantillon">Stations non-échantillonnées</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-61.8462652440252,47.2382280298064</coordinates></Point>
   </Placemark>
   <Placemark>
-	<name>Site référence ouest-28</name>
-      <Point><coordinates>-61.8446847602317,47.2378792967914</coordinates></Point>
+	<name>RfO-40</name>
+	<ExtendedData><SchemaData schemaUrl="#stations2022">
+		<SimpleData name="name_full">Site référence ouest-40</SimpleData>
+		<SimpleData name="echantillon">Stations non-échantillonnées</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-61.847829460266,47.2388690167916</coordinates></Point>
   </Placemark>
   <Placemark>
-	<name>Site référence ouest-29</name>
-      <Point><coordinates>-61.8476388101952,47.2387829181469</coordinates></Point>
+	<name>RfO-41</name>
+	<ExtendedData><SchemaData schemaUrl="#stations2022">
+		<SimpleData name="name_full">Site référence ouest-41</SimpleData>
+		<SimpleData name="echantillon">Stations non-échantillonnées</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-61.8488446981321,47.239124399417</coordinates></Point>
   </Placemark>
   <Placemark>
-	<name>Site référence ouest-30</name>
-      <Point><coordinates>-61.847639753425,47.2388008979028</coordinates></Point>
+	<name>RfO-42</name>
+	<ExtendedData><SchemaData schemaUrl="#stations2022">
+		<SimpleData name="name_full">Site référence ouest-42</SimpleData>
+		<SimpleData name="echantillon">Stations non-échantillonnées</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-61.8461292272944,47.2382879393705</coordinates></Point>
   </Placemark>
   <Placemark>
-	<name>Site référence ouest-31</name>
-      <Point><coordinates>-61.8466615290598,47.2384264034739</coordinates></Point>
+	<name>RfO-43</name>
+	<ExtendedData><SchemaData schemaUrl="#stations2022">
+		<SimpleData name="name_full">Site référence ouest-43</SimpleData>
+		<SimpleData name="echantillon">Stations non-échantillonnées</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-61.8458911764007,47.2381417393822</coordinates></Point>
   </Placemark>
   <Placemark>
-	<name>Site référence ouest-32</name>
-      <Point><coordinates>-61.8470192095438,47.2385464316243</coordinates></Point>
+	<name>RfO-44</name>
+	<ExtendedData><SchemaData schemaUrl="#stations2022">
+		<SimpleData name="name_full">Site référence ouest-44</SimpleData>
+		<SimpleData name="echantillon">Stations non-échantillonnées</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-61.8477418654905,47.2387971931894</coordinates></Point>
   </Placemark>
   <Placemark>
-	<name>Site référence ouest-33</name>
-      <Point><coordinates>-61.8480189101391,47.2388983346365</coordinates></Point>
+	<name>RfO-45</name>
+	<ExtendedData><SchemaData schemaUrl="#stations2022">
+		<SimpleData name="name_full">Site référence ouest-45</SimpleData>
+		<SimpleData name="echantillon">Stations non-échantillonnées</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-61.8488873634896,47.2391930814895</coordinates></Point>
   </Placemark>
   <Placemark>
-	<name>Site référence ouest-34</name>
-      <Point><coordinates>-61.8459540107202,47.2382109783842</coordinates></Point>
+	<name>RfO-46</name>
+	<ExtendedData><SchemaData schemaUrl="#stations2022">
+		<SimpleData name="name_full">Site référence ouest-46</SimpleData>
+		<SimpleData name="echantillon">Stations non-échantillonnées</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-61.84508130155,47.2379288238921</coordinates></Point>
   </Placemark>
   <Placemark>
-	<name>Site référence ouest-35</name>
-      <Point><coordinates>-61.8461056511115,47.2381905016521</coordinates></Point>
+	<name>RfO-47</name>
+	<ExtendedData><SchemaData schemaUrl="#stations2022">
+		<SimpleData name="name_full">Site référence ouest-47</SimpleData>
+		<SimpleData name="echantillon">Stations non-échantillonnées</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-61.8451303085175,47.2380002180767</coordinates></Point>
   </Placemark>
   <Placemark>
-	<name>Site référence ouest-36</name>
-      <Point><coordinates>-61.8454179525631,47.23810812271</coordinates></Point>
+	<name>RfO-48</name>
+	<ExtendedData><SchemaData schemaUrl="#stations2022">
+		<SimpleData name="name_full">Site référence ouest-48</SimpleData>
+		<SimpleData name="echantillon">Stations non-échantillonnées</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-61.8454707631379,47.2381175874577</coordinates></Point>
   </Placemark>
   <Placemark>
-	<name>Site référence ouest-37</name>
-      <Point><coordinates>-61.8448559833289,47.2378737354303</coordinates></Point>
+	<name>RfO-49</name>
+	<ExtendedData><SchemaData schemaUrl="#stations2022">
+		<SimpleData name="name_full">Site référence ouest-49</SimpleData>
+		<SimpleData name="echantillon">Stations non-échantillonnées</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-61.8462568185179,47.2383419578407</coordinates></Point>
   </Placemark>
   <Placemark>
-	<name>Site référence ouest-38</name>
-      <Point><coordinates>-61.8447134878918,47.2379447653563</coordinates></Point>
+	<name>RfO-50</name>
+	<ExtendedData><SchemaData schemaUrl="#stations2022">
+		<SimpleData name="name_full">Site référence ouest-50</SimpleData>
+		<SimpleData name="echantillon">Stations non-échantillonnées</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-61.8466430460107,47.2384626585358</coordinates></Point>
   </Placemark>
   <Placemark>
-	<name>Site référence ouest-39</name>
-      <Point><coordinates>-61.8462652440231,47.2382280297949</coordinates></Point>
+	<name>RfL-01</name>
+	<ExtendedData><SchemaData schemaUrl="#stations2022">
+		<SimpleData name="name_full">Site référence large-1</SimpleData>
+		<SimpleData name="echantillon">Stations faites</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-61.8364645857907,47.2382351667016</coordinates></Point>
   </Placemark>
   <Placemark>
-	<name>Site référence ouest-40</name>
-      <Point><coordinates>-61.8478294602639,47.2388690167802</coordinates></Point>
+	<name>RfL-02</name>
+	<ExtendedData><SchemaData schemaUrl="#stations2022">
+		<SimpleData name="name_full">Site référence large-2</SimpleData>
+		<SimpleData name="echantillon">Stations faites</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-61.8359490499234,47.2384827813123</coordinates></Point>
   </Placemark>
   <Placemark>
-	<name>Site référence ouest-41</name>
-      <Point><coordinates>-61.8488446981299,47.2391243994056</coordinates></Point>
+	<name>RfL-03</name>
+	<ExtendedData><SchemaData schemaUrl="#stations2022">
+		<SimpleData name="name_full">Site référence large-3</SimpleData>
+		<SimpleData name="echantillon">Stations faites</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-61.8371605092932,47.2379324864238</coordinates></Point>
   </Placemark>
   <Placemark>
-	<name>Site référence ouest-42</name>
-      <Point><coordinates>-61.8461292272923,47.2382879393591</coordinates></Point>
+	<name>RfL-04</name>
+	<ExtendedData><SchemaData schemaUrl="#stations2022">
+		<SimpleData name="name_full">Site référence large-4</SimpleData>
+		<SimpleData name="echantillon">Stations non-échantillonnées</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-61.837938584633,47.2378855822027</coordinates></Point>
   </Placemark>
   <Placemark>
-	<name>Site référence ouest-43</name>
-      <Point><coordinates>-61.8458911763986,47.2381417393707</coordinates></Point>
+	<name>RfL-05</name>
+	<ExtendedData><SchemaData schemaUrl="#stations2022">
+		<SimpleData name="name_full">Site référence large-5</SimpleData>
+		<SimpleData name="echantillon">Stations impossibles</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-61.8402743016549,47.2378213494534</coordinates></Point>
   </Placemark>
   <Placemark>
-	<name>Site référence ouest-44</name>
-      <Point><coordinates>-61.8477418654884,47.238797193178</coordinates></Point>
+	<name>RfL-06</name>
+	<ExtendedData><SchemaData schemaUrl="#stations2022">
+		<SimpleData name="name_full">Site référence large-6</SimpleData>
+		<SimpleData name="echantillon">Stations non-échantillonnées</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-61.8407304711616,47.2381929843818</coordinates></Point>
   </Placemark>
   <Placemark>
-	<name>Site référence ouest-45</name>
-      <Point><coordinates>-61.8488873634874,47.239193081478</coordinates></Point>
+	<name>RfL-07</name>
+	<ExtendedData><SchemaData schemaUrl="#stations2022">
+		<SimpleData name="name_full">Site référence large-7</SimpleData>
+		<SimpleData name="echantillon">Stations faites</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-61.8387329463279,47.2378795202192</coordinates></Point>
   </Placemark>
   <Placemark>
-	<name>Site référence ouest-46</name>
-      <Point><coordinates>-61.8450813015479,47.2379288238807</coordinates></Point>
+	<name>RfL-08</name>
+	<ExtendedData><SchemaData schemaUrl="#stations2022">
+		<SimpleData name="name_full">Site référence large-8</SimpleData>
+		<SimpleData name="echantillon">Stations faites</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-61.8404233250301,47.2380466961372</coordinates></Point>
   </Placemark>
   <Placemark>
-	<name>Site référence ouest-47</name>
-      <Point><coordinates>-61.8451303085154,47.2380002180653</coordinates></Point>
+	<name>RfL-09</name>
+	<ExtendedData><SchemaData schemaUrl="#stations2022">
+		<SimpleData name="name_full">Site référence large-9</SimpleData>
+		<SimpleData name="echantillon">Stations faites</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-61.8397787132118,47.2379458943919</coordinates></Point>
   </Placemark>
   <Placemark>
-	<name>Site référence ouest-48</name>
-      <Point><coordinates>-61.8454707631358,47.2381175874463</coordinates></Point>
+	<name>RfL-10</name>
+	<ExtendedData><SchemaData schemaUrl="#stations2022">
+		<SimpleData name="name_full">Site référence large-10</SimpleData>
+		<SimpleData name="echantillon">Stations non-échantillonnées</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-61.8408644662565,47.2381959698954</coordinates></Point>
   </Placemark>
   <Placemark>
-	<name>Site référence ouest-49</name>
-      <Point><coordinates>-61.8462568185157,47.2383419578293</coordinates></Point>
+	<name>RfL-11</name>
+	<ExtendedData><SchemaData schemaUrl="#stations2022">
+		<SimpleData name="name_full">Site référence large-11</SimpleData>
+		<SimpleData name="echantillon">Stations faites</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-61.838794996919,47.2379079662094</coordinates></Point>
   </Placemark>
   <Placemark>
-	<name>Site référence ouest-50</name>
-      <Point><coordinates>-61.8466430460086,47.2384626585244</coordinates></Point>
+	<name>RfL-12</name>
+	<ExtendedData><SchemaData schemaUrl="#stations2022">
+		<SimpleData name="name_full">Site référence large-12</SimpleData>
+		<SimpleData name="echantillon">Stations faites</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-61.8400338770279,47.2380431899472</coordinates></Point>
   </Placemark>
   <Placemark>
-	<name>Site référence large-1</name>
-      <Point><coordinates>-61.8364645857886,47.2382351666901</coordinates></Point>
+	<name>RfL-13</name>
+	<ExtendedData><SchemaData schemaUrl="#stations2022">
+		<SimpleData name="name_full">Site référence large-13</SimpleData>
+		<SimpleData name="echantillon">Stations faites</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-61.8365748987459,47.238083225324</coordinates></Point>
   </Placemark>
   <Placemark>
-	<name>Site référence large-2</name>
-      <Point><coordinates>-61.8359490499212,47.2384827813009</coordinates></Point>
+	<name>RfL-14</name>
+	<ExtendedData><SchemaData schemaUrl="#stations2022">
+		<SimpleData name="name_full">Site référence large-14</SimpleData>
+		<SimpleData name="echantillon">Stations faites</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-61.8394816466077,47.2379847240887</coordinates></Point>
   </Placemark>
   <Placemark>
-	<name>Site référence large-3</name>
-      <Point><coordinates>-61.837160509291,47.2379324864123</coordinates></Point>
+	<name>RfL-15</name>
+	<ExtendedData><SchemaData schemaUrl="#stations2022">
+		<SimpleData name="name_full">Site référence large-15</SimpleData>
+		<SimpleData name="echantillon">Stations faites</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-61.8366094695176,47.2381748033765</coordinates></Point>
   </Placemark>
   <Placemark>
-	<name>Site référence large-4</name>
-      <Point><coordinates>-61.8379385846309,47.2378855821913</coordinates></Point>
+	<name>RfL-16</name>
+	<ExtendedData><SchemaData schemaUrl="#stations2022">
+		<SimpleData name="name_full">Site référence large-16</SimpleData>
+		<SimpleData name="echantillon">Stations impossibles</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-61.8364431596973,47.2380992798381</coordinates></Point>
   </Placemark>
   <Placemark>
-	<name>Site référence large-5</name>
-      <Point><coordinates>-61.8402743016527,47.237821349442</coordinates></Point>
+	<name>RfL-17</name>
+	<ExtendedData><SchemaData schemaUrl="#stations2022">
+		<SimpleData name="name_full">Site référence large-17</SimpleData>
+		<SimpleData name="echantillon">Stations faites</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-61.8358019877422,47.2387969911651</coordinates></Point>
   </Placemark>
   <Placemark>
-	<name>Site référence large-6</name>
-      <Point><coordinates>-61.8407304711594,47.2381929843703</coordinates></Point>
+	<name>RfL-18</name>
+	<ExtendedData><SchemaData schemaUrl="#stations2022">
+		<SimpleData name="name_full">Site référence large-18</SimpleData>
+		<SimpleData name="echantillon">Stations faites</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-61.8364390007488,47.2380494382029</coordinates></Point>
   </Placemark>
   <Placemark>
-	<name>Site référence large-7</name>
-      <Point><coordinates>-61.8387329463258,47.2378795202078</coordinates></Point>
+	<name>RfL-19</name>
+	<ExtendedData><SchemaData schemaUrl="#stations2022">
+		<SimpleData name="name_full">Site référence large-19</SimpleData>
+		<SimpleData name="echantillon">Stations faites</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-61.8411563637725,47.2382859233437</coordinates></Point>
   </Placemark>
   <Placemark>
-	<name>Site référence large-8</name>
-      <Point><coordinates>-61.840423325028,47.2380466961258</coordinates></Point>
+	<name>RfL-20</name>
+	<ExtendedData><SchemaData schemaUrl="#stations2022">
+		<SimpleData name="name_full">Site référence large-20</SimpleData>
+		<SimpleData name="echantillon">Stations faites</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-61.8398080960553,47.2378107859802</coordinates></Point>
   </Placemark>
   <Placemark>
-	<name>Site référence large-9</name>
-      <Point><coordinates>-61.8397787132097,47.2379458943805</coordinates></Point>
+	<name>RfL-21</name>
+	<ExtendedData><SchemaData schemaUrl="#stations2022">
+		<SimpleData name="name_full">Site référence large-21</SimpleData>
+		<SimpleData name="echantillon">Stations faites</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-61.836069091299,47.2382138611331</coordinates></Point>
   </Placemark>
   <Placemark>
-	<name>Site référence large-10</name>
-      <Point><coordinates>-61.8408644662544,47.238195969884</coordinates></Point>
+	<name>RfL-22</name>
+	<ExtendedData><SchemaData schemaUrl="#stations2022">
+		<SimpleData name="name_full">Site référence large-22</SimpleData>
+		<SimpleData name="echantillon">Stations faites</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-61.8357657732276,47.238474012922</coordinates></Point>
   </Placemark>
   <Placemark>
-	<name>Site référence large-11</name>
-      <Point><coordinates>-61.8387949969168,47.237907966198</coordinates></Point>
+	<name>RfL-23</name>
+	<ExtendedData><SchemaData schemaUrl="#stations2022">
+		<SimpleData name="name_full">Site référence large-23</SimpleData>
+		<SimpleData name="echantillon">Stations faites</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-61.8398972697253,47.2378134125518</coordinates></Point>
   </Placemark>
   <Placemark>
-	<name>Site référence large-12</name>
-      <Point><coordinates>-61.8400338770257,47.2380431899358</coordinates></Point>
+	<name>RfL-24</name>
+	<ExtendedData><SchemaData schemaUrl="#stations2022">
+		<SimpleData name="name_full">Site référence large-24</SimpleData>
+		<SimpleData name="echantillon">Stations faites</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-61.8356798550418,47.2386100672186</coordinates></Point>
   </Placemark>
   <Placemark>
-	<name>Site référence large-13</name>
-      <Point><coordinates>-61.8365748987437,47.2380832253125</coordinates></Point>
+	<name>RfL-25</name>
+	<ExtendedData><SchemaData schemaUrl="#stations2022">
+		<SimpleData name="name_full">Site référence large-25</SimpleData>
+		<SimpleData name="echantillon">Stations faites</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-61.839120387057,47.2378945658221</coordinates></Point>
   </Placemark>
   <Placemark>
-	<name>Site référence large-14</name>
-      <Point><coordinates>-61.8394816466055,47.2379847240773</coordinates></Point>
+	<name>RfL-26</name>
+	<ExtendedData><SchemaData schemaUrl="#stations2022">
+		<SimpleData name="name_full">Site référence large-26</SimpleData>
+		<SimpleData name="echantillon">Stations faites</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-61.8368683168754,47.2382223599335</coordinates></Point>
   </Placemark>
   <Placemark>
-	<name>Site référence large-15</name>
-      <Point><coordinates>-61.8366094695155,47.2381748033651</coordinates></Point>
+	<name>RfL-27</name>
+	<ExtendedData><SchemaData schemaUrl="#stations2022">
+		<SimpleData name="name_full">Site référence large-27</SimpleData>
+		<SimpleData name="echantillon">Stations faites</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-61.8368290337571,47.2380741088539</coordinates></Point>
   </Placemark>
   <Placemark>
-	<name>Site référence large-16</name>
-      <Point><coordinates>-61.8364431596952,47.2380992798267</coordinates></Point>
+	<name>RfL-28</name>
+	<ExtendedData><SchemaData schemaUrl="#stations2022">
+		<SimpleData name="name_full">Site référence large-28</SimpleData>
+		<SimpleData name="echantillon">Stations impossibles</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-61.8391678611691,47.2378900310177</coordinates></Point>
   </Placemark>
   <Placemark>
-	<name>Site référence large-17</name>
-      <Point><coordinates>-61.83580198774,47.2387969911537</coordinates></Point>
+	<name>RfL-29</name>
+	<ExtendedData><SchemaData schemaUrl="#stations2022">
+		<SimpleData name="name_full">Site référence large-29</SimpleData>
+		<SimpleData name="echantillon">Stations faites</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-61.8390343946633,47.2378061660189</coordinates></Point>
   </Placemark>
   <Placemark>
-	<name>Site référence large-18</name>
-      <Point><coordinates>-61.8364390007466,47.2380494381914</coordinates></Point>
+	<name>RfL-30</name>
+	<ExtendedData><SchemaData schemaUrl="#stations2022">
+		<SimpleData name="name_full">Site référence large-30</SimpleData>
+		<SimpleData name="echantillon">Stations faites</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-61.8384744751137,47.2380373774423</coordinates></Point>
   </Placemark>
   <Placemark>
-	<name>Site référence large-19</name>
-      <Point><coordinates>-61.8411563637703,47.2382859233323</coordinates></Point>
+	<name>RfL-31</name>
+	<ExtendedData><SchemaData schemaUrl="#stations2022">
+		<SimpleData name="name_full">Site référence large-31</SimpleData>
+		<SimpleData name="echantillon">Stations faites</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-61.8385105981531,47.2379501815716</coordinates></Point>
   </Placemark>
   <Placemark>
-	<name>Site référence large-20</name>
-      <Point><coordinates>-61.8398080960532,47.2378107859688</coordinates></Point>
+	<name>RfL-32</name>
+	<ExtendedData><SchemaData schemaUrl="#stations2022">
+		<SimpleData name="name_full">Site référence large-32</SimpleData>
+		<SimpleData name="echantillon">Stations faites</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-61.8402468548009,47.2378549102547</coordinates></Point>
   </Placemark>
   <Placemark>
-	<name>Site référence large-21</name>
-      <Point><coordinates>-61.8360690912969,47.2382138611217</coordinates></Point>
+	<name>RfL-33</name>
+	<ExtendedData><SchemaData schemaUrl="#stations2022">
+		<SimpleData name="name_full">Site référence large-33</SimpleData>
+		<SimpleData name="echantillon">Stations faites</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-61.840000318586,47.2378244147722</coordinates></Point>
   </Placemark>
   <Placemark>
-	<name>Site référence large-22</name>
-      <Point><coordinates>-61.8357657732254,47.2384740129106</coordinates></Point>
+	<name>RfL-34</name>
+	<ExtendedData><SchemaData schemaUrl="#stations2022">
+		<SimpleData name="name_full">Site référence large-34</SimpleData>
+		<SimpleData name="echantillon">Stations non-échantillonnées</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-61.8368244123485,47.2381629175048</coordinates></Point>
   </Placemark>
   <Placemark>
-	<name>Site référence large-23</name>
-      <Point><coordinates>-61.8398972697232,47.2378134125404</coordinates></Point>
+	<name>RfL-35</name>
+	<ExtendedData><SchemaData schemaUrl="#stations2022">
+		<SimpleData name="name_full">Site référence large-35</SimpleData>
+		<SimpleData name="echantillon">Stations non-échantillonnées</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-61.8374942720196,47.2380819179476</coordinates></Point>
   </Placemark>
   <Placemark>
-	<name>Site référence large-24</name>
-      <Point><coordinates>-61.8356798550397,47.2386100672072</coordinates></Point>
+	<name>RfL-36</name>
+	<ExtendedData><SchemaData schemaUrl="#stations2022">
+		<SimpleData name="name_full">Site référence large-36</SimpleData>
+		<SimpleData name="echantillon">Stations non-échantillonnées</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-61.8397204256139,47.2378148252657</coordinates></Point>
   </Placemark>
   <Placemark>
-	<name>Site référence large-25</name>
-      <Point><coordinates>-61.8391203870548,47.2378945658107</coordinates></Point>
+	<name>RfL-37</name>
+	<ExtendedData><SchemaData schemaUrl="#stations2022">
+		<SimpleData name="name_full">Site référence large-37</SimpleData>
+		<SimpleData name="echantillon">Stations non-échantillonnées</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-61.8394441726671,47.2379147075237</coordinates></Point>
   </Placemark>
   <Placemark>
-	<name>Site référence large-26</name>
-      <Point><coordinates>-61.8368683168733,47.238222359922</coordinates></Point>
-  </Placemark>
-  <Placemark>
-	<name>Site référence large-27</name>
-      <Point><coordinates>-61.8368290337549,47.2380741088425</coordinates></Point>
-  </Placemark>
-  <Placemark>
-	<name>Site référence large-28</name>
-      <Point><coordinates>-61.8391678611669,47.2378900310063</coordinates></Point>
-  </Placemark>
-  <Placemark>
-	<name>Site référence large-29</name>
-      <Point><coordinates>-61.8390343946611,47.2378061660075</coordinates></Point>
-  </Placemark>
-  <Placemark>
-	<name>Site référence large-30</name>
-      <Point><coordinates>-61.8384744751116,47.2380373774309</coordinates></Point>
-  </Placemark>
-  <Placemark>
-	<name>Site référence large-31</name>
-      <Point><coordinates>-61.8385105981509,47.2379501815602</coordinates></Point>
-  </Placemark>
-  <Placemark>
-	<name>Site référence large-32</name>
-      <Point><coordinates>-61.8402468547987,47.2378549102433</coordinates></Point>
-  </Placemark>
-  <Placemark>
-	<name>Site référence large-33</name>
-      <Point><coordinates>-61.8400003185839,47.2378244147608</coordinates></Point>
-  </Placemark>
-  <Placemark>
-	<name>Site référence large-34</name>
-      <Point><coordinates>-61.8368244123464,47.2381629174933</coordinates></Point>
-  </Placemark>
-  <Placemark>
-	<name>Site référence large-35</name>
-      <Point><coordinates>-61.8374942720175,47.2380819179362</coordinates></Point>
-  </Placemark>
-  <Placemark>
-	<name>Site référence large-36</name>
-      <Point><coordinates>-61.8397204256117,47.2378148252543</coordinates></Point>
-  </Placemark>
-  <Placemark>
-	<name>Site référence large-37</name>
-      <Point><coordinates>-61.839444172665,47.2379147075123</coordinates></Point>
-  </Placemark>
-  <Placemark>
-	<name>Site référence large-38</name>
-      <Point><coordinates>-61.8406716279566,47.2381689691666</coordinates></Point>
-  </Placemark>
-  <Placemark>
-	<name>Site référence large-39</name>
-      <Point><coordinates>-61.8397224860783,47.2378413742611</coordinates></Point>
-  </Placemark>
-  <Placemark>
-	<name>Site référence large-40</name>
-      <Point><coordinates>-61.8372123467295,47.2381582201626</coordinates></Point>
-  </Placemark>
-  <Placemark>
-	<name>Site référence large-41</name>
-      <Point><coordinates>-61.8409308390471,47.2381366576114</coordinates></Point>
-  </Placemark>
-  <Placemark>
-	<name>Site référence large-42</name>
-      <Point><coordinates>-61.8378484805091,47.2378635627168</coordinates></Point>
-  </Placemark>
-  <Placemark>
-	<name>Site référence large-43</name>
-      <Point><coordinates>-61.8372330053925,47.2380266969734</coordinates></Point>
-  </Placemark>
-  <Placemark>
-	<name>Site référence large-44</name>
-      <Point><coordinates>-61.8395982157284,47.2377145578447</coordinates></Point>
-  </Placemark>
-  <Placemark>
-	<name>Site référence large-45</name>
-      <Point><coordinates>-61.8357390767043,47.2388022662386</coordinates></Point>
-  </Placemark>
-  <Placemark>
-	<name>Site référence large-46</name>
-      <Point><coordinates>-61.8361036117025,47.2382113491301</coordinates></Point>
-  </Placemark>
-  <Placemark>
-	<name>Site référence large-47</name>
-      <Point><coordinates>-61.8362199302675,47.238484161637</coordinates></Point>
-  </Placemark>
-  <Placemark>
-	<name>Site référence large-48</name>
-      <Point><coordinates>-61.8398472512121,47.237737681572</coordinates></Point>
-  </Placemark>
-  <Placemark>
-	<name>Site référence large-49</name>
-      <Point><coordinates>-61.8357421821435,47.2386367792469</coordinates></Point>
-  </Placemark>
-  <Placemark>
-	<name>Site référence large-50</name>
-      <Point><coordinates>-61.8357722488688,47.2384138575901</coordinates></Point>
+	<name>RfL-38</name>
+	<ExtendedData><SchemaData schemaUrl="#stations2022">
+		<SimpleData name="name_full">Site référence large-38</SimpleData>
+		<SimpleData name="echantillon">Stations non-échantillonnées</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-61.8406716279587,47.238168969178</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>RfL-39</name>
+	<ExtendedData><SchemaData schemaUrl="#stations2022">
+		<SimpleData name="name_full">Site référence large-39</SimpleData>
+		<SimpleData name="echantillon">Stations non-échantillonnées</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-61.8397224860805,47.2378413742725</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>RfL-40</name>
+	<ExtendedData><SchemaData schemaUrl="#stations2022">
+		<SimpleData name="name_full">Site référence large-40</SimpleData>
+		<SimpleData name="echantillon">Stations non-échantillonnées</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-61.8372123467316,47.238158220174</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>RfL-41</name>
+	<ExtendedData><SchemaData schemaUrl="#stations2022">
+		<SimpleData name="name_full">Site référence large-41</SimpleData>
+		<SimpleData name="echantillon">Stations non-échantillonnées</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-61.8409308390492,47.2381366576228</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>RfL-42</name>
+	<ExtendedData><SchemaData schemaUrl="#stations2022">
+		<SimpleData name="name_full">Site référence large-42</SimpleData>
+		<SimpleData name="echantillon">Stations non-échantillonnées</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-61.8378484805113,47.2378635627282</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>RfL-43</name>
+	<ExtendedData><SchemaData schemaUrl="#stations2022">
+		<SimpleData name="name_full">Site référence large-43</SimpleData>
+		<SimpleData name="echantillon">Stations non-échantillonnées</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-61.8372330053947,47.2380266969847</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>RfL-44</name>
+	<ExtendedData><SchemaData schemaUrl="#stations2022">
+		<SimpleData name="name_full">Site référence large-44</SimpleData>
+		<SimpleData name="echantillon">Stations non-échantillonnées</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-61.8395982157305,47.2377145578562</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>RfL-45</name>
+	<ExtendedData><SchemaData schemaUrl="#stations2022">
+		<SimpleData name="name_full">Site référence large-45</SimpleData>
+		<SimpleData name="echantillon">Stations non-échantillonnées</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-61.8357390767064,47.2388022662501</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>RfL-46</name>
+	<ExtendedData><SchemaData schemaUrl="#stations2022">
+		<SimpleData name="name_full">Site référence large-46</SimpleData>
+		<SimpleData name="echantillon">Stations non-échantillonnées</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-61.8361036117046,47.2382113491415</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>RfL-47</name>
+	<ExtendedData><SchemaData schemaUrl="#stations2022">
+		<SimpleData name="name_full">Site référence large-47</SimpleData>
+		<SimpleData name="echantillon">Stations non-échantillonnées</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-61.8362199302696,47.2384841616484</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>RfL-48</name>
+	<ExtendedData><SchemaData schemaUrl="#stations2022">
+		<SimpleData name="name_full">Site référence large-48</SimpleData>
+		<SimpleData name="echantillon">Stations non-échantillonnées</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-61.8398472512142,47.2377376815834</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>RfL-49</name>
+	<ExtendedData><SchemaData schemaUrl="#stations2022">
+		<SimpleData name="name_full">Site référence large-49</SimpleData>
+		<SimpleData name="echantillon">Stations non-échantillonnées</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-61.8357421821456,47.2386367792583</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>RfL-50</name>
+	<ExtendedData><SchemaData schemaUrl="#stations2022">
+		<SimpleData name="name_full">Site référence large-50</SimpleData>
+		<SimpleData name="echantillon">Stations non-échantillonnées</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-61.8357722488709,47.2384138576015</coordinates></Point>
   </Placemark>
 </Folder>
 </Document></kml>
