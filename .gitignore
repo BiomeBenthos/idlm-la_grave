@@ -47,3 +47,4 @@ data/data-raw/
 # delete
 clean/
 data-backup
+/.quarto/

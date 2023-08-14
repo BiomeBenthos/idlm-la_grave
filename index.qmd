@@ -1,0 +1,40 @@
+
+```{r}
+#| echo: false
+#| column: screen
+#| fig.height: 10
+
+library(mapview)
+
+zones <- sf::st_read("data/data-format/zones2022.geojson", quiet = TRUE)
+
+# Sampling points
+dat <- read.csv("data/lagrave_data.csv",
+                na.strings = c("NA", ""))
+dat[!is.na(dat$event_datetime), "status"] <- "Done"
+dat[is.na(dat$status), "status"] <- "Todo"
+
+# Mapview
+## Convert stations data to sf object
+dat <- sf::st_as_sf(dat, 
+                    coords = c("decimal_longitude",
+                               "decimal_latitude"),
+                    crs = "EPSG:4326",
+                    remove = FALSE)
+
+## Make map
+map <- mapview(dat,
+               zcol = "status",
+               label = "station_id",
+               col.regions = c("black", "white"),
+               alpha.regions = 0.7,
+               popup = leafpop::popupTable(dat[,c("station_id",
+                                                  "decimal_longitude",
+                                                  "decimal_latitude",
+                                                  "event_date",
+                                                  "nbr_especes")])) + 
+      zones
+
+map
+
+```
