@@ -41,10 +41,11 @@ vignettes/*.pdf
 # iOS
 .DS_Store
 
-data/data-raw/
+data/data_collected/
 
 
 # delete
 clean/
 data-backup
 /.quarto/
+
