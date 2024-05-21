@@ -1,0 +1,32 @@
+```{r}
+#| echo: false
+#| column: screen
+#| fig.height: 14
+
+library(mapview)
+library(leafem)
+
+zones <- sf::st_read("data/data-format/zones2022.geojson", quiet = TRUE)
+
+# Sampling points
+dat <- read.csv2("data/Stations_lagrave_2022.csv",
+                 na.strings = c("NA", ""))
+
+dat[dat$X > 0, "X"] <- dat[dat$X > 0, "X"] * -1
+
+# Mapview
+## Convert stations data to sf object
+dat <- sf::st_as_sf(dat, 
+                    coords = c("X",
+                               "Y"),
+                    crs = "EPSG:4326",
+                    remove = FALSE)
+
+# Make map
+map <- mapview(dat,
+               label = "name") +
+       zones
+
+map
+
+```

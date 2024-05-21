@@ -7,6 +7,8 @@ website:
     left:
       - href: index.qmd
         text: Échantillonnage La Grave
+      - href: stations_2022.qmd
+        text: Stations 2022
 
 format:
   html:

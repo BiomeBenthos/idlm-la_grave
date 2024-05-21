@@ -2,17 +2,160 @@
 ```{r}
 #| echo: false
 #| column: screen
-#| fig.height: 10
+#| fig.height: 14
 
 library(mapview)
+library(leafem)
 
 zones <- sf::st_read("data/data-format/zones2022.geojson", quiet = TRUE)
+rive_est <- sf::st_read("data/data-format/Ligne de rive_0.5m_Est_2023.gpx", layer = "tracks", quiet = TRUE)
+rive_ouest <- sf::st_read("data/data-format/Ligne de rive_0.5m_Ouest_2023.gpx", layer = "tracks", quiet = TRUE)
 
 # Sampling points
 dat <- read.csv("data/lagrave_data.csv",
                 na.strings = c("NA", ""))
-dat[!is.na(dat$event_datetime), "status"] <- "Done"
+dat[!is.na(dat$event_date), "status"] <- "Done"
 dat[is.na(dat$status), "status"] <- "Todo"
+
+dat[dat$site_id == "SiL" & dat$creusage_method == "un_quart", "creusage_method"] <- "benne"
+#gab <- read.csv("data/lagrave_gab.csv")
+
+dat[dat$station_id %in% "Re-23", c("decimal_longitude", "decimal_latitude")] <- c(-61.83696, 47.23708)
+dat[dat$station_id %in% "Re-38", c("decimal_longitude", "decimal_latitude")] <- c(-61.83514, 47.23773)
+dat[dat$station_id %in% "SiL-31", c("decimal_latitude", "decimal_longitude")] <- c(47.23716, -61.83760)
+dat[dat$station_id %in% "SiL-32", c("decimal_latitude", "decimal_longitude")] <- c(47.23724, -61.84120)
+dat[dat$station_id %in% "SiL-34", c("decimal_latitude", "decimal_longitude")] <- c(47.23731, -61.83627)
+dat[dat$station_id %in% "SiL-36", c("decimal_latitude", "decimal_longitude")] <- c(47.23730, -61.83845)
+dat[dat$station_id %in% "SiL-37", c("decimal_latitude", "decimal_longitude")] <- c(47.23717, -61.83779)
+dat[dat$station_id %in% "SiL-39", c("decimal_latitude", "decimal_longitude")] <- c(47.23732, -61.83767)
+dat[dat$station_id %in% "SiL-40", c("decimal_latitude", "decimal_longitude")] <- c(47.23750, -61.83652)
+dat[dat$station_id %in% "SiL-42", c("decimal_latitude", "decimal_longitude")] <- c(47.23724, -61.83744)
+dat[dat$station_id %in% "SiL-44", c("decimal_latitude", "decimal_longitude")] <- c(47.23751, -61.83663)
+dat[dat$station_id %in% "SiL-45", c("decimal_latitude", "decimal_longitude")] <- c(47.23726, -61.83824)
+dat[dat$station_id %in% "SiL-46", c("decimal_latitude", "decimal_longitude")] <- c(47.23743, -61.84165)
+dat[dat$station_id %in% "RfL-40", c("decimal_latitude", "decimal_longitude")] <- c(47.23809, -61.84074)
+dat[dat$station_id %in% "RfL-47", c("decimal_latitude", "decimal_longitude")] <- c(47.23788, -61.84010)
+dat[dat$station_id %in% "RfL-48", c("decimal_latitude", "decimal_longitude")] <- c(47.23798, -61.84001)
+dat[dat$station_id %in% "RfL-49", c("decimal_latitude", "decimal_longitude")] <- c(47.23793, -61.84030)
+dat[dat$station_id %in% "RfO-37", c("decimal_latitude", "decimal_longitude")] <- c(47.23900, -61.84844)
+dat[dat$station_id %in% "RfO-32", c("decimal_latitude", "decimal_longitude")] <- c(47.23894, -61.84820)
+dat[dat$station_id %in% "RfO-43", c("decimal_latitude", "decimal_longitude")] <- c(47.23886, -61.84795)
+dat[dat$station_id %in% "RfO-46", c("decimal_latitude", "decimal_longitude")] <- c(47.23878, -61.84782)
+dat[dat$station_id %in% "RfO-42", c("decimal_latitude", "decimal_longitude")] <- c(47.23839, -61.84661)
+dat[dat$station_id %in% "RfO-36", c("decimal_latitude", "decimal_longitude")] <- c(47.23832, -61.84657)
+dat[dat$station_id %in% "Re-5B", c("decimal_latitude", "decimal_longitude")] <- c(47.23693, -61.83887)
+dat[dat$station_id %in% "Re-11B", c("decimal_latitude", "decimal_longitude")] <- c(47.23697, -61.83771)
+dat[dat$station_id %in% "SiO-32", c("decimal_latitude", "decimal_longitude")] <- c(47.23776, -61.84292)
+dat[dat$station_id %in% "SiO-40", c("decimal_latitude", "decimal_longitude")] <- c(47.23757, -61.84250)
+dat[dat$station_id %in% "SiO-36", c("decimal_latitude", "decimal_longitude")] <- c(47.23752, -61.84230)
+dat[dat$station_id %in% "RfO-12", c("decimal_latitude", "decimal_longitude")] <- c(47.23918, -61.84903)
+
+# Convert deg_min_dec in deg_dec
+dat[dat$station_id == "SiO-7", "decimal_latitude"] <- "47.14.254"
+dat[dat$station_id == "SiO-7", "decimal_longitude"] <- "61.50.556"
+dat[grep("\\.[0-9][0-9]\\.", dat$decimal_latitude), "decimal_latitude"] <- gsub(
+  "^(\\d+)\\.",
+  "\\1 ",
+  grep("\\.[0-9][0-9]\\.", dat$decimal_latitude, value = TRUE)
+) |>
+  measurements::conv_unit(
+    x = _,
+    from = "deg_dec_min",
+    to = "dec_deg"
+  )
+dat[grep("\\.[0-9][0-9]\\.", dat$decimal_longitude), "decimal_longitude"] <- gsub(
+  "^(\\d+)\\.",
+  "\\1 ",
+  grep("\\.[0-9][0-9]\\.", dat$decimal_longitude, value = TRUE)
+) |>
+  measurements::conv_unit(
+    x = _,
+    from = "deg_dec_min",
+    to = "dec_deg"
+  )
+dat[grep("-", dat$decimal_longitude, invert = TRUE), "decimal_longitude"] <- paste0(
+  "-", grep("-", dat$decimal_longitude, invert = TRUE, value = TRUE)
+)
+
+# Flag benthos
+dat[grep("PAS VRAIMENT DE BENTHOS", dat$comments), "comments"] <- "PAS DE BENTHOS ; dans cailloux recharge"
+dat[grep("PAS DE BENTHOS", dat$comments), "status"] <- "Aucun benthos"
+dat[grep("Pas de benthos", dat$comments), "status"] <- "Aucun benthos"
+dat[grep("Pas de benthoe", dat$comments), "status"] <- "Aucun benthos"
+
+# Update "equipe"
+dat$equipe <- "sonia_page | gabriele_deslongchamps | louis_guyon"
+
+# Type de pots
+type_pots <- c("type_pots_500um___1l", "type_pots_500um___500ml", "type_pots_500um___250ml", "type_pots_500um___125ml")
+nbr_pots <- c("nbr_1l", "nbr_500ml", "nbr_250ml", "nbr_125ml")
+dat[,"pots_biodiv"] <- sapply(1:nrow(dat), function(x) {
+  pots <- type_pots[which(dat[x, type_pots] == 1)] |>
+            gsub(pattern = "type_pots_500um___",
+                 replacement = "",
+                 x = _)
+  nbr <- dat[x,nbr_pots][which(!is.na(dat[x, nbr_pots]))]
+
+  if(length(nbr) == 0 & length(pots) == 0) {return(NA)}
+  paste0(nbr, "x", pots, collapse = " | ")
+})
+
+dat <- dat[, !colnames(dat) %in% c(type_pots, nbr_pots)]
+
+dat[dat$terrain_complete == 0 & dat$event_date %in% "2023-08-25", "status"] <- "Pas de benne"
+
+# Remove station that have been replace by supp. station
+dat <- dat[!is.na(dat$event_date),]
+
+sp <- dat[dat$nbr_espece %in% c(1,2,3,4),]
+cols_sp <- expand.grid(c("species", "abundance", "type", "commentaire_sp_"), 1:10)
+sp <- reshape(sp,
+              direction = "long",
+              varying=paste0(cols_sp[,1], cols_sp[,2]),
+              timevar = "var",
+              times = paste0(1:10),
+              v.names = c("species", "abundance", "type", "commentaire_sp_"))
+sp <- sp[sp$commentaire_sp_ %in% "vegetation",]
+sp <- sp[,c("station_id", "species", "abundance", "type", "commentaire_sp_")]
+colnames(sp) <- c("station_id", "recouvrement", "commentaire_sp_", "species", "type")
+sp <- sp[,c("station_id", "species", "recouvrement", "commentaire_sp_")]
+sp <- sp[order(sp$station_id),]
+sp <- merge(sp, dat[,c("station_id", "vegetation_cover")], by = "station_id")
+colnames(sp)[colnames(sp) == "vegetation_cover"] <- "recouvrements_totaux"
+write.csv(sp, "algues.csv", row.names = FALSE)
+
+# Enlever colonnes
+cols_rm <- c("record_id",
+             "station_number",
+             "eventid",
+             "crs",
+             "vegetation_cover",
+             "material_sampling_id_granulo",
+             "material_sampling_id_mo",
+             "creusage",
+             "nbr_especes",
+             paste0("species",1:10),
+             paste0("abundance",1:10),
+             paste0("type",1:10),
+             paste0("commentaire_sp_",1:10),
+             "material_sampling_id_biodiv",
+             "terrain_complete")
+dat <- dat[, !colnames(dat) %in% cols_rm]
+
+# Reorder columns
+dat <- dat[,c(1:10, 13, 11, 12)]
+
+#dat_clean <- dat[!is.na(dat$event_date),]
+#write.csv(dat_clean, "data/lagrave_data_clean.csv", row.names = FALSE)
+
+#dat <- dat[!dat$station_id %in% gab$station_id,]
+#
+#keep_cols <- c("station_id",
+#               "event_date",
+#               "decimal_latitude",
+#               "decimal_longitude",
+#               "status")
+#dat <- rbind(dat[,keep_cols], gab[,keep_cols])
 
 # Mapview
 ## Convert stations data to sf object
@@ -22,18 +165,18 @@ dat <- sf::st_as_sf(dat,
                     crs = "EPSG:4326",
                     remove = FALSE)
 
-## Make map
+# Make map
 map <- mapview(dat,
                zcol = "status",
                label = "station_id",
-               col.regions = c("black", "white"),
+               col.regions = c("red", "green", "grey"),
                alpha.regions = 0.7,
                popup = leafpop::popupTable(dat[,c("station_id",
                                                   "decimal_longitude",
                                                   "decimal_latitude",
-                                                  "event_date",
-                                                  "nbr_especes")])) + 
-      zones
+                                                  "event_date")])) +
+      zones + 
+      mapview(rive_est, color = "red") + mapview(rive_ouest, color = "red")
 
 map
 
